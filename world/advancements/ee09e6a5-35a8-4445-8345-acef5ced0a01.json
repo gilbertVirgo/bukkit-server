@@ -3211,13 +3211,13 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/gray_stained_glass_pane_from_glass_pane": {
+  "minecraft:recipes/decorations/light_gray_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2019-12-22 19:19:55 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/light_gray_stained_glass_pane_from_glass_pane": {
+  "minecraft:recipes/decorations/gray_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2019-12-22 19:19:55 +0000"
     },
@@ -3301,5 +3301,5 @@
     },
     "done": true
   },
-  "DataVersion": 2227
+  "DataVersion": 2230
 }
