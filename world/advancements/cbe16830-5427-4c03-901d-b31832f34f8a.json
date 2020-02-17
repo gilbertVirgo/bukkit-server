@@ -1084,13 +1084,13 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/iron_chestplate": {
+  "minecraft:recipes/combat/crossbow": {
     "criteria": {
       "has_iron_ingot": "2020-01-02 09:49:41 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/combat/crossbow": {
+  "minecraft:recipes/combat/iron_chestplate": {
     "criteria": {
       "has_iron_ingot": "2020-01-02 09:49:41 +0000"
     },
@@ -2794,13 +2794,13 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/gray_stained_glass_pane_from_glass_pane": {
+  "minecraft:recipes/decorations/light_gray_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2020-01-02 09:49:29 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/light_gray_stained_glass_pane_from_glass_pane": {
+  "minecraft:recipes/decorations/gray_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2020-01-02 09:49:29 +0000"
     },
@@ -2860,5 +2860,5 @@
     },
     "done": true
   },
-  "DataVersion": 2227
+  "DataVersion": 2230
 }
