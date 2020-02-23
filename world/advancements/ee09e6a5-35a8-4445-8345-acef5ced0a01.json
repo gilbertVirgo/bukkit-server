@@ -699,6 +699,7 @@
       "minecraft:magma_cube": "2019-12-30 14:09:30 +0000",
       "minecraft:spider": "2019-12-22 18:52:46 +0000",
       "minecraft:creeper": "2019-12-23 10:12:17 +0000",
+      "minecraft:slime": "2020-02-22 16:36:18 +0000",
       "minecraft:phantom": "2019-12-28 17:52:37 +0000",
       "minecraft:witch": "2020-01-05 00:09:58 +0000",
       "minecraft:wither_skeleton": "2020-01-12 13:12:40 +0000",
@@ -1355,6 +1356,12 @@
   "minecraft:recipes/building_blocks/polished_granite_stairs_from_polished_granite_stonecutting": {
     "criteria": {
       "has_polished_granite": "2020-01-02 18:48:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2020-02-22 16:36:46 +0000"
     },
     "done": true
   },
@@ -2515,6 +2522,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2020-02-22 16:36:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/glass_pane": {
     "criteria": {
       "has_glass": "2019-12-22 19:19:28 +0000"
@@ -2854,6 +2867,12 @@
   "minecraft:recipes/redstone/acacia_trapdoor": {
     "criteria": {
       "has_planks": "2019-12-31 11:05:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2020-02-22 16:36:46 +0000"
     },
     "done": true
   },
