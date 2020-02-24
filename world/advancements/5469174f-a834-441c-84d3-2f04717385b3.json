@@ -35,6 +35,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_andesite_slab": {
+    "criteria": {
+      "has_polished_andesite": "2020-02-23 13:52:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/lever": {
     "criteria": {
       "has_cobblestone": "2019-12-22 17:51:19 +0000"
@@ -170,6 +176,12 @@
   "minecraft:recipes/misc/melon_seeds": {
     "criteria": {
       "has_melon": "2020-01-17 16:00:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blast_furnace": {
+    "criteria": {
+      "has_smooth_stone": "2020-02-23 13:39:41 +0000"
     },
     "done": true
   },
@@ -716,6 +728,7 @@
       "minecraft:magma_cube": "2019-12-28 10:49:48 +0000",
       "minecraft:spider": "2019-12-22 19:39:18 +0000",
       "minecraft:creeper": "2019-12-22 18:00:55 +0000",
+      "minecraft:phantom": "2020-02-23 11:45:23 +0000",
       "minecraft:witch": "2019-12-28 12:21:17 +0000",
       "minecraft:wither_skeleton": "2019-12-27 12:59:20 +0000",
       "minecraft:cave_spider": "2019-12-28 17:20:34 +0000",
@@ -1607,6 +1620,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2020-02-23 13:52:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/brown_carpet": {
     "criteria": {
       "has_brown_wool": "2019-12-22 19:16:29 +0000"
@@ -1866,6 +1885,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs": {
+    "criteria": {
+      "has_polished_andesite": "2020-02-23 13:52:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/furnace_minecart": {
     "criteria": {
       "has_minecart": "2020-01-06 20:27:41 +0000"
@@ -1899,6 +1924,12 @@
   "minecraft:recipes/decorations/campfire": {
     "criteria": {
       "has_stick": "2019-12-22 17:50:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2020-02-23 15:37:13 +0000"
     },
     "done": true
   },
@@ -2350,6 +2381,12 @@
   "minecraft:recipes/building_blocks/purple_concrete_powder": {
     "criteria": {
       "has_gravel": "2019-12-22 19:03:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab": {
+    "criteria": {
+      "has_smooth_stone": "2020-02-23 13:39:41 +0000"
     },
     "done": true
   },
@@ -2844,6 +2881,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2020-02-23 13:39:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_axe": {
     "criteria": {
       "has_the_recipe": "2019-12-22 17:50:15 +0000"
@@ -3099,6 +3142,12 @@
   "minecraft:recipes/building_blocks/andesite": {
     "criteria": {
       "has_stone": "2019-12-22 18:06:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2020-02-23 13:52:46 +0000"
     },
     "done": true
   },
