@@ -2509,6 +2509,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2020-03-07 09:14:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2020-01-03 16:33:14 +0000"
@@ -3166,6 +3172,12 @@
   "minecraft:recipes/misc/coal": {
     "criteria": {
       "has_coal_block": "2020-01-05 12:10:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2020-03-07 09:14:57 +0000"
     },
     "done": true
   },
