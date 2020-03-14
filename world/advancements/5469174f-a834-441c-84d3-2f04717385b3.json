@@ -305,6 +305,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2020-03-13 07:53:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dispenser": {
     "criteria": {
       "has_bow": "2019-12-23 11:56:55 +0000"
@@ -1693,6 +1699,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/sugar_from_honey_bottle": {
+    "criteria": {
+      "has_honey_bottle": "2020-03-13 08:39:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/brown_carpet": {
     "criteria": {
       "has_brown_wool": "2019-12-22 19:16:29 +0000"
@@ -1882,6 +1894,12 @@
   "minecraft:recipes/building_blocks/acacia_stairs": {
     "criteria": {
       "has_planks": "2020-01-02 15:10:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_red_flower": "2020-03-13 07:53:11 +0000"
     },
     "done": true
   },
@@ -2220,6 +2238,7 @@
     "criteria": {
       "cooked_porkchop": "2019-12-23 14:25:12 +0000",
       "chicken": "2019-12-29 15:41:42 +0000",
+      "honey_bottle": "2020-03-13 08:39:57 +0000",
       "cooked_mutton": "2019-12-23 10:56:09 +0000",
       "cooked_beef": "2019-12-22 18:13:53 +0000",
       "baked_potato": "2019-12-27 16:12:17 +0000",
@@ -2995,6 +3014,12 @@
   "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
     "criteria": {
       "has_smooth_stone": "2020-02-23 13:39:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/honey_block": {
+    "criteria": {
+      "has_honey_bottle": "2020-03-13 08:39:44 +0000"
     },
     "done": true
   },
