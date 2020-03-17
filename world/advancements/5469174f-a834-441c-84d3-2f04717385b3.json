@@ -437,6 +437,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/summon_iron_golem": {
+    "criteria": {
+      "summoned_golem": "2020-03-16 18:01:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
     "criteria": {
       "has_gravel": "2019-12-22 19:03:22 +0000"
@@ -3392,6 +3398,12 @@
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2019-12-22 18:06:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/slime_ball": {
+    "criteria": {
+      "has_slime": "2020-03-16 18:48:35 +0000"
     },
     "done": true
   },
