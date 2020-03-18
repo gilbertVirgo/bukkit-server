@@ -728,6 +728,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2020-01-02 10:37:39 +0000",
+      "minecraft:zombie_pigman": "2020-03-17 17:25:38 +0000",
       "minecraft:spider": "2020-01-02 11:24:29 +0000",
       "minecraft:creeper": "2020-01-10 16:41:29 +0000",
       "minecraft:phantom": "2020-02-22 15:59:25 +0000",
