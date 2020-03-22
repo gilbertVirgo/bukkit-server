@@ -311,6 +311,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2020-03-21 11:36:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dispenser": {
     "criteria": {
       "has_bow": "2019-12-23 13:13:38 +0000"
@@ -1802,6 +1808,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_red_flower": "2020-03-21 11:36:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2019-12-22 17:50:57 +0000"
@@ -2131,6 +2143,8 @@
       "cooked_porkchop": "2019-12-23 17:48:47 +0000",
       "cooked_mutton": "2019-12-22 19:44:30 +0000",
       "cooked_beef": "2019-12-22 18:16:12 +0000",
+      "baked_potato": "2020-03-21 17:16:42 +0000",
+      "beetroot_soup": "2020-03-21 12:11:04 +0000",
       "apple": "2019-12-22 19:13:27 +0000",
       "potato": "2019-12-28 17:14:23 +0000",
       "cooked_cod": "2019-12-27 15:05:50 +0000",
@@ -2893,6 +2907,12 @@
   "minecraft:recipes/decorations/loom": {
     "criteria": {
       "has_string": "2019-12-22 18:52:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_sandstone": {
+    "criteria": {
+      "has_stone_slab": "2020-03-21 14:23:00 +0000"
     },
     "done": true
   },
