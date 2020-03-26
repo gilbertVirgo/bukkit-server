@@ -293,6 +293,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2020-03-25 13:01:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot_from_blasting": {
     "criteria": {
       "has_iron_ore": "2020-01-03 20:06:39 +0000"
@@ -410,6 +416,12 @@
   "minecraft:recipes/building_blocks/coarse_dirt": {
     "criteria": {
       "has_gravel": "2020-01-03 13:47:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2020-03-25 13:01:45 +0000"
     },
     "done": true
   },
@@ -2339,6 +2351,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
+    "criteria": {
+      "has_mossy_cobblestone": "2020-03-25 13:01:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/hay_block": {
     "criteria": {
       "has_wheat": "2020-01-02 11:23:18 +0000"
@@ -2378,6 +2396,12 @@
   "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
     "criteria": {
       "has_rose_red": "2020-01-02 15:22:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2020-03-25 13:01:45 +0000"
     },
     "done": true
   },
@@ -2940,6 +2964,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks": {
+    "criteria": {
+      "has_mossy_cobblestone": "2020-03-25 13:01:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/paper": {
     "criteria": {
       "has_reeds": "2020-01-03 17:20:35 +0000"
@@ -3117,6 +3147,12 @@
   "minecraft:recipes/building_blocks/blue_concrete_powder": {
     "criteria": {
       "has_sand": "2020-01-02 10:26:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
+    "criteria": {
+      "has_mossy_cobblestone": "2020-03-25 13:01:45 +0000"
     },
     "done": true
   },
@@ -3633,6 +3669,12 @@
   "minecraft:recipes/building_blocks/melon": {
     "criteria": {
       "has_melon": "2020-03-21 09:55:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
+    "criteria": {
+      "has_mossy_cobblestone": "2020-03-25 13:01:45 +0000"
     },
     "done": true
   },
