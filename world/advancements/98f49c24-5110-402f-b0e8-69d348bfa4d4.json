@@ -989,6 +989,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/cyan_dye": {
+    "criteria": {
+      "has_blue_dye": "2020-03-29 12:43:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/blaze_powder": {
     "criteria": {
       "has_blaze_rod": "2019-12-28 14:10:19 +0000"
@@ -1438,6 +1444,7 @@
       "minecraft:cold_ocean": "2019-12-22 18:11:46 +0000",
       "minecraft:forest": "2019-12-22 17:48:38 +0000",
       "minecraft:mountains": "2020-02-09 12:22:51 +0000",
+      "minecraft:mushroom_fields": "2020-03-29 19:56:04 +0000",
       "minecraft:taiga": "2020-02-14 07:48:46 +0000",
       "minecraft:deep_cold_ocean": "2019-12-23 11:33:17 +0000",
       "minecraft:taiga_hills": "2020-02-14 07:54:28 +0000",
@@ -1448,6 +1455,7 @@
       "minecraft:birch_forest_hills": "2020-02-09 12:25:46 +0000",
       "minecraft:wooded_mountains": "2020-02-09 12:22:43 +0000",
       "minecraft:wooded_hills": "2019-12-23 10:05:47 +0000",
+      "minecraft:mushroom_field_shore": "2020-03-29 19:56:03 +0000",
       "minecraft:swamp": "2020-02-09 12:08:02 +0000",
       "minecraft:plains": "2019-12-22 18:06:34 +0000"
     },
@@ -1540,6 +1548,12 @@
   "minecraft:recipes/decorations/purple_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2020-03-28 16:16:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/purple_dye": {
+    "criteria": {
+      "has_blue_dye": "2020-03-29 12:43:56 +0000"
     },
     "done": true
   },
@@ -3099,6 +3113,12 @@
   "minecraft:recipes/misc/iron_ingot": {
     "criteria": {
       "has_the_recipe": "2019-12-22 18:09:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
+    "criteria": {
+      "has_blue_dye": "2020-03-29 12:43:56 +0000"
     },
     "done": true
   },

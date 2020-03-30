@@ -29,6 +29,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/brick_stairs_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2020-03-29 13:14:21 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/lever": {
     "criteria": {
       "has_cobblestone": "2019-12-23 13:00:57 +0000"
@@ -44,6 +50,12 @@
   "minecraft:recipes/combat/iron_sword": {
     "criteria": {
       "has_iron_ingot": "2019-12-23 13:27:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brick_wall": {
+    "criteria": {
+      "has_bricks": "2020-03-29 13:14:21 +0000"
     },
     "done": true
   },
@@ -455,6 +467,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/brick_stairs": {
+    "criteria": {
+      "has_brick_block": "2020-03-29 13:14:21 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/blue_wool": {
     "criteria": {
       "has_white_wool": "2019-12-23 13:30:53 +0000"
@@ -750,6 +768,12 @@
   "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2019-12-23 18:32:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brick_wall_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2020-03-29 13:14:21 +0000"
     },
     "done": true
   },
@@ -1220,11 +1244,14 @@
       "minecraft:cold_ocean": "2019-12-23 12:56:31 +0000",
       "minecraft:forest": "2019-12-23 12:53:37 +0000",
       "minecraft:mountains": "2019-12-24 19:30:49 +0000",
+      "minecraft:mushroom_fields": "2020-03-29 12:34:17 +0000",
       "minecraft:desert_hills": "2019-12-27 14:08:03 +0000",
       "minecraft:deep_cold_ocean": "2019-12-23 12:56:38 +0000",
       "minecraft:desert": "2019-12-27 13:04:20 +0000",
       "minecraft:deep_frozen_ocean": "2019-12-23 13:43:15 +0000",
       "minecraft:birch_forest": "2019-12-23 13:30:59 +0000",
+      "minecraft:warm_ocean": "2020-03-29 15:03:03 +0000",
+      "minecraft:deep_lukewarm_ocean": "2020-03-29 12:33:57 +0000",
       "minecraft:savanna_plateau": "2019-12-24 00:19:21 +0000",
       "minecraft:beach": "2019-12-23 12:56:30 +0000",
       "minecraft:dark_forest": "2019-12-23 13:41:26 +0000",
@@ -1234,6 +1261,7 @@
       "minecraft:wooded_mountains": "2019-12-24 00:14:09 +0000",
       "minecraft:wooded_hills": "2019-12-23 13:54:26 +0000",
       "minecraft:stone_shore": "2019-12-27 12:41:16 +0000",
+      "minecraft:mushroom_field_shore": "2020-03-29 12:34:29 +0000",
       "minecraft:swamp": "2019-12-23 12:58:41 +0000",
       "minecraft:savanna": "2019-12-24 00:18:10 +0000",
       "minecraft:plains": "2019-12-23 13:28:05 +0000"
@@ -1366,6 +1394,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2020-03-29 18:49:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diamond_block": {
     "criteria": {
       "has_diamond": "2019-12-23 18:37:43 +0000"
@@ -1417,6 +1451,12 @@
   "minecraft:recipes/decorations/orange_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2020-03-24 16:56:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_slab": {
+    "criteria": {
+      "has_brick_block": "2020-03-29 13:14:21 +0000"
     },
     "done": true
   },
@@ -1817,6 +1857,7 @@
       "golden_apple": "2020-01-04 23:46:31 +0000",
       "rotten_flesh": "2020-01-02 12:23:43 +0000",
       "cooked_chicken": "2019-12-27 18:18:23 +0000",
+      "mushroom_stew": "2020-03-29 12:41:35 +0000",
       "cod": "2019-12-28 14:01:34 +0000",
       "cooked_salmon": "2019-12-28 13:34:09 +0000",
       "carrot": "2019-12-23 18:12:35 +0000"
@@ -2229,6 +2270,12 @@
   "minecraft:recipes/decorations/cyan_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2019-12-23 13:43:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_brown_mushroom": "2020-03-29 12:34:50 +0000"
     },
     "done": true
   },
@@ -2757,6 +2804,12 @@
   "minecraft:recipes/building_blocks/cut_sandstone": {
     "criteria": {
       "has_sandstone": "2019-12-27 14:22:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_slab_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2020-03-29 13:14:21 +0000"
     },
     "done": true
   },
