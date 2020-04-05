@@ -347,6 +347,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
+    "criteria": {
+      "has_rabbit": "2020-04-04 16:53:04 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
       "has_iron_ingot": "2019-12-22 18:14:05 +0000"
@@ -662,6 +668,12 @@
   "minecraft:story/lava_bucket": {
     "criteria": {
       "lava_bucket": "2019-12-22 18:46:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
+    "criteria": {
+      "has_rabbit": "2020-04-04 16:53:04 +0000"
     },
     "done": true
   },
@@ -3501,6 +3513,12 @@
   "minecraft:recipes/brewing/brewing_stand": {
     "criteria": {
       "has_blaze_rod": "2019-12-27 13:03:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit": {
+    "criteria": {
+      "has_rabbit": "2020-04-04 16:53:04 +0000"
     },
     "done": true
   },
