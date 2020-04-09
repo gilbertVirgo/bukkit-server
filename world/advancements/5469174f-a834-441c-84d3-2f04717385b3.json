@@ -2350,6 +2350,7 @@
       "golden_apple": "2020-01-08 08:48:53 +0000",
       "suspicious_stew": "2019-12-23 11:57:09 +0000",
       "rotten_flesh": "2019-12-28 18:52:47 +0000",
+      "salmon": "2020-04-08 15:18:20 +0000",
       "melon_slice": "2020-03-11 20:11:29 +0000",
       "golden_carrot": "2019-12-29 17:12:23 +0000",
       "cooked_chicken": "2019-12-22 18:02:04 +0000",
@@ -3315,6 +3316,12 @@
   "minecraft:recipes/misc/gold_ingot": {
     "criteria": {
       "has_gold_ore": "2019-12-22 19:03:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/cure_zombie_villager": {
+    "criteria": {
+      "cured_zombie": "2020-04-08 13:04:55 +0000"
     },
     "done": true
   },
