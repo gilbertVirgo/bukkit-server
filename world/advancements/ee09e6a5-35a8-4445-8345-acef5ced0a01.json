@@ -783,6 +783,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:blaze": "2020-01-12 13:07:20 +0000",
+      "minecraft:pillager": "2020-04-11 11:59:36 +0000",
       "minecraft:skeleton": "2019-12-22 18:33:15 +0000",
       "minecraft:zombie_pigman": "2019-12-30 14:17:59 +0000",
       "minecraft:ghast": "2019-12-30 14:21:45 +0000",
@@ -919,6 +920,12 @@
   "minecraft:recipes/decorations/prismarine_wall_from_prismarine_stonecutting": {
     "criteria": {
       "has_prismarine": "2020-03-20 15:08:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2020-04-11 11:59:44 +0000"
     },
     "done": true
   },
@@ -1528,6 +1535,7 @@
       "minecraft:forest": "2019-12-22 17:48:02 +0000",
       "minecraft:mountains": "2019-12-27 14:12:31 +0000",
       "minecraft:mushroom_fields": "2020-01-13 22:24:29 +0000",
+      "minecraft:taiga": "2020-04-11 12:24:57 +0000",
       "minecraft:deep_cold_ocean": "2019-12-23 11:33:09 +0000",
       "minecraft:birch_forest": "2019-12-23 11:35:15 +0000",
       "minecraft:deep_lukewarm_ocean": "2019-12-27 14:12:09 +0000",
@@ -1979,6 +1987,12 @@
   "minecraft:recipes/redstone/redstone": {
     "criteria": {
       "has_redstone_block": "2020-01-11 15:57:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2020-04-11 12:29:57 +0000"
     },
     "done": true
   },
@@ -2734,6 +2748,12 @@
   "minecraft:recipes/decorations/green_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2020-01-02 14:15:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2020-04-11 12:30:34 +0000"
     },
     "done": true
   },

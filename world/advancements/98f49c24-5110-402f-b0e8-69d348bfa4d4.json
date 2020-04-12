@@ -564,6 +564,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
+    "criteria": {
+      "has_double_plant": "2020-04-11 12:44:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:nether/return_to_sender": {
     "criteria": {
       "killed_ghast": "2020-01-05 17:18:53 +0000"
@@ -750,6 +756,7 @@
       "minecraft:blaze": "2020-01-11 16:34:03 +0000",
       "minecraft:skeleton": "2019-12-22 18:02:50 +0000",
       "minecraft:zombie_pigman": "2019-12-29 16:52:33 +0000",
+      "minecraft:ravager": "2020-04-11 12:29:49 +0000",
       "minecraft:ghast": "2019-12-27 14:54:09 +0000",
       "minecraft:guardian": "2020-03-07 11:09:22 +0000",
       "minecraft:magma_cube": "2019-12-28 13:32:34 +0000",
@@ -1953,6 +1960,12 @@
   "minecraft:recipes/decorations/campfire": {
     "criteria": {
       "has_stick": "2019-12-22 17:50:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2020-04-11 12:29:57 +0000"
     },
     "done": true
   },

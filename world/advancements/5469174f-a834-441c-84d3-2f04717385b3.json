@@ -810,6 +810,7 @@
       "minecraft:skeleton": "2019-12-23 11:03:38 +0000",
       "minecraft:zombie_pigman": "2019-12-27 15:08:33 +0000",
       "minecraft:guardian": "2020-03-07 11:08:37 +0000",
+      "minecraft:vindicator": "2020-04-11 12:28:01 +0000",
       "minecraft:magma_cube": "2019-12-28 10:49:48 +0000",
       "minecraft:spider": "2019-12-22 19:39:18 +0000",
       "minecraft:creeper": "2019-12-22 18:00:55 +0000",
@@ -2129,6 +2130,12 @@
   "minecraft:recipes/redstone/redstone": {
     "criteria": {
       "has_redstone_block": "2020-02-23 15:37:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2020-04-11 12:29:57 +0000"
     },
     "done": true
   },
@@ -3831,6 +3838,7 @@
   },
   "minecraft:husbandry/complete_catalogue": {
     "criteria": {
+      "textures/entity/cat/ragdoll.png": "2020-04-11 12:21:52 +0000",
       "textures/entity/cat/all_black.png": "2020-03-29 12:48:10 +0000"
     },
     "done": false

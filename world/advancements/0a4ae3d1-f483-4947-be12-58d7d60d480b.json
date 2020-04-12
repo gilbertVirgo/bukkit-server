@@ -353,6 +353,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2020-04-11 12:41:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/dried_kelp_from_smoking": {
     "criteria": {
       "has_kelp": "2019-12-23 13:43:27 +0000"
@@ -500,6 +506,12 @@
   "minecraft:recipes/redstone/comparator": {
     "criteria": {
       "has_quartz": "2019-12-27 18:08:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
+    "criteria": {
+      "has_double_plant": "2020-04-11 12:40:08 +0000"
     },
     "done": true
   },
@@ -1005,6 +1017,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2020-04-11 12:41:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_planks": {
     "criteria": {
       "has_log": "2019-12-23 12:59:04 +0000"
@@ -1056,6 +1074,12 @@
   "minecraft:recipes/decorations/black_banner": {
     "criteria": {
       "has_black_wool": "2019-12-23 13:28:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_carpet": {
+    "criteria": {
+      "has_gray_wool": "2020-04-11 12:41:43 +0000"
     },
     "done": true
   },
@@ -1245,6 +1269,7 @@
       "minecraft:forest": "2019-12-23 12:53:37 +0000",
       "minecraft:mountains": "2019-12-24 19:30:49 +0000",
       "minecraft:mushroom_fields": "2020-03-29 12:34:17 +0000",
+      "minecraft:taiga": "2020-04-11 12:16:24 +0000",
       "minecraft:desert_hills": "2019-12-27 14:08:03 +0000",
       "minecraft:deep_cold_ocean": "2019-12-23 12:56:38 +0000",
       "minecraft:desert": "2019-12-27 13:04:20 +0000",

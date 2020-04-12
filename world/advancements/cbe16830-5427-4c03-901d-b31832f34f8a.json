@@ -775,6 +775,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2020-04-11 12:27:15 +0000",
       "minecraft:skeleton": "2020-01-02 10:37:39 +0000",
       "minecraft:zombie_pigman": "2020-03-17 17:25:38 +0000",
       "minecraft:spider": "2020-01-02 11:24:29 +0000",
@@ -1576,10 +1577,15 @@
     "criteria": {
       "minecraft:cold_ocean": "2020-01-02 10:24:41 +0000",
       "minecraft:forest": "2020-01-01 12:57:09 +0000",
+      "minecraft:mountains": "2020-04-11 11:55:07 +0000",
+      "minecraft:taiga": "2020-04-11 12:16:24 +0000",
       "minecraft:deep_cold_ocean": "2020-01-02 10:24:47 +0000",
+      "minecraft:deep_lukewarm_ocean": "2020-04-11 12:05:56 +0000",
       "minecraft:beach": "2020-01-02 09:44:27 +0000",
       "minecraft:river": "2020-01-01 13:12:05 +0000",
+      "minecraft:lukewarm_ocean": "2020-04-11 12:06:26 +0000",
       "minecraft:wooded_hills": "2020-01-03 19:28:53 +0000",
+      "minecraft:stone_shore": "2020-04-11 12:05:47 +0000",
       "minecraft:plains": "2020-01-01 13:12:19 +0000"
     },
     "done": false
@@ -2055,6 +2061,12 @@
   "minecraft:recipes/redstone/redstone": {
     "criteria": {
       "has_redstone_block": "2020-01-17 19:17:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2020-04-11 12:29:57 +0000"
     },
     "done": true
   },
@@ -3727,6 +3739,12 @@
   "minecraft:recipes/transportation/rail": {
     "criteria": {
       "has_minecart": "2020-02-04 18:37:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
+    "criteria": {
+      "has_log": "2020-04-11 12:49:11 +0000"
     },
     "done": true
   },
