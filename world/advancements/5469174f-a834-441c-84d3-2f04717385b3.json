@@ -275,6 +275,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/popped_chorus_fruit": {
+    "criteria": {
+      "has_chorus_fruit": "2020-04-12 09:52:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/shears": {
     "criteria": {
       "has_iron_ingot": "2019-12-22 18:14:05 +0000"
@@ -821,6 +827,7 @@
       "minecraft:husk": "2020-03-29 18:37:54 +0000",
       "minecraft:cave_spider": "2019-12-28 17:20:34 +0000",
       "minecraft:enderman": "2019-12-27 11:52:13 +0000",
+      "minecraft:silverfish": "2020-04-12 09:04:38 +0000",
       "minecraft:zombie": "2019-12-22 18:12:16 +0000",
       "minecraft:drowned": "2019-12-27 11:29:02 +0000",
       "minecraft:zombie_villager": "2019-12-23 12:18:27 +0000"
@@ -1049,6 +1056,12 @@
     },
     "done": true
   },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2020-04-12 08:57:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_blue_stained_glass": {
     "criteria": {
       "has_glass": "2019-12-22 19:41:36 +0000"
@@ -1136,6 +1149,12 @@
   "minecraft:recipes/redstone/jungle_pressure_plate": {
     "criteria": {
       "has_planks": "2020-01-15 19:12:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2020-04-12 09:19:41 +0000"
     },
     "done": true
   },
@@ -2205,6 +2224,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2020-04-12 09:28:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/pink_carpet": {
     "criteria": {
       "has_pink_wool": "2019-12-22 19:09:24 +0000"
@@ -2345,6 +2370,7 @@
       "cooked_mutton": "2019-12-23 10:56:09 +0000",
       "sweet_berries": "2020-03-29 12:50:32 +0000",
       "cooked_beef": "2019-12-22 18:13:53 +0000",
+      "chorus_fruit": "2020-04-12 09:52:34 +0000",
       "baked_potato": "2019-12-27 16:12:17 +0000",
       "beef": "2020-01-05 11:36:14 +0000",
       "apple": "2019-12-22 17:56:41 +0000",
@@ -3230,6 +3256,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2020-04-12 09:28:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2020-04-12 09:28:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/brown_wool": {
     "criteria": {
       "has_white_wool": "2019-12-22 19:09:44 +0000"
@@ -3560,6 +3598,12 @@
     },
     "done": true
   },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2020-04-12 09:51:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/acacia_planks": {
     "criteria": {
       "has_logs": "2020-01-02 15:04:48 +0000"
@@ -3722,6 +3766,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/end_stone_bricks": {
+    "criteria": {
+      "has_end_stone": "2020-04-12 09:28:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
     "criteria": {
       "has_iron_ingot": "2019-12-22 18:14:05 +0000"
@@ -3785,6 +3835,18 @@
   "minecraft:recipes/decorations/brown_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2019-12-22 19:11:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2020-04-12 09:19:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2020-04-12 09:28:46 +0000"
     },
     "done": true
   },
