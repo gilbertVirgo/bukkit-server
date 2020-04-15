@@ -683,6 +683,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/turtle_helmet": {
+    "criteria": {
+      "has_scute": "2020-04-14 11:01:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/dried_kelp_from_smelting": {
     "criteria": {
       "has_kelp": "2020-01-03 11:37:00 +0000"
@@ -2098,6 +2104,12 @@
   "minecraft:nether/root": {
     "criteria": {
       "entered_nether": "2020-01-04 14:51:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2020-04-14 11:03:52 +0000"
     },
     "done": true
   },
@@ -3637,6 +3649,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/purpur_block": {
+    "criteria": {
+      "has_chorus_fruit_popped": "2020-04-14 09:50:31 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/nether_brick_fence": {
     "criteria": {
       "has_nether_brick": "2020-02-29 13:56:50 +0000"
@@ -3760,6 +3778,12 @@
   "minecraft:recipes/building_blocks/pink_wool": {
     "criteria": {
       "has_white_wool": "2020-01-12 13:05:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_rod": {
+    "criteria": {
+      "has_chorus_fruit_popped": "2020-04-14 09:50:31 +0000"
     },
     "done": true
   },
