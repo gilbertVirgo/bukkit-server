@@ -239,6 +239,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/purpur_stairs": {
+    "criteria": {
+      "has_purpur_block": "2020-04-15 11:42:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/shears": {
     "criteria": {
       "has_iron_ingot": "2019-12-23 13:27:03 +0000"
@@ -302,6 +308,12 @@
   "minecraft:recipes/building_blocks/dark_oak_planks": {
     "criteria": {
       "has_logs": "2019-12-27 14:49:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_pillar_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2020-04-15 11:42:58 +0000"
     },
     "done": true
   },
@@ -675,6 +687,7 @@
       "minecraft:phantom": "2019-12-28 14:36:14 +0000",
       "minecraft:witch": "2020-03-25 13:17:32 +0000",
       "minecraft:husk": "2019-12-27 14:29:44 +0000",
+      "minecraft:silverfish": "2020-04-15 11:43:38 +0000",
       "minecraft:zombie": "2019-12-23 17:22:53 +0000",
       "minecraft:drowned": "2019-12-28 14:33:22 +0000",
       "minecraft:zombie_villager": "2019-12-27 18:07:56 +0000"
@@ -1317,6 +1330,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/purpur_slab": {
+    "criteria": {
+      "has_purpur_block": "2020-04-15 11:42:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/stone_sword": {
     "criteria": {
       "has_cobblestone": "2019-12-23 13:00:57 +0000"
@@ -1722,6 +1741,12 @@
   "minecraft:recipes/tools/golden_hoe": {
     "criteria": {
       "has_gold_ingot": "2019-12-28 22:58:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_stairs_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2020-04-15 11:42:58 +0000"
     },
     "done": true
   },
@@ -3060,6 +3085,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/purpur_pillar": {
+    "criteria": {
+      "has_purpur_block": "2020-04-15 11:42:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/pink_wool": {
     "criteria": {
       "has_white_wool": "2019-12-23 13:30:53 +0000"
@@ -3153,6 +3184,12 @@
   "minecraft:recipes/transportation/rail": {
     "criteria": {
       "has_minecart": "2020-02-28 18:30:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_slab_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2020-04-15 11:42:58 +0000"
     },
     "done": true
   },

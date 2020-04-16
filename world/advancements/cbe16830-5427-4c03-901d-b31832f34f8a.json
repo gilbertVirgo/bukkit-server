@@ -239,6 +239,12 @@
     },
     "done": true
   },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2020-04-15 11:50:47 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
     "criteria": {
       "has_stone": "2020-01-02 12:36:19 +0000"
@@ -278,6 +284,12 @@
   "minecraft:recipes/redstone/dark_oak_button": {
     "criteria": {
       "has_planks": "2020-03-06 19:32:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_stairs": {
+    "criteria": {
+      "has_purpur_block": "2020-04-15 18:55:45 +0000"
     },
     "done": true
   },
@@ -356,6 +368,12 @@
   "minecraft:recipes/transportation/detector_rail": {
     "criteria": {
       "has_rail": "2020-02-23 09:49:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_pillar_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2020-04-15 18:55:45 +0000"
     },
     "done": true
   },
@@ -816,6 +834,7 @@
       "minecraft:zombie_pigman": "2020-03-17 17:25:38 +0000",
       "minecraft:spider": "2020-01-02 11:24:29 +0000",
       "minecraft:creeper": "2020-01-10 16:41:29 +0000",
+      "minecraft:slime": "2020-04-15 08:15:18 +0000",
       "minecraft:phantom": "2020-02-22 15:59:25 +0000",
       "minecraft:enderman": "2020-04-13 12:32:57 +0000",
       "minecraft:zombie": "2020-01-02 11:03:35 +0000",
@@ -1657,6 +1676,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/purpur_slab": {
+    "criteria": {
+      "has_purpur_block": "2020-04-15 18:55:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:nether/brew_potion": {
     "criteria": {
       "potion": "2020-02-29 18:43:10 +0000"
@@ -2140,6 +2165,12 @@
   "minecraft:recipes/tools/golden_hoe": {
     "criteria": {
       "has_gold_ingot": "2020-01-02 15:12:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_stairs_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2020-04-15 18:55:45 +0000"
     },
     "done": true
   },
@@ -3673,6 +3704,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/magenta_dye_from_allium": {
+    "criteria": {
+      "has_red_flower": "2020-04-15 19:15:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/red_bed": {
     "criteria": {
       "has_red_wool": "2020-02-01 13:00:27 +0000"
@@ -3760,6 +3797,12 @@
   "minecraft:recipes/redstone/daylight_detector": {
     "criteria": {
       "has_quartz": "2020-01-06 14:05:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_pillar": {
+    "criteria": {
+      "has_purpur_block": "2020-04-15 18:55:45 +0000"
     },
     "done": true
   },
@@ -3886,6 +3929,12 @@
   "minecraft:recipes/building_blocks/stripped_spruce_wood": {
     "criteria": {
       "has_log": "2020-04-11 12:49:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_slab_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2020-04-15 18:55:45 +0000"
     },
     "done": true
   },
