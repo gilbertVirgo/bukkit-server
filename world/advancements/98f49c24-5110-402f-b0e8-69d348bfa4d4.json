@@ -1167,6 +1167,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_blue_flower": "2020-04-19 09:35:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/light_blue_stained_glass_pane": {
     "criteria": {
       "has_glass": "2019-12-22 19:25:25 +0000"
@@ -2034,6 +2040,12 @@
   "minecraft:nether/root": {
     "criteria": {
       "entered_nether": "2019-12-27 12:36:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2020-04-19 10:03:34 +0000"
     },
     "done": true
   },

@@ -1597,6 +1597,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gray_dye": {
+    "criteria": {
+      "has_black_dye": "2020-04-19 10:38:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2019-12-23 11:33:02 +0000",
@@ -1962,6 +1968,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
+    "criteria": {
+      "has_black_dye": "2020-04-19 10:38:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/purple_wool": {
     "criteria": {
       "has_white_wool": "2019-12-23 10:14:32 +0000"
@@ -2037,6 +2049,12 @@
   "minecraft:nether/root": {
     "criteria": {
       "entered_nether": "2019-12-24 00:08:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2020-04-19 09:17:22 +0000"
     },
     "done": true
   },
