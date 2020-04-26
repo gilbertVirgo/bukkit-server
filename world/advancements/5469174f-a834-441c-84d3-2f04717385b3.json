@@ -858,6 +858,7 @@
       "minecraft:cave_spider": "2019-12-28 17:20:34 +0000",
       "minecraft:enderman": "2019-12-27 11:52:13 +0000",
       "minecraft:silverfish": "2020-04-12 09:04:38 +0000",
+      "minecraft:stray": "2020-04-25 12:39:04 +0000",
       "minecraft:zombie": "2019-12-22 18:12:16 +0000",
       "minecraft:drowned": "2019-12-27 11:29:02 +0000",
       "minecraft:zombie_villager": "2019-12-23 12:18:27 +0000"
@@ -1665,15 +1666,19 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2019-12-22 18:17:14 +0000",
+      "minecraft:snowy_mountains": "2020-04-25 12:37:22 +0000",
       "minecraft:forest": "2019-12-22 17:48:21 +0000",
       "minecraft:mountains": "2020-02-16 11:04:10 +0000",
       "minecraft:taiga": "2020-03-29 12:21:42 +0000",
       "minecraft:desert_hills": "2020-03-29 12:55:52 +0000",
       "minecraft:deep_cold_ocean": "2019-12-22 19:49:18 +0000",
+      "minecraft:snowy_tundra": "2020-04-25 12:37:31 +0000",
       "minecraft:taiga_hills": "2020-03-29 12:22:17 +0000",
       "minecraft:desert": "2020-03-29 12:56:25 +0000",
+      "minecraft:frozen_river": "2020-04-25 12:38:54 +0000",
       "minecraft:deep_frozen_ocean": "2019-12-23 00:00:02 +0000",
       "minecraft:birch_forest": "2019-12-23 11:35:09 +0000",
+      "minecraft:snowy_beach": "2020-04-25 12:36:56 +0000",
       "minecraft:deep_lukewarm_ocean": "2020-03-30 20:02:32 +0000",
       "minecraft:beach": "2019-12-22 18:05:01 +0000",
       "minecraft:dark_forest": "2020-02-16 10:56:10 +0000",

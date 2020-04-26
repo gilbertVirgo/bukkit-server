@@ -1656,16 +1656,24 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2020-01-02 10:24:41 +0000",
+      "minecraft:snowy_mountains": "2020-04-25 12:37:17 +0000",
       "minecraft:forest": "2020-01-01 12:57:09 +0000",
       "minecraft:mountains": "2020-04-11 11:55:07 +0000",
       "minecraft:taiga": "2020-04-11 12:16:24 +0000",
       "minecraft:deep_cold_ocean": "2020-01-02 10:24:47 +0000",
+      "minecraft:snowy_tundra": "2020-04-25 12:37:24 +0000",
+      "minecraft:frozen_river": "2020-04-25 12:37:31 +0000",
+      "minecraft:birch_forest": "2020-04-25 12:26:24 +0000",
+      "minecraft:snowy_beach": "2020-04-25 12:36:58 +0000",
       "minecraft:deep_lukewarm_ocean": "2020-04-11 12:05:56 +0000",
       "minecraft:beach": "2020-01-02 09:44:27 +0000",
       "minecraft:river": "2020-01-01 13:12:05 +0000",
       "minecraft:lukewarm_ocean": "2020-04-11 12:06:26 +0000",
+      "minecraft:birch_forest_hills": "2020-04-25 12:27:07 +0000",
+      "minecraft:wooded_mountains": "2020-04-25 12:31:20 +0000",
       "minecraft:wooded_hills": "2020-01-03 19:28:53 +0000",
       "minecraft:stone_shore": "2020-04-11 12:05:47 +0000",
+      "minecraft:swamp": "2020-04-25 12:29:44 +0000",
       "minecraft:plains": "2020-01-01 13:12:19 +0000"
     },
     "done": false
@@ -2674,6 +2682,7 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
+      "minecraft:turtle": "2020-04-25 11:48:52 +0000",
       "minecraft:cow": "2020-03-03 08:24:16 +0000",
       "minecraft:chicken": "2020-01-17 19:25:53 +0000"
     },
