@@ -2590,6 +2590,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/white_glazed_terracotta": {
+    "criteria": {
+      "has_white_terracotta": "2020-04-26 08:53:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_helmet": {
     "criteria": {
       "has_iron_ingot": "2020-01-02 09:49:41 +0000"
@@ -3923,6 +3929,12 @@
       "has_stone": "2020-01-02 12:36:19 +0000"
     },
     "done": true
+  },
+  "minecraft:husbandry/complete_catalogue": {
+    "criteria": {
+      "textures/entity/cat/british_shorthair.png": "2020-04-26 08:50:51 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/redstone/spruce_trapdoor": {
     "criteria": {
