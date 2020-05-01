@@ -328,6 +328,7 @@
       "cooked_beef": "2020-01-04 10:18:37 +0000",
       "chorus_fruit": "2020-04-25 11:32:01 +0000",
       "tropical_fish": "2020-04-25 11:11:41 +0000",
+      "apple": "2020-04-30 19:12:38 +0000",
       "melon_slice": "2020-04-25 11:26:43 +0000",
       "beetroot": "2020-04-26 11:50:47 +0000",
       "cooked_chicken": "2020-01-11 09:09:05 +0000"
@@ -547,6 +548,12 @@
   "minecraft:recipes/redstone/oak_fence_gate": {
     "criteria": {
       "has_planks": "2020-04-25 11:25:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2020-04-30 19:22:31 +0000"
     },
     "done": true
   },
@@ -905,7 +912,8 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "minecraft:pillager": "2020-04-26 11:43:06 +0000"
+      "minecraft:pillager": "2020-04-26 11:43:06 +0000",
+      "minecraft:zombie": "2020-04-30 19:20:10 +0000"
     },
     "done": false
   },
@@ -954,6 +962,12 @@
   "minecraft:recipes/brewing/glistering_melon_slice": {
     "criteria": {
       "has_melon": "2020-04-25 11:19:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2020-04-30 19:22:31 +0000"
     },
     "done": true
   },
@@ -1032,6 +1046,12 @@
   "minecraft:recipes/building_blocks/andesite_slab": {
     "criteria": {
       "has_andesite": "2020-01-04 19:06:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2020-04-30 19:22:31 +0000"
     },
     "done": true
   },

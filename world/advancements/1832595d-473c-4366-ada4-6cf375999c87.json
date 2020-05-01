@@ -573,7 +573,8 @@
       "minecraft:pillager": "2020-04-26 11:36:27 +0000",
       "minecraft:skeleton": "2020-01-04 18:52:35 +0000",
       "minecraft:spider": "2020-01-04 18:32:45 +0000",
-      "minecraft:zombie": "2020-01-04 18:30:34 +0000"
+      "minecraft:zombie": "2020-01-04 18:30:34 +0000",
+      "minecraft:drowned": "2020-04-30 19:21:11 +0000"
     },
     "done": false
   },
