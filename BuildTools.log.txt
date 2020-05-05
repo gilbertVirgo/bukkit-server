@@ -4,30 +4,30 @@ gilbertjvirgo@gmail.com
 Attempting to build version: 'latest' use --rev <version> to override
 Found version
 {
-	"name": "2628",
-	"description": "Jenkins build 2628",
+	"name": "2680",
+	"description": "Jenkins build 2680",
 	"refs": {
-		"BuildData": "4a6af056693a191400cc4bc242823734c865c282",
-		"Bukkit": "337955e3aaa71021164f5fef3ad5f2f9af8bb62c",
-		"CraftBukkit": "37f32da8f8994d32e11e8c3637d66755918f3a25",
-		"Spigot": "c574e08b715634fcaee82dea911226f8194362a8"
+		"BuildData": "455d45a4244894335cd07451bdda79ccd380aff6",
+		"Bukkit": "3abebc9fbf5b38801b7a8baafb187a3ffd17c4dc",
+		"CraftBukkit": "18722312357335c49d1dc7575246029b4079104b",
+		"Spigot": "2040c4c476931e2b1582cd14e2e4d1e260eb5322"
 	},
 	"toolsVersion": 105,
-	"javaVersions": [52, 57]
+	"javaVersions": [52, 58]
 }
 
 Pulling updates for /home/ubuntu/bukkit-server/BuildData/.git
 Successfully fetched updates!
-Checked out: 4a6af056693a191400cc4bc242823734c865c282
+Checked out: 455d45a4244894335cd07451bdda79ccd380aff6
 Pulling updates for /home/ubuntu/bukkit-server/Bukkit/.git
 Successfully fetched updates!
-Checked out: 337955e3aaa71021164f5fef3ad5f2f9af8bb62c
+Checked out: 3abebc9fbf5b38801b7a8baafb187a3ffd17c4dc
 Pulling updates for /home/ubuntu/bukkit-server/CraftBukkit/.git
 Successfully fetched updates!
-Checked out: 37f32da8f8994d32e11e8c3637d66755918f3a25
+Checked out: 18722312357335c49d1dc7575246029b4079104b
 Pulling updates for /home/ubuntu/bukkit-server/Spigot/.git
 Successfully fetched updates!
-Checked out: c574e08b715634fcaee82dea911226f8194362a8
+Checked out: 2040c4c476931e2b1582cd14e2e4d1e260eb5322
 Attempting to build Minecraft with details: VersionInfo(minecraftVersion=1.15.2, accessTransforms=bukkit-1.15.2.at, classMappings=bukkit-1.15.2-cl.csrg, memberMappings=bukkit-1.15.2-members.csrg, packageMappings=package.srg, minecraftHash=15ae1106a67cc78fd25d28bda6f05c06, classMapCommand=java -jar BuildData/bin/SpecialSource-2.jar map --only . --only net/minecraft --auto-lvt BASIC --auto-member SYNTHETIC -e BuildData/mappings/bukkit-1.15.2.exclude -i {0} -m {1} -o {2}, memberMapCommand=java -jar BuildData/bin/SpecialSource-2.jar map --only . --only net/minecraft --auto-member LOGGER --auto-member TOKENS -i {0} -m {1} -o {2}, finalMapCommand=java -jar BuildData/bin/SpecialSource.jar --only . --only net/minecraft -i {0} --access-transformer {1} -m {2} -o {3}, decompileCommand=java -jar BuildData/bin/fernflower.jar -dgs=1 -hdc=0 -asc=1 -udv=0 -rsy=1 -aoa=1 {0} {1}, serverUrl=https://launcher.mojang.com/v1/objects/bb2b6b1aefcd70dfd1892149ac3a215f6c636b07/server.jar, toolsVersion=105)
 Found good Minecraft hash (15ae1106a67cc78fd25d28bda6f05c06)
 Picked up _JAVA_OPTIONS: -Djdk.net.URLClassPath.disableClassPathURLCheck=true
@@ -42,8 +42,8 @@ Picked up _JAVA_OPTIONS: -Djdk.net.URLClassPath.disableClassPathURLCheck=true
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 [[1;34mINFO[m] [1;32mBUILD SUCCESS[m
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] Total time:  1.686 s
-[[1;34mINFO[m] Finished at: 2020-02-15T12:13:34Z
+[[1;34mINFO[m] Total time:  3.304 s
+[[1;34mINFO[m] Finished at: 2020-05-05T06:01:20Z
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 Applying CraftBukkit Patches
 Backing up NMS dir
@@ -106,6 +106,7 @@ Patching with EntityTypes.patch
 Patching with BlockChorusFlower.patch
 Patching with ICommandListener.patch
 Patching with EntityItem.patch
+Patching with BlockFenceGate.patch
 Patching with EntityWitch.patch
 Patching with EntityArrow.patch
 Patching with EntityMinecartCommandBlock.patch
@@ -220,6 +221,7 @@ Patching with PathfinderGoalOwnerHurtTarget.patch
 Patching with EntityZombieVillager.patch
 Patching with DefinedStructureManager.patch
 Patching with CommandTime.patch
+Patching with LootTableRegistry.patch
 Patching with EntityCaveSpider.patch
 Patching with EntityCow.patch
 Patching with TileEntityChest.patch
@@ -243,6 +245,7 @@ Patching with EntitySmallFireball.patch
 Patching with EntityPanda.patch
 Patching with EntityPigZombie.patch
 Patching with ItemFireball.patch
+Patching with EnderDragonBattle.patch
 Patching with Explosion.patch
 Patching with TileEntitySign.patch
 Patching with PathfinderGoalBreakDoor.patch
@@ -426,6 +429,7 @@ Patching with BlockIce.patch
 Patching with JsonList.patch
 Patching with EntityHuman.patch
 Patching with EntitySheep.patch
+Patching with LootTable.patch
 Patching with TagsServer.patch
 Patching with EntityEnderman.patch
 Patching with ContainerPlayer.patch
@@ -458,7 +462,7 @@ Patching with LegacyPingHandler.patch
 Patching with BlockCoral.patch
 Rebuilding Forked projects.... 
 Resetting Spigot-API to Bukkit...
-HEAD is now at 337955e3 SPIGOT-5468: Improve Beehive TileEntity API
+HEAD is now at 3abebc9f #492: Let Tameable extend Animals rather than Entity
   Applying patches to Spigot-API...
 Applying: POM Changes
 Applying: Skeleton API Implementations
@@ -477,7 +481,7 @@ Applying: Add restart API.
 Applying: View Distance
   Patches applied cleanly to Spigot-API
 Resetting Spigot-Server to CraftBukkit...
-HEAD is now at dcd92abf CraftBukkit $ Sat Feb 15 12:13:48 UTC 2020
+HEAD is now at 3fd643edf CraftBukkit $ Tue May 05 06:01:27 UTC 2020
   Applying patches to Spigot-Server...
 Applying: POM Changes
 Applying: Skeleton API Implementations
@@ -582,6 +586,7 @@ Applying: Add creative mode NBT permissions
 Applying: Remove DataWatcher Locking
 Applying: Allow Reading Old Large Chunks
 Applying: Add log-villager-deaths option
+Applying: Fix portals generating outside world border
   Patches applied cleanly to Spigot-Server
 *** Spigot patches applied!
 Compiling Spigot & Spigot-API
@@ -597,9 +602,21 @@ Picked up _JAVA_OPTIONS: -Djdk.net.URLClassPath.disableClassPathURLCheck=true
 [[1;34mINFO[m] [1m----------------------< [0;36morg.spigotmc:spigot-api[0;1m >-----------------------[m
 [[1;34mINFO[m] [1mBuilding Spigot-API 1.15.2-R0.1-SNAPSHOT                           [1/3][m
 [[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+Downloading from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/net/md-5/bungeecord-chat/1.15-SNAPSHOT/maven-metadata.xml
+Progress (1): 1.2 kB
+                    
+Downloaded from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/net/md-5/bungeecord-chat/1.15-SNAPSHOT/maven-metadata.xml (1.2 kB at 1.1 kB/s)
+Downloading from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/net/md-5/bungeecord-parent/1.15-SNAPSHOT/maven-metadata.xml
+Progress (1): 602 B
+                   
+Downloaded from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/net/md-5/bungeecord-parent/1.15-SNAPSHOT/maven-metadata.xml (602 B at 2.8 kB/s)
 [[1;34mINFO[m] 
 [[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mspigot-api[0;1m ---[m
 [[1;34mINFO[m] Deleting /home/ubuntu/bukkit-server/Spigot/Spigot-API/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscriptus:0.4.1:describe[m [1m(default)[m @ [36mspigot-api[0;1m ---[m
+[[1;34mINFO[m] Set property "describe" to "git-Spigot-API-dff24f9"
+[[1;34mINFO[m] Set property "project.build.outputTimestamp" to "1588658549"
 [[1;34mINFO[m] 
 [[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mspigot-api[0;1m ---[m
 [[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
@@ -618,10 +635,10 @@ Picked up _JAVA_OPTIONS: -Djdk.net.URLClassPath.disableClassPathURLCheck=true
 [[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mspigot-api[0;1m ---[m
 [[1;34mINFO[m] Tests are skipped.
 [[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mspigot-api[0;1m ---[m
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.2.0:jar[m [1m(default-jar)[m @ [36mspigot-api[0;1m ---[m
 [[1;34mINFO[m] Building jar: /home/ubuntu/bukkit-server/Spigot/Spigot-API/target/spigot-api-1.15.2-R0.1-SNAPSHOT.jar
 [[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-shade-plugin:3.2.1:shade[m [1m(default)[m @ [36mspigot-api[0;1m ---[m
+[[1;34mINFO[m] [1m--- [0;32mmaven-shade-plugin:3.2.3:shade[m [1m(default)[m @ [36mspigot-api[0;1m ---[m
 [[1;34mINFO[m] Including commons-lang:commons-lang:jar:2.6 in the shaded jar.
 [[1;34mINFO[m] Including com.google.guava:guava:jar:21.0 in the shaded jar.
 [[1;34mINFO[m] Including com.google.code.gson:gson:jar:2.8.0 in the shaded jar.
@@ -650,11 +667,13 @@ Picked up _JAVA_OPTIONS: -Djdk.net.URLClassPath.disableClassPathURLCheck=true
 [[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mspigot[0;1m ---[m
 [[1;34mINFO[m] Deleting /home/ubuntu/bukkit-server/Spigot/Spigot-Server/target
 [[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mscriptus:0.3.2:describe[m [1m(ex-spigot)[m @ [36mspigot[0;1m ---[m
-[[1;34mINFO[m] Set property "spigot.desc" to "git-Spigot-c574e08"
+[[1;34mINFO[m] [1m--- [0;32mscriptus:0.4.1:describe[m [1m(ex-spigot)[m @ [36mspigot[0;1m ---[m
+[[1;34mINFO[m] Set property "spigot.desc" to "git-Spigot-2040c4c"
+[[1;34mINFO[m] Set property "project.build.outputTimestamp" to "1587521111"
 [[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mscriptus:0.3.2:describe[m [1m(ex-craftbukkit)[m @ [36mspigot[0;1m ---[m
-[[1;34mINFO[m] Set property "craftbukkit.desc" to "-37f32da"
+[[1;34mINFO[m] [1m--- [0;32mscriptus:0.4.1:describe[m [1m(ex-craftbukkit)[m @ [36mspigot[0;1m ---[m
+[[1;34mINFO[m] Set property "craftbukkit.desc" to "-1872231"
+[[1;34mINFO[m] Set property "project.build.outputTimestamp" to "1588405717"
 [[1;34mINFO[m] 
 [[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mspigot[0;1m ---[m
 [[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
@@ -673,10 +692,10 @@ Picked up _JAVA_OPTIONS: -Djdk.net.URLClassPath.disableClassPathURLCheck=true
 [[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mspigot[0;1m ---[m
 [[1;34mINFO[m] Tests are skipped.
 [[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mspigot[0;1m ---[m
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.2.0:jar[m [1m(default-jar)[m @ [36mspigot[0;1m ---[m
 [[1;34mINFO[m] Building jar: /home/ubuntu/bukkit-server/Spigot/Spigot-Server/target/spigot-1.15.2-R0.1-SNAPSHOT.jar
 [[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-shade-plugin:3.2.1:shade[m [1m(default)[m @ [36mspigot[0;1m ---[m
+[[1;34mINFO[m] [1m--- [0;32mmaven-shade-plugin:3.2.3:shade[m [1m(default)[m @ [36mspigot[0;1m ---[m
 [[1;34mINFO[m] Including org.spigotmc:spigot-api:jar:1.15.2-R0.1-SNAPSHOT in the shaded jar.
 [[1;34mINFO[m] Including commons-lang:commons-lang:jar:2.6 in the shaded jar.
 [[1;34mINFO[m] Including com.google.guava:guava:jar:21.0 in the shaded jar.
@@ -690,42 +709,22 @@ Picked up _JAVA_OPTIONS: -Djdk.net.URLClassPath.disableClassPathURLCheck=true
 [[1;34mINFO[m] Including org.xerial:sqlite-jdbc:jar:3.30.1 in the shaded jar.
 [[1;34mINFO[m] Including mysql:mysql-connector-java:jar:5.1.48 in the shaded jar.
 [[1;33mWARNING[m] Discovered module-info.class. Shading will break its strong encapsulation.
-[[1;33mWARNING[m] minecraft-server-1.15.2-SNAPSHOT.jar, spigot-1.15.2-R0.1-SNAPSHOT.jar define 775 overlapping classes: 
-[[1;33mWARNING[m]   - net.minecraft.server.TickListServer
-[[1;33mWARNING[m]   - net.minecraft.server.PathfinderGoalHurtByTarget
-[[1;33mWARNING[m]   - net.minecraft.server.IDispenseBehavior$12
-[[1;33mWARNING[m]   - net.minecraft.server.CommandTime
-[[1;33mWARNING[m]   - net.minecraft.server.EntityPhantom$g
-[[1;33mWARNING[m]   - net.minecraft.server.CustomFunctionData$a
-[[1;33mWARNING[m]   - net.minecraft.server.EntitySlime$PathfinderGoalSlimeNearestPlayer
-[[1;33mWARNING[m]   - net.minecraft.server.WorldGenFeatureJunglePyramid
-[[1;33mWARNING[m]   - net.minecraft.server.PacketPlayInBlockPlace
-[[1;33mWARNING[m]   - net.minecraft.server.EntityRabbit
-[[1;33mWARNING[m]   - 765 more...
-[[1;33mWARNING[m] guava-21.0.jar, minecraft-server-1.15.2-SNAPSHOT.jar define 1837 overlapping classes: 
-[[1;33mWARNING[m]   - com.google.common.collect.ImmutableMapValues$1
-[[1;33mWARNING[m]   - com.google.common.io.LineProcessor
-[[1;33mWARNING[m]   - com.google.common.util.concurrent.AbstractService$5
-[[1;33mWARNING[m]   - com.google.common.io.BaseEncoding$StandardBaseEncoding$2
-[[1;33mWARNING[m]   - com.google.common.io.ByteProcessor
-[[1;33mWARNING[m]   - com.google.common.math.package-info
-[[1;33mWARNING[m]   - com.google.common.util.concurrent.SimpleTimeLimiter
-[[1;33mWARNING[m]   - com.google.common.cache.AbstractCache$StatsCounter
-[[1;33mWARNING[m]   - com.google.common.util.concurrent.CycleDetectingLockFactory$Policies
-[[1;33mWARNING[m]   - com.google.common.primitives.UnsignedInts$LexicographicalComparator
-[[1;33mWARNING[m]   - 1827 more...
-[[1;33mWARNING[m] minecraft-server-1.15.2-SNAPSHOT.jar, gson-2.8.0.jar define 174 overlapping classes: 
-[[1;33mWARNING[m]   - com.google.gson.internal.bind.JsonTreeWriter
-[[1;33mWARNING[m]   - com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl
-[[1;33mWARNING[m]   - com.google.gson.internal.Excluder
-[[1;33mWARNING[m]   - com.google.gson.JsonDeserializationContext
-[[1;33mWARNING[m]   - com.google.gson.Gson$6
-[[1;33mWARNING[m]   - com.google.gson.FieldNamingPolicy$5
-[[1;33mWARNING[m]   - com.google.gson.internal.$Gson$Types
-[[1;33mWARNING[m]   - com.google.gson.internal.LinkedTreeMap$KeySet
-[[1;33mWARNING[m]   - com.google.gson.internal.UnsafeAllocator$2
-[[1;33mWARNING[m]   - com.google.gson.internal.bind.SqlDateTypeAdapter$1
-[[1;33mWARNING[m]   - 164 more...
+[[1;33mWARNING[m] mysql-connector-java-5.1.48.jar, sqlite-jdbc-3.30.1.jar define 1 overlapping resources: 
+[[1;33mWARNING[m]   - META-INF/services/java.sql.Driver
+[[1;33mWARNING[m] minecraft-server-1.15.2-SNAPSHOT.jar, spigot-1.15.2-R0.1-SNAPSHOT.jar define 784 overlapping classes and resources: 
+[[1;33mWARNING[m]   - com.mojang.brigadier.tree.CommandNode
+[[1;33mWARNING[m]   - log4j2.xml
+[[1;33mWARNING[m]   - net.minecraft.server.Advancement
+[[1;33mWARNING[m]   - net.minecraft.server.Advancement$SerializedAdvancement
+[[1;33mWARNING[m]   - net.minecraft.server.AdvancementDataPlayer
+[[1;33mWARNING[m]   - net.minecraft.server.AdvancementDataPlayer$1
+[[1;33mWARNING[m]   - net.minecraft.server.AdvancementDataWorld
+[[1;33mWARNING[m]   - net.minecraft.server.Advancements
+[[1;33mWARNING[m]   - net.minecraft.server.Advancements$a
+[[1;33mWARNING[m]   - net.minecraft.server.ArgumentBlock
+[[1;33mWARNING[m]   - 774 more...
+[[1;33mWARNING[m] asm-7.3.1.jar, bungeecord-chat-1.15-SNAPSHOT.jar, commons-lang-2.6.jar, gson-2.8.0.jar, guava-21.0.jar, jline-2.12.1.jar, json-simple-1.1.1.jar, minecraft-server-1.15.2-SNAPSHOT.jar, mysql-connector-java-5.1.48.jar, snakeyaml-1.25.jar, spigot-1.15.2-R0.1-SNAPSHOT.jar, spigot-api-1.15.2-R0.1-SNAPSHOT.jar, sqlite-jdbc-3.30.1.jar define 1 overlapping resources: 
+[[1;33mWARNING[m]   - META-INF/MANIFEST.MF
 [[1;33mWARNING[m] maven-shade-plugin has detected that some class files are
 [[1;33mWARNING[m] present in two or more JARs. When this happens, only one
 [[1;33mWARNING[m] single version of the class is copied to the uber jar.
@@ -743,14 +742,14 @@ Picked up _JAVA_OPTIONS: -Djdk.net.URLClassPath.disableClassPathURLCheck=true
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 [[1;34mINFO[m] [1mReactor Summary:[m
 [[1;34mINFO[m] 
-[[1;34mINFO[m] Spigot-API 1.15.2-R0.1-SNAPSHOT .................... [1;32mSUCCESS[m [ 43.828 s]
-[[1;34mINFO[m] Spigot-Parent dev-SNAPSHOT ......................... [1;32mSUCCESS[m [  0.261 s]
-[[1;34mINFO[m] Spigot 1.15.2-R0.1-SNAPSHOT ........................ [1;32mSUCCESS[m [01:56 min]
+[[1;34mINFO[m] Spigot-API 1.15.2-R0.1-SNAPSHOT .................... [1;32mSUCCESS[m [01:31 min]
+[[1;34mINFO[m] Spigot-Parent dev-SNAPSHOT ......................... [1;32mSUCCESS[m [  0.194 s]
+[[1;34mINFO[m] Spigot 1.15.2-R0.1-SNAPSHOT ........................ [1;32mSUCCESS[m [02:06 min]
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 [[1;34mINFO[m] [1;32mBUILD SUCCESS[m
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] Total time:  02:40 min
-[[1;34mINFO[m] Finished at: 2020-02-15T12:19:03Z
+[[1;34mINFO[m] Total time:  03:38 min
+[[1;34mINFO[m] Finished at: 2020-05-05T06:12:58Z
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
  
  

@@ -1,0 +1,15 @@
+mob:
+  creeper: true
+  door: true
+  turtle_egg: true
+  enderman: false
+  snowgolem: true
+  ghast: true
+  wither: true
+  enderdragon: true
+  sheep: true
+  rabbit: true
+  ravager: true
+  tnt: true
+  tntminecart: true
+  trampling: true

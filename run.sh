@@ -18,4 +18,4 @@ node ./update-bukkit.js >> ./log
 
 # Start the server
 echo "-----\nStarting the server\n-----"
-java -Xmx3G -jar bukkit.jar -o true >> ./log
+java -Xmx3G -jar bukkit.jar -o true

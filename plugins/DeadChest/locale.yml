@@ -1,0 +1,19 @@
+# PLEASE REMOVE ALL EXISTING DEADCHESTS BEFORE EDITING THIS FILE
+localisation:
+  loc_doubleDC: You can't put a chest next to a Deadchest
+  loc_noDCG: No deadchest generated.
+  loc_noperm: You need permission
+  loc_dclistall: List of all dead chests
+  loc_dclistown: List of your dead chests
+  loc_not_owner: This is not your Deadchest !
+  loc_infinityChest: Infinity chest
+  loc_dcgbsuccess: The oldest deadchest content of this player returned to him
+  loc_endtimer: left
+  loc_owner: Owner
+  loc_reload: Reload successfull..
+  loc_nodc: You don't have any deadchest
+  loc_maxHeight: You are dead above the maximum height.
+  loc_givebackInfo: This player is offline or don't have any active deadchest
+  loc_loading: Loading...
+  loc_gbplayer: You have retrieved the content of your deadchest
+  loc_nodcs: There is currently no deadchest

@@ -1,0 +1,246 @@
+Minecraft
+    ** Full Server Tick Time: 3302955942 Count: 103 Avg: 32067533 Violations: 3
+    Player List Time: 230312 Count: 103 Avg: 2236 Violations: 0
+    Command Functions Time: 341083 Count: 103 Avg: 3311 Violations: 0
+    Connection Handler Time: 179031348 Count: 103 Avg: 1738168 Violations: 0
+    ** PlayerConnection Time: 168189236 Count: 309 Avg: 544301 Violations: 0
+    Tickables Time: 514878 Count: 103 Avg: 4998 Violations: 0
+    Scheduler Time: 2549510 Count: 103 Avg: 24752 Violations: 0
+    Time Update Time: 654882 Count: 103 Avg: 6358 Violations: 0
+    Server Command Time: 421699 Count: 103 Avg: 4094 Violations: 0
+    ** entityMove Time: 846948561 Count: 9248 Avg: 91581 Violations: 0
+    ** tickEntity Time: 1986014537 Count: 35615 Avg: 55763 Violations: 2
+    ** activatedTickEntity Time: 1925411242 Count: 14174 Avg: 135841 Violations: 1
+    ** tickTileEntity Time: 38759582 Count: 19261 Avg: 2012 Violations: 0
+    ** livingEntityBaseTick Time: 270835976 Count: 8678 Avg: 31209 Violations: 0
+    ** livingEntityAI Time: 566765995 Count: 8678 Avg: 65310 Violations: 0
+    ** livingEntityAICollision Time: 29377734 Count: 8678 Avg: 3385 Violations: 0
+    ** livingEntityAIMove Time: 887023150 Count: 8678 Avg: 102215 Violations: 0
+    ** livingEntityTickRest Time: 35735585 Count: 8678 Avg: 4117 Violations: 0
+    processQueue Time: 392849 Count: 103 Avg: 3814 Violations: 0
+    ** Plugins Time: 197607 Count: 6 Avg: 32934 Violations: 0
+    ** Scheduler - Sync Tasks Time: 58260 Count: 13 Avg: 4481 Violations: 0
+    entityActivationCheck Time: 71135347 Count: 309 Avg: 230211 Violations: 0
+    ** checkIfActive Time: 11354185 Count: 29641 Avg: 383 Violations: 0
+    ** world - mobSpawn Time: 58685278 Count: 20847 Avg: 2815 Violations: 0
+    ** world - doChunkUnload Time: 1902646 Count: 103 Avg: 18472 Violations: 0
+    ** world - doTickPending Time: 6005073 Count: 103 Avg: 58301 Violations: 0
+    ** world - doTickTiles Time: 245949878 Count: 32888 Avg: 7478 Violations: 0
+    ** world - doChunkMap Time: 32959955 Count: 103 Avg: 319999 Violations: 0
+    ** world - doSounds Time: 82380 Count: 103 Avg: 799 Violations: 0
+    ** world - entityTick Time: 1968220603 Count: 103 Avg: 19108937 Violations: 1
+    ** world - tileEntityTick Time: 61665766 Count: 103 Avg: 598696 Violations: 0
+    ** world - tileEntityPending Time: 201589 Count: 103 Avg: 1957 Violations: 0
+    ** world - syncChunkLoad Time: 65816159 Count: 47424 Avg: 1387 Violations: 0
+    ** world - chunkLoad - Entities Time: 173719 Count: 1 Avg: 173719 Violations: 0
+    ** world - chunkLoad - TileEntities Time: 150942 Count: 1 Avg: 150942 Violations: 0
+    world - tracker Time: 92729010 Count: 103 Avg: 900281 Violations: 0
+    world - doTick Time: 2850307443 Count: 103 Avg: 27672887 Violations: 3
+    world - tickEntities Time: 2039660290 Count: 103 Avg: 19802527 Violations: 1
+    ** world_nether - doChunkUnload Time: 1470320 Count: 103 Avg: 14274 Violations: 0
+    ** world_nether - doTickPending Time: 633308 Count: 103 Avg: 6148 Violations: 0
+    ** world_nether - doChunkMap Time: 1046701 Count: 103 Avg: 10162 Violations: 0
+    ** world_nether - doSounds Time: 130999 Count: 103 Avg: 1271 Violations: 0
+    ** world_nether - entityTick Time: 87702940 Count: 103 Avg: 851484 Violations: 0
+    ** world_nether - tileEntityTick Time: 2830141 Count: 103 Avg: 27477 Violations: 0
+    ** world_nether - tileEntityPending Time: 207310 Count: 103 Avg: 2012 Violations: 0
+    ** world_nether - syncChunkLoad Time: 1665082 Count: 1489 Avg: 1118 Violations: 0
+    world_nether - tracker Time: 5188005 Count: 103 Avg: 50368 Violations: 0
+    world_nether - doTick Time: 169360455 Count: 103 Avg: 1644276 Violations: 0
+    world_nether - tickEntities Time: 89205225 Count: 103 Avg: 866070 Violations: 0
+    ** world_the_end - doChunkUnload Time: 1275510 Count: 103 Avg: 12383 Violations: 0
+    ** world_the_end - doTickPending Time: 369881 Count: 103 Avg: 3591 Violations: 0
+    ** world_the_end - doChunkMap Time: 837469 Count: 103 Avg: 8130 Violations: 0
+    ** world_the_end - doSounds Time: 51439 Count: 103 Avg: 499 Violations: 0
+    ** world_the_end - entityTick Time: 7100503 Count: 103 Avg: 68936 Violations: 0
+    ** world_the_end - tileEntityTick Time: 238907 Count: 103 Avg: 2319 Violations: 0
+    ** world_the_end - tileEntityPending Time: 98092 Count: 103 Avg: 952 Violations: 0
+    ** world_the_end - syncChunkLoad Time: 1462537 Count: 1030 Avg: 1419 Violations: 0
+    world_the_end - tracker Time: 763037 Count: 103 Avg: 7408 Violations: 0
+    world_the_end - doTick Time: 87230282 Count: 103 Avg: 846895 Violations: 0
+    world_the_end - tickEntities Time: 9362561 Count: 103 Avg: 90898 Violations: 0
+    ** tickTileEntity - TileEntityChest Time: 17383912 Count: 11330 Avg: 1534 Violations: 0
+    ** tickTileEntity - TileEntityFurnaceFurnace Time: 9028671 Count: 5562 Avg: 1623 Violations: 0
+    ** tickEntity - EntityChicken Time: 543913483 Count: 1718 Avg: 316596 Violations: 0
+    ** tickEntity - EntityCow Time: 2065891 Count: 10 Avg: 206589 Violations: 0
+    ** tickEntity - EntityItem Time: 37299566 Count: 140 Avg: 266425 Violations: 0
+    ** tickEntity - EntityWolf Time: 217176450 Count: 820 Avg: 264849 Violations: 0
+    ** tickTileEntity - TileEntityChestTrapped Time: 861798 Count: 309 Avg: 2788 Violations: 0
+    ** tickEntity - EntityItemFrame Time: 4076669 Count: 3811 Avg: 1069 Violations: 0
+    ** tickTileEntity - TileEntityBlastFurnace Time: 4751492 Count: 412 Avg: 11532 Violations: 0
+    ** tickTileEntity - TileEntityMobSpawner Time: 1349644 Count: 412 Avg: 3275 Violations: 0
+    ** tickEntity - EntityBoat Time: 24111711 Count: 206 Avg: 117047 Violations: 0
+    ** tickEntity - EntitySheep Time: 684600 Count: 5 Avg: 136920 Violations: 0
+    ** tickEntity - EntityPainting Time: 678926 Count: 309 Avg: 2197 Violations: 0
+    ** tickTileEntity - TileEntitySmoker Time: 651423 Count: 618 Avg: 1054 Violations: 0
+    ** tickTileEntity - TileEntityEnchantTable Time: 1393919 Count: 309 Avg: 4511 Violations: 0
+    ** tickTileEntity - TileEntityBrewingStand Time: 553629 Count: 103 Avg: 5375 Violations: 0
+    ** tickTileEntity - TileEntityBell Time: 227215 Count: 103 Avg: 2205 Violations: 0
+    ** tickEntity - EntityHorseSkeleton Time: 77755120 Count: 206 Avg: 377452 Violations: 0
+    ** tickEntity - EntitySkeleton Time: 161395746 Count: 731 Avg: 220787 Violations: 0
+    ** tickEntity - EntityIronGolem Time: 30698518 Count: 103 Avg: 298043 Violations: 0
+    ** tickEntity - EntitySalmon Time: 122197545 Count: 927 Avg: 131820 Violations: 0
+    ** tickTileEntity - TileEntityCampfire Time: 426119 Count: 103 Avg: 4137 Violations: 0
+    ** tickEntity - EntityMushroomCow Time: 6414910 Count: 24 Avg: 267287 Violations: 0
+    ** tickEntity - EntityPigZombie Time: 64789696 Count: 298 Avg: 217415 Violations: 0
+    ** tickEntity - EntityEnderman Time: 21677582 Count: 106 Avg: 204505 Violations: 0
+    ** tickEntity - EntityEnderCrystal Time: 3836041 Count: 1030 Avg: 3724 Violations: 0
+    Task: ClearLag v3.1.6 Runnable: me.minebuilders.clearlag.tasks.TPSTask(interval:20) Time: 32332 Count: 6 Avg: 5388 Violations: 0
+    Task: ClearLag v3.1.6 Runnable: me.minebuilders.clearlag.tasks.ClearTask(interval:20) Time: 19037 Count: 6 Avg: 3172 Violations: 0
+    Plugin: ChatColor2 v1.9.4 Event: com.sulphate.chatcolor2.listeners.CustomCommandListener::onEvent(PlayerCommandPreprocessEvent) Time: 34758 Count: 1 Avg: 34758 Violations: 0
+    Plugin: EasyCarts v1.12.2 Event: com.github.xericore.easycarts.PlayerClickListener::onMyPlayerInteract(PlayerInteractEvent) Time: 73036 Count: 1 Avg: 73036 Violations: 0
+    Plugin: SpawnerSilk v3.1 Event: me.crylonz.SpawnerSilk::onPlayerInteractEvent(PlayerInteractEvent) Time: 6703 Count: 1 Avg: 6703 Violations: 0
+    Task: KeepDeathDrop v1.0.7 Runnable: me.minebuilders.clearlagitem.DropListener$1(interval:80) Time: 4278 Count: 1 Avg: 4278 Violations: 0
+    Plugin: PvPManager v3.7 Event: me.NoChance.PvPManager.Listeners.PlayerListener::onPlayerUseSoup(PlayerInteractEvent) Time: 9093 Count: 1 Avg: 9093 Violations: 0
+    Plugin: PvPManager v3.7 Event: me.NoChance.PvPManager.Listeners.PlayerListener::onCommand(PlayerCommandPreprocessEvent) Time: 59703 Count: 1 Avg: 59703 Violations: 0
+    Plugin: PvPManager v3.7 Event: me.NoChance.PvPManager.Listeners.PlayerListener::onPlayerInteract(PlayerInteractEvent) Time: 13407 Count: 1 Avg: 13407 Violations: 0
+    ** tickEntity - EntityLeash Time: 281594 Count: 206 Avg: 1366 Violations: 0
+    ** tickEntity - EntityPlayer Time: 15764630 Count: 309 Avg: 51018 Violations: 0
+    ** tickEntity - EntityBat Time: 190319400 Count: 1249 Avg: 152377 Violations: 0
+    ** tickEntity - EntityZombie Time: 139720705 Count: 387 Avg: 361035 Violations: 0
+    ** tickEntity - EntityCreeper Time: 89502081 Count: 517 Avg: 173118 Violations: 0
+    ** tickEntity - EntitySpider Time: 40740561 Count: 108 Avg: 377227 Violations: 0
+    ** tickEntity - EntitySquid Time: 86326409 Count: 618 Avg: 139686 Violations: 0
+    ** tickEntity - EntityCod Time: 40105930 Count: 331 Avg: 121165 Violations: 0
+    ** tickEntity - EntityHorse Time: 1685026 Count: 5 Avg: 337005 Violations: 0
+# Version git-Spigot-a03b1fd-95bd423 (MC: 1.15.2)
+# Entities 299
+# LivingEntities 237
+Sample time 5160094302 (5.160094302s)
+<spigotConfig>
+# This is the main configuration file for Spigot.
+# As you can see, there's tons to configure. Some options may impact gameplay, so use
+# with caution, and make sure you know what each option does before configuring.
+# For a reference for any variable inside this file, check out the Spigot wiki at
+# http://www.spigotmc.org/wiki/spigot-configuration/
+# 
+# If you need help with the configuration or have any questions related to Spigot,
+# join us at the IRC or drop by our forums and leave a post.
+# 
+# IRC: #spigot @ irc.spi.gt ( http://www.spigotmc.org/pages/irc/ )
+# Forums: http://www.spigotmc.org/
+
+config-version: 12
+settings:
+  save-user-cache-on-stop-only: false
+  bungeecord: false
+  sample-count: 12
+  player-shuffle: 0
+  user-cache-size: 1000
+  moved-wrongly-threshold: 0.0625
+  moved-too-quickly-multiplier: 10.0
+  log-villager-deaths: true
+  timeout-time: 60
+  restart-on-crash: true
+  restart-script: bukkit
+  netty-threads: 4
+  debug: false
+  attribute:
+    maxHealth:
+      max: 2048.0
+    movementSpeed:
+      max: 2048.0
+    attackDamage:
+      max: 2048.0
+messages:
+  whitelist: You are not whitelisted on this server!
+  unknown-command: Unknown command. Type "/help" for help.
+  server-full: The server is full!
+  outdated-client: Outdated client! Please use {0}
+  outdated-server: Outdated server! I'm still on {0}
+  restart: Server is restarting
+commands:
+  log: true
+  tab-complete: 0
+  send-namespaced: true
+  spam-exclusions:
+  - /skill
+  silent-commandblock-console: false
+  replace-commands:
+  - setblock
+  - summon
+  - testforblock
+  - tellraw
+advancements:
+  disable-saving: false
+  disabled:
+  - minecraft:story/disabled
+stats:
+  disable-saving: false
+  forced-stats: {}
+world-settings:
+  default:
+    verbose: true
+    hopper-amount: 1
+    dragon-death-sound-radius: 0
+    seed-village: 10387312
+    seed-desert: 14357617
+    seed-igloo: 14357618
+    seed-jungle: 14357619
+    seed-swamp: 14357620
+    seed-monument: 10387313
+    seed-shipwreck: 165745295
+    seed-ocean: 14357621
+    seed-outpost: 165745296
+    seed-slime: 987234911
+    max-tnt-per-tick: 100
+    mob-spawn-range: 6
+    view-distance: default
+    wither-spawn-sound-radius: 0
+    arrow-despawn-rate: 1200
+    trident-despawn-rate: 1200
+    enable-zombie-pigmen-portal-spawns: true
+    item-despawn-rate: 6000
+    hanging-tick-frequency: 100
+    zombie-aggressive-towards-villager: true
+    nerf-spawner-mobs: false
+    max-tick-time:
+      tile: 50
+      entity: 50
+    squid-spawn-range:
+      min: 45.0
+    entity-activation-range:
+      animals: 32
+      monsters: 32
+      raiders: 48
+      misc: 16
+      tick-inactive-villagers: true
+    entity-tracking-range:
+      players: 48
+      animals: 48
+      monsters: 48
+      misc: 32
+      other: 64
+    ticks-per:
+      hopper-transfer: 8
+      hopper-check: 1
+    hunger:
+      jump-walk-exhaustion: 0.05
+      jump-sprint-exhaustion: 0.2
+      combat-exhaustion: 0.1
+      regen-exhaustion: 6.0
+      swim-multiplier: 0.01
+      sprint-multiplier: 0.1
+      other-multiplier: 0.0
+    merge-radius:
+      exp: 3.0
+      item: 2.5
+    growth:
+      cactus-modifier: 100
+      cane-modifier: 100
+      melon-modifier: 100
+      mushroom-modifier: 100
+      pumpkin-modifier: 100
+      sapling-modifier: 100
+      beetroot-modifier: 100
+      carrot-modifier: 100
+      potato-modifier: 100
+      wheat-modifier: 100
+      netherwart-modifier: 100
+      vine-modifier: 100
+      cocoa-modifier: 100
+      bamboo-modifier: 100
+      sweetberry-modifier: 100
+      kelp-modifier: 100
+
+</spigotConfig>

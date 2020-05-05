@@ -1,0 +1,15 @@
+# /!\ worldanchorID must be : MATERIAL:DURABILITY /!\
+worldanchorID: "BEACON:0"
+worldanchorName: "&c&lWORLD ANCHOR"
+worldanchorLore: "&ePlace this block in a chunk to keep it loaded when you are away!"
+
+giveMessage: "&eYou just received a WorldAnchor !"
+notonlineMessage: "&cThis player isn't online !"
+interactMessage: "&cYou are not allowed to use World Anchors"
+notallowedtoplaceMessage: "&cYou are not allowed to place a World Anchor"
+notallowedtobreakMessage: "&cYou are not allowed to break a World Anchor"
+placeMessage: "&aYou just placed a World Anchor"
+breakMessage: "&2You just broke a World Anchor"
+alreadyinchunkMessage: "&cThere is already a World Anchor in this chunk"
+notonlineMessage: "&cThe player is not online"
+reloadMessage: "&7Config reloaded"
