@@ -623,6 +623,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_diorite_slab": {
+    "criteria": {
+      "has_polished_diorite": "2020-05-14 21:57:04 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite_slab_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2019-12-23 18:01:14 +0000"
@@ -702,6 +708,7 @@
       "minecraft:zombie_pigman": "2020-01-03 14:58:53 +0000",
       "minecraft:spider": "2019-12-23 17:28:57 +0000",
       "minecraft:creeper": "2019-12-23 13:35:25 +0000",
+      "minecraft:slime": "2020-05-14 21:47:37 +0000",
       "minecraft:phantom": "2019-12-28 14:36:14 +0000",
       "minecraft:witch": "2020-03-25 13:17:32 +0000",
       "minecraft:husk": "2019-12-27 14:29:44 +0000",
@@ -810,6 +817,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs_from_polished_diorite_stonecutting": {
+    "criteria": {
+      "has_polished_diorite": "2020-05-14 21:57:04 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2019-12-23 18:32:19 +0000"
@@ -819,6 +832,12 @@
   "minecraft:recipes/decorations/brick_wall_from_bricks_stonecutting": {
     "criteria": {
       "has_bricks": "2020-03-29 13:14:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs": {
+    "criteria": {
+      "has_polished_diorite": "2020-05-14 21:57:04 +0000"
     },
     "done": true
   },
@@ -987,6 +1006,12 @@
   "minecraft:recipes/decorations/light_blue_stained_glass_pane": {
     "criteria": {
       "has_glass": "2019-12-23 13:43:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_slab_from_polished_diorite_stonecutting": {
+    "criteria": {
+      "has_polished_diorite": "2020-05-14 21:57:04 +0000"
     },
     "done": true
   },
@@ -1299,6 +1324,12 @@
   "minecraft:recipes/building_blocks/polished_granite_stairs_from_polished_granite_stonecutting": {
     "criteria": {
       "has_polished_granite": "2020-04-18 16:49:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2020-05-14 21:47:50 +0000"
     },
     "done": true
   },
@@ -2077,6 +2108,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_diorite_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2020-05-14 21:57:04 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/mossy_cobblestone_wall": {
     "criteria": {
       "has_mossy_cobblestone": "2019-12-28 23:21:24 +0000"
@@ -2522,6 +2559,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2020-05-14 21:47:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/glass_pane": {
     "criteria": {
       "has_glass": "2019-12-23 13:43:24 +0000"
@@ -2663,6 +2706,12 @@
   "minecraft:recipes/misc/paper": {
     "criteria": {
       "has_reeds": "2020-01-02 12:06:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2020-05-14 21:57:04 +0000"
     },
     "done": true
   },
@@ -2903,6 +2952,12 @@
   "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2019-12-27 14:22:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2020-05-14 21:47:50 +0000"
     },
     "done": true
   },
