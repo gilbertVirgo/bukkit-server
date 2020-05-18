@@ -623,6 +623,7 @@
       "minecraft:skeleton": "2020-04-25 10:58:38 +0000",
       "minecraft:spider": "2020-04-25 12:40:11 +0000",
       "minecraft:creeper": "2020-04-25 19:39:35 +0000",
+      "minecraft:witch": "2020-05-17 10:14:28 +0000",
       "minecraft:stray": "2020-04-25 12:43:03 +0000",
       "minecraft:enderman": "2020-04-25 19:40:04 +0000",
       "minecraft:zombie": "2020-04-25 10:58:29 +0000",
@@ -1630,6 +1631,12 @@
   "minecraft:recipes/decorations/red_carpet_from_white_carpet": {
     "criteria": {
       "has_white_carpet": "2020-05-01 23:39:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2020-05-17 10:09:51 +0000"
     },
     "done": true
   },
@@ -2883,6 +2890,12 @@
   "minecraft:recipes/decorations/light_gray_stained_glass_pane": {
     "criteria": {
       "has_glass": "2020-04-26 12:18:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bonemeal": "2020-05-17 10:09:51 +0000"
     },
     "done": true
   },
