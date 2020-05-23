@@ -623,6 +623,7 @@
       "minecraft:skeleton": "2020-04-25 10:58:38 +0000",
       "minecraft:spider": "2020-04-25 12:40:11 +0000",
       "minecraft:creeper": "2020-04-25 19:39:35 +0000",
+      "minecraft:phantom": "2020-05-22 18:56:19 +0000",
       "minecraft:witch": "2020-05-17 10:14:28 +0000",
       "minecraft:stray": "2020-04-25 12:43:03 +0000",
       "minecraft:enderman": "2020-04-25 19:40:04 +0000",
@@ -632,9 +633,21 @@
     },
     "done": false
   },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2020-05-22 18:36:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/birch_wood": {
     "criteria": {
       "has_log": "2020-04-28 17:31:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2020-05-22 18:57:46 +0000"
     },
     "done": true
   },
@@ -1172,6 +1185,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2020-05-22 18:36:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/stonecutter": {
     "criteria": {
       "has_stone": "2020-05-01 23:36:07 +0000"
@@ -1445,6 +1464,12 @@
   "minecraft:recipes/food/cooked_mutton": {
     "criteria": {
       "has_mutton": "2020-04-25 19:42:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2020-05-22 18:36:36 +0000"
     },
     "done": true
   },
@@ -1910,6 +1935,7 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
+      "minecraft:sheep": "2020-05-22 18:17:33 +0000",
       "minecraft:cow": "2020-05-10 11:19:27 +0000",
       "minecraft:chicken": "2020-04-28 20:05:55 +0000"
     },
@@ -2668,6 +2694,12 @@
   "minecraft:recipes/building_blocks/snow_block": {
     "criteria": {
       "has_snowball": "2020-04-25 12:40:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_the_recipe": "2020-05-22 19:11:11 +0000"
     },
     "done": true
   },
