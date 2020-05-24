@@ -785,6 +785,12 @@
     },
     "done": true
   },
+  "minecraft:end/dragon_breath": {
+    "criteria": {
+      "dragon_breath": "2020-05-23 14:48:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/root": {
     "criteria": {
       "killed_something": "2019-12-22 17:55:44 +0000"
@@ -861,6 +867,7 @@
       "minecraft:witch": "2019-12-28 12:21:17 +0000",
       "minecraft:wither_skeleton": "2019-12-27 12:59:20 +0000",
       "minecraft:husk": "2020-03-29 18:37:54 +0000",
+      "minecraft:shulker": "2020-05-23 15:03:16 +0000",
       "minecraft:cave_spider": "2019-12-28 17:20:34 +0000",
       "minecraft:enderman": "2019-12-27 11:52:13 +0000",
       "minecraft:silverfish": "2020-04-12 09:04:38 +0000",
@@ -1865,6 +1872,12 @@
   "minecraft:recipes/decorations/grindstone": {
     "criteria": {
       "has_stone_slab": "2019-12-29 16:47:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_egg": {
+    "criteria": {
+      "dragon_egg": "2020-05-23 14:43:30 +0000"
     },
     "done": true
   },
@@ -3604,6 +3617,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2020-05-23 15:03:19 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/skull_banner_pattern": {
     "criteria": {
       "has_wither_skeleton_skull": "2020-05-18 20:31:48 +0000"
@@ -3655,6 +3674,12 @@
   "minecraft:story/form_obsidian": {
     "criteria": {
       "obsidian": "2019-12-22 18:48:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2020-05-23 15:02:30 +0000"
     },
     "done": true
   },
@@ -4049,6 +4074,12 @@
   "minecraft:recipes/combat/diamond_boots": {
     "criteria": {
       "has_diamond": "2019-12-22 18:30:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/respawn_dragon": {
+    "criteria": {
+      "summoned_dragon": "2020-05-23 14:43:48 +0000"
     },
     "done": true
   },
