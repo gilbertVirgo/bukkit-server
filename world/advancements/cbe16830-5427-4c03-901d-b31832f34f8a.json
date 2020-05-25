@@ -71,6 +71,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
+    "criteria": {
+      "has_red_flower": "2020-05-24 09:07:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_bricks": {
     "criteria": {
       "has_stone": "2020-01-02 12:36:19 +0000"
@@ -1674,13 +1680,19 @@
       "minecraft:forest": "2020-01-01 12:57:09 +0000",
       "minecraft:mountains": "2020-04-11 11:55:07 +0000",
       "minecraft:taiga": "2020-04-11 12:16:24 +0000",
+      "minecraft:desert_hills": "2020-05-24 10:37:47 +0000",
       "minecraft:deep_cold_ocean": "2020-01-02 10:24:47 +0000",
       "minecraft:snowy_tundra": "2020-04-25 12:37:24 +0000",
+      "minecraft:taiga_hills": "2020-05-24 09:31:06 +0000",
+      "minecraft:desert": "2020-05-24 10:37:26 +0000",
       "minecraft:frozen_river": "2020-04-25 12:37:31 +0000",
+      "minecraft:deep_frozen_ocean": "2020-05-24 11:38:29 +0000",
       "minecraft:birch_forest": "2020-04-25 12:26:24 +0000",
       "minecraft:snowy_beach": "2020-04-25 12:36:58 +0000",
       "minecraft:deep_lukewarm_ocean": "2020-04-11 12:05:56 +0000",
+      "minecraft:savanna_plateau": "2020-05-24 10:30:53 +0000",
       "minecraft:beach": "2020-01-02 09:44:27 +0000",
+      "minecraft:dark_forest": "2020-05-24 09:20:15 +0000",
       "minecraft:river": "2020-01-01 13:12:05 +0000",
       "minecraft:lukewarm_ocean": "2020-04-11 12:06:26 +0000",
       "minecraft:birch_forest_hills": "2020-04-25 12:27:07 +0000",
@@ -1688,6 +1700,7 @@
       "minecraft:wooded_hills": "2020-01-03 19:28:53 +0000",
       "minecraft:stone_shore": "2020-04-11 12:05:47 +0000",
       "minecraft:swamp": "2020-04-25 12:29:44 +0000",
+      "minecraft:savanna": "2020-05-24 10:30:47 +0000",
       "minecraft:plains": "2020-01-01 13:12:19 +0000"
     },
     "done": false
@@ -1833,6 +1846,12 @@
   "minecraft:recipes/building_blocks/polished_andesite_slab_from_polished_andesite_stonecutting": {
     "criteria": {
       "has_polished_andesite": "2020-01-13 08:38:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_honey_bottle": {
+    "criteria": {
+      "has_honey_bottle": "2020-05-24 11:23:58 +0000"
     },
     "done": true
   },
@@ -2711,7 +2730,9 @@
       "minecraft:turtle": "2020-04-25 11:48:52 +0000",
       "minecraft:sheep": "2020-05-19 16:12:24 +0000",
       "minecraft:cow": "2020-03-03 08:24:16 +0000",
-      "minecraft:chicken": "2020-01-17 19:25:53 +0000"
+      "minecraft:chicken": "2020-01-17 19:25:53 +0000",
+      "minecraft:wolf": "2020-05-24 08:57:48 +0000",
+      "minecraft:bee": "2020-05-24 09:18:20 +0000"
     },
     "done": false
   },
@@ -3216,6 +3237,12 @@
   "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
     "criteria": {
       "has_smooth_stone": "2020-01-08 08:30:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/honey_block": {
+    "criteria": {
+      "has_honey_bottle": "2020-05-24 11:23:58 +0000"
     },
     "done": true
   },
