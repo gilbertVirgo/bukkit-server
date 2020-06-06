@@ -95,6 +95,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_cobblestone": {
+    "criteria": {
+      "has_vine": "2020-06-05 16:01:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/yellow_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2020-01-02 09:49:29 +0000"
@@ -350,6 +356,12 @@
   "minecraft:recipes/redstone/dispenser": {
     "criteria": {
       "has_bow": "2020-01-01 13:15:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/beehive": {
+    "criteria": {
+      "has_honeycomb": "2020-06-05 15:55:30 +0000"
     },
     "done": true
   },
@@ -1867,6 +1879,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/honey_bottle": {
+    "criteria": {
+      "has_honey_block": "2020-06-05 18:31:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/dried_kelp_block": {
     "criteria": {
       "has_dried_kelp": "2020-02-23 15:35:25 +0000"
@@ -2125,6 +2143,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/lime_carpet": {
+    "criteria": {
+      "has_lime_wool": "2020-06-05 19:16:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/writable_book": {
     "criteria": {
       "has_book": "2020-01-02 14:02:29 +0000"
@@ -2158,6 +2182,12 @@
   "minecraft:recipes/building_blocks/polished_andesite_stairs": {
     "criteria": {
       "has_polished_andesite": "2020-01-13 08:38:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_banner": {
+    "criteria": {
+      "has_lime_wool": "2020-06-05 19:16:52 +0000"
     },
     "done": true
   },
@@ -2447,6 +2477,7 @@
     "criteria": {
       "cooked_porkchop": "2020-03-22 13:00:48 +0000",
       "chicken": "2020-04-05 08:15:03 +0000",
+      "honey_bottle": "2020-06-05 16:15:12 +0000",
       "cooked_mutton": "2020-04-17 17:24:36 +0000",
       "sweet_berries": "2020-02-22 16:10:48 +0000",
       "cooked_beef": "2020-01-03 17:22:12 +0000",
@@ -2637,6 +2668,12 @@
   "minecraft:recipes/decorations/white_glazed_terracotta": {
     "criteria": {
       "has_white_terracotta": "2020-04-26 08:53:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_bed": {
+    "criteria": {
+      "has_lime_wool": "2020-06-05 19:16:52 +0000"
     },
     "done": true
   },
@@ -3039,6 +3076,12 @@
   "minecraft:recipes/decorations/green_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2020-01-02 16:08:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/safely_harvest_honey": {
+    "criteria": {
+      "safely_harvest_honey": "2020-06-05 16:14:51 +0000"
     },
     "done": true
   },
@@ -3909,6 +3952,12 @@
   "minecraft:recipes/building_blocks/dark_prismarine_stairs": {
     "criteria": {
       "has_dark_prismarine": "2020-03-26 12:31:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/honeycomb_block": {
+    "criteria": {
+      "has_honeycomb": "2020-06-05 15:55:30 +0000"
     },
     "done": true
   },

@@ -335,6 +335,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/beehive": {
+    "criteria": {
+      "has_honeycomb": "2020-06-05 08:27:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/emerald_block": {
     "criteria": {
       "has_emerald": "2019-12-22 18:14:47 +0000"
@@ -3847,6 +3853,12 @@
   "minecraft:husbandry/silk_touch_nest": {
     "criteria": {
       "silk_touch_nest": "2020-06-01 07:25:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/honeycomb_block": {
+    "criteria": {
+      "has_honeycomb": "2020-06-05 08:27:50 +0000"
     },
     "done": true
   },
