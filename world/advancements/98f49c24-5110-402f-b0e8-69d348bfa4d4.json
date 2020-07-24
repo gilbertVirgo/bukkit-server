@@ -335,6 +335,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/beehive": {
+    "criteria": {
+      "has_honeycomb": "2020-06-05 08:27:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/emerald_block": {
     "criteria": {
       "has_emerald": "2019-12-22 18:14:47 +0000"
@@ -467,6 +473,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/creeper_banner_pattern": {
+    "criteria": {
+      "has_creeper_head": "2020-06-03 07:40:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/lime_dye": {
     "criteria": {
       "has_white_dye": "2020-02-04 17:15:27 +0000"
@@ -536,6 +548,12 @@
   "minecraft:recipes/building_blocks/yellow_stained_glass": {
     "criteria": {
       "has_glass": "2019-12-22 19:25:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald_from_blasting": {
+    "criteria": {
+      "has_emerald_ore": "2020-06-10 10:14:32 +0000"
     },
     "done": true
   },
@@ -1827,6 +1845,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/sugar_from_honey_bottle": {
+    "criteria": {
+      "has_honey_bottle": "2020-06-03 08:45:40 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/orange_dye_from_orange_tulip": {
     "criteria": {
       "has_red_flower": "2020-05-29 19:37:38 +0000"
@@ -2430,6 +2454,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2019-12-22 18:28:26 +0000",
+      "honey_bottle": "2020-06-03 08:45:49 +0000",
       "cooked_mutton": "2019-12-22 18:35:07 +0000",
       "sweet_berries": "2020-02-16 09:13:03 +0000",
       "cooked_beef": "2019-12-23 14:44:38 +0000",
@@ -2680,7 +2705,8 @@
       "minecraft:sheep": "2019-12-22 19:08:06 +0000",
       "minecraft:cow": "2019-12-22 19:39:59 +0000",
       "minecraft:chicken": "2019-12-23 18:19:50 +0000",
-      "minecraft:wolf": "2019-12-23 10:28:06 +0000"
+      "minecraft:wolf": "2019-12-23 10:28:06 +0000",
+      "minecraft:bee": "2020-06-01 07:24:25 +0000"
     },
     "done": false
   },
@@ -2996,6 +3022,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/safely_harvest_honey": {
+    "criteria": {
+      "safely_harvest_honey": "2020-06-09 13:49:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/trade": {
     "criteria": {
       "traded": "2020-02-14 08:16:08 +0000"
@@ -3197,6 +3229,12 @@
   "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
     "criteria": {
       "has_smooth_stone": "2020-03-01 11:59:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/honey_block": {
+    "criteria": {
+      "has_honey_bottle": "2020-06-03 08:45:40 +0000"
     },
     "done": true
   },
@@ -3413,6 +3451,12 @@
   "minecraft:recipes/building_blocks/blue_concrete_powder": {
     "criteria": {
       "has_sand": "2019-12-22 18:12:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald_from_smelting": {
+    "criteria": {
+      "has_emerald_ore": "2020-06-10 10:14:32 +0000"
     },
     "done": true
   },
@@ -3821,6 +3865,18 @@
   "minecraft:recipes/building_blocks/dark_prismarine_stairs": {
     "criteria": {
       "has_dark_prismarine": "2020-03-07 11:29:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/silk_touch_nest": {
+    "criteria": {
+      "silk_touch_nest": "2020-06-01 07:25:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/honeycomb_block": {
+    "criteria": {
+      "has_honeycomb": "2020-06-05 08:27:50 +0000"
     },
     "done": true
   },
