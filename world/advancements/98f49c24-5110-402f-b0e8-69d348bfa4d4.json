@@ -361,7 +361,7 @@
   },
   "minecraft:recipes/building_blocks/dark_oak_planks": {
     "criteria": {
-      "has_logs": "2020-02-09 12:16:37 +0000"
+      "has_log": "2020-08-11 19:26:55 +0000"
     },
     "done": true
   },
@@ -479,6 +479,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stripped_birch_wood": {
+    "criteria": {
+      "has_log": "2020-08-11 20:04:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/lime_dye": {
     "criteria": {
       "has_white_dye": "2020-02-04 17:15:27 +0000"
@@ -536,12 +542,6 @@
   "minecraft:recipes/misc/emerald": {
     "criteria": {
       "has_emerald_block": "2020-04-02 18:07:09 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/composter": {
-    "criteria": {
-      "has_wood_slab": "2020-02-02 11:35:03 +0000"
     },
     "done": true
   },
@@ -687,12 +687,6 @@
   "minecraft:adventure/sleep_in_bed": {
     "criteria": {
       "slept_in_bed": "2019-12-22 19:25:30 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/spruce_planks": {
-    "criteria": {
-      "has_log": "2020-03-24 13:20:38 +0000"
     },
     "done": true
   },
@@ -857,7 +851,6 @@
       "minecraft:pillager": "2020-01-03 12:57:19 +0000",
       "minecraft:blaze": "2020-01-11 16:34:03 +0000",
       "minecraft:skeleton": "2019-12-22 18:02:50 +0000",
-      "minecraft:zombie_pigman": "2019-12-29 16:52:33 +0000",
       "minecraft:ravager": "2020-04-11 12:29:49 +0000",
       "minecraft:ghast": "2019-12-27 14:54:09 +0000",
       "minecraft:guardian": "2020-03-07 11:09:22 +0000",
@@ -867,6 +860,7 @@
       "minecraft:creeper": "2019-12-23 10:07:28 +0000",
       "minecraft:slime": "2020-02-09 12:28:28 +0000",
       "minecraft:phantom": "2020-02-04 17:11:06 +0000",
+      "minecraft:zombified_piglin": "2019-12-29 16:52:33 +0000",
       "minecraft:witch": "2019-12-28 12:24:26 +0000",
       "minecraft:wither_skeleton": "2020-01-12 12:16:01 +0000",
       "minecraft:husk": "2020-04-07 12:08:22 +0000",
@@ -1349,12 +1343,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/oak_planks": {
-    "criteria": {
-      "has_log": "2019-12-22 17:49:01 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/yellow_glazed_terracotta": {
     "criteria": {
       "has_yellow_terracotta": "2020-03-07 09:53:45 +0000"
@@ -1459,7 +1447,7 @@
   },
   "minecraft:recipes/building_blocks/birch_planks": {
     "criteria": {
-      "has_log": "2019-12-22 17:49:23 +0000"
+      "has_logs": "2020-08-11 19:49:52 +0000"
     },
     "done": true
   },
@@ -1472,12 +1460,6 @@
   "minecraft:story/iron_tools": {
     "criteria": {
       "iron_pickaxe": "2019-12-22 18:18:29 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/cartography_table": {
-    "criteria": {
-      "has_string": "2019-12-22 18:46:43 +0000"
     },
     "done": true
   },
@@ -2746,6 +2728,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_redstone": "2020-08-11 20:22:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/furnace": {
     "criteria": {
       "has_cobblestone": "2019-12-22 17:50:24 +0000"
@@ -3664,12 +3652,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/acacia_planks": {
-    "criteria": {
-      "has_logs": "2020-01-01 12:36:41 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/compass": {
     "criteria": {
       "has_redstone": "2019-12-29 14:26:56 +0000"
@@ -3751,6 +3733,12 @@
   "minecraft:recipes/redstone/iron_door": {
     "criteria": {
       "has_iron_ingot": "2019-12-22 18:09:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2020-02-02 11:35:03 +0000"
     },
     "done": true
   },
@@ -3958,13 +3946,13 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/gray_stained_glass_pane_from_glass_pane": {
+  "minecraft:recipes/decorations/light_gray_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2020-03-28 16:16:03 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/light_gray_stained_glass_pane_from_glass_pane": {
+  "minecraft:recipes/decorations/gray_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2020-03-28 16:16:03 +0000"
     },
@@ -4072,5 +4060,5 @@
     },
     "done": true
   },
-  "DataVersion": 2230
+  "DataVersion": 2567
 }

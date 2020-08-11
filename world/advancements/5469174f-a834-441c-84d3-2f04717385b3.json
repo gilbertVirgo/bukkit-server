@@ -53,6 +53,12 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2020-08-11 19:50:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/magenta_dye_from_lilac": {
     "criteria": {
       "has_double_plant": "2019-12-22 17:55:28 +0000"
@@ -371,12 +377,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dark_oak_planks": {
-    "criteria": {
-      "has_logs": "2020-02-16 11:00:36 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/food/cooked_rabbit_from_smoking": {
     "criteria": {
       "has_rabbit": "2020-04-04 16:53:04 +0000"
@@ -563,12 +563,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/composter": {
-    "criteria": {
-      "has_wood_slab": "2019-12-27 17:24:48 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/yellow_stained_glass": {
     "criteria": {
       "has_glass": "2019-12-22 19:41:36 +0000"
@@ -698,12 +692,6 @@
   "minecraft:recipes/building_blocks/sandstone": {
     "criteria": {
       "has_sand": "2019-12-22 23:05:40 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/spruce_planks": {
-    "criteria": {
-      "has_log": "2019-12-28 13:37:11 +0000"
     },
     "done": true
   },
@@ -868,7 +856,6 @@
       "minecraft:pillager": "2019-12-22 23:46:47 +0000",
       "minecraft:blaze": "2019-12-27 13:03:21 +0000",
       "minecraft:skeleton": "2019-12-23 11:03:38 +0000",
-      "minecraft:zombie_pigman": "2019-12-27 15:08:33 +0000",
       "minecraft:guardian": "2020-03-07 11:08:37 +0000",
       "minecraft:vindicator": "2020-04-11 12:28:01 +0000",
       "minecraft:magma_cube": "2019-12-28 10:49:48 +0000",
@@ -876,6 +863,7 @@
       "minecraft:creeper": "2019-12-22 18:00:55 +0000",
       "minecraft:slime": "2020-03-21 17:03:16 +0000",
       "minecraft:phantom": "2020-02-23 11:45:23 +0000",
+      "minecraft:zombified_piglin": "2019-12-27 15:08:33 +0000",
       "minecraft:witch": "2019-12-28 12:21:17 +0000",
       "minecraft:wither_skeleton": "2019-12-27 12:59:20 +0000",
       "minecraft:husk": "2020-03-29 18:37:54 +0000",
@@ -1055,6 +1043,12 @@
   "minecraft:recipes/building_blocks/smooth_quartz": {
     "criteria": {
       "has_quartz_block": "2019-12-28 10:50:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chain": {
+    "criteria": {
+      "has_iron_ingot": "2020-08-11 19:26:41 +0000"
     },
     "done": true
   },
@@ -1390,7 +1384,7 @@
   },
   "minecraft:recipes/building_blocks/oak_planks": {
     "criteria": {
-      "has_log": "2019-12-22 17:49:10 +0000"
+      "has_logs": "2020-08-11 19:26:41 +0000"
     },
     "done": true
   },
@@ -1442,12 +1436,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/jungle_planks": {
-    "criteria": {
-      "has_log": "2020-01-15 08:15:58 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/black_banner": {
     "criteria": {
       "has_black_wool": "2019-12-23 15:05:48 +0000"
@@ -1492,7 +1480,7 @@
   },
   "minecraft:recipes/building_blocks/birch_planks": {
     "criteria": {
-      "has_log": "2019-12-22 17:48:53 +0000"
+      "has_logs": "2020-08-11 19:31:25 +0000"
     },
     "done": true
   },
@@ -1514,12 +1502,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/cartography_table": {
-    "criteria": {
-      "has_string": "2019-12-23 11:56:41 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/prismarine_brick_slab_from_prismarine_stonecutting": {
     "criteria": {
       "has_prismarine_brick": "2020-03-07 11:57:22 +0000"
@@ -1529,12 +1511,6 @@
   "minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2019-12-22 18:18:03 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/orange_carpet_from_white_carpet": {
-    "criteria": {
-      "has_oramge_dye": "2019-12-22 19:31:30 +0000"
     },
     "done": true
   },
@@ -2008,6 +1984,12 @@
     },
     "done": true
   },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2020-08-11 19:37:57 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/decorations/sandstone_wall": {
     "criteria": {
       "has_sandstone": "2019-12-22 18:18:03 +0000"
@@ -2126,6 +2108,12 @@
   "minecraft:recipes/misc/white_dye_from_lily_of_the_valley": {
     "criteria": {
       "has_white_flower": "2019-12-22 19:48:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2020-08-11 19:48:55 +0000"
     },
     "done": true
   },
@@ -2441,6 +2429,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/nether_bricks": {
+    "criteria": {
+      "has_netherbrick": "2020-08-11 19:50:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/mushroom_stew": {
     "criteria": {
       "has_bowl": "2019-12-23 11:57:09 +0000"
@@ -2517,6 +2511,12 @@
   "minecraft:recipes/redstone/jungle_trapdoor": {
     "criteria": {
       "has_planks": "2020-01-15 19:12:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2020-08-11 19:50:43 +0000"
     },
     "done": true
   },
@@ -2806,6 +2806,12 @@
   "minecraft:recipes/decorations/cyan_carpet_from_white_carpet": {
     "criteria": {
       "has_white_carpet": "2019-12-22 19:43:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_hay_block": "2020-08-11 19:26:41 +0000"
     },
     "done": true
   },
@@ -3751,12 +3757,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/acacia_planks": {
-    "criteria": {
-      "has_logs": "2020-01-02 15:04:48 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/compass": {
     "criteria": {
       "has_redstone": "2019-12-22 19:01:04 +0000"
@@ -3844,6 +3844,12 @@
   "minecraft:recipes/building_blocks/purpur_block": {
     "criteria": {
       "has_chorus_fruit_popped": "2020-05-29 09:44:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2019-12-27 17:24:48 +0000"
     },
     "done": true
   },
@@ -4147,6 +4153,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_stick": "2020-08-11 19:26:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/smelt_iron": {
     "criteria": {
       "iron": "2019-12-22 18:14:05 +0000"
@@ -4195,5 +4207,5 @@
     },
     "done": true
   },
-  "DataVersion": 2230
+  "DataVersion": 2567
 }

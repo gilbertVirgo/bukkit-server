@@ -373,7 +373,7 @@
   },
   "minecraft:recipes/building_blocks/dark_oak_planks": {
     "criteria": {
-      "has_logs": "2020-01-13 22:18:05 +0000"
+      "has_log": "2020-08-11 19:29:34 +0000"
     },
     "done": true
   },
@@ -539,12 +539,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/composter": {
-    "criteria": {
-      "has_wood_slab": "2019-12-28 14:12:22 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/yellow_stained_glass": {
     "criteria": {
       "has_glass": "2019-12-22 19:19:28 +0000"
@@ -675,12 +669,6 @@
   "minecraft:recipes/building_blocks/red_stained_glass": {
     "criteria": {
       "has_glass": "2019-12-22 19:19:29 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/spruce_planks": {
-    "criteria": {
-      "has_log": "2020-02-01 12:50:09 +0000"
     },
     "done": true
   },
@@ -833,7 +821,6 @@
       "minecraft:blaze": "2020-01-12 13:07:20 +0000",
       "minecraft:pillager": "2020-04-11 11:59:36 +0000",
       "minecraft:skeleton": "2019-12-22 18:33:15 +0000",
-      "minecraft:zombie_pigman": "2019-12-30 14:17:59 +0000",
       "minecraft:ghast": "2019-12-30 14:21:45 +0000",
       "minecraft:guardian": "2020-03-20 15:21:42 +0000",
       "minecraft:magma_cube": "2019-12-30 14:09:30 +0000",
@@ -841,6 +828,7 @@
       "minecraft:creeper": "2019-12-23 10:12:17 +0000",
       "minecraft:slime": "2020-02-22 16:36:18 +0000",
       "minecraft:phantom": "2019-12-28 17:52:37 +0000",
+      "minecraft:zombified_piglin": "2019-12-30 14:17:59 +0000",
       "minecraft:witch": "2020-01-05 00:09:58 +0000",
       "minecraft:wither_skeleton": "2020-01-12 13:12:40 +0000",
       "minecraft:shulker": "2020-04-12 10:36:15 +0000",
@@ -1006,6 +994,12 @@
   "minecraft:recipes/building_blocks/smooth_quartz": {
     "criteria": {
       "has_quartz_block": "2019-12-24 00:12:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chain": {
+    "criteria": {
+      "has_iron_ingot": "2020-08-11 19:09:06 +0000"
     },
     "done": true
   },
@@ -1323,7 +1317,7 @@
   },
   "minecraft:recipes/building_blocks/oak_planks": {
     "criteria": {
-      "has_log": "2019-12-22 18:05:03 +0000"
+      "has_logs": "2020-08-11 19:09:06 +0000"
     },
     "done": true
   },
@@ -1375,12 +1369,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/jungle_planks": {
-    "criteria": {
-      "has_log": "2020-01-13 22:17:54 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/black_banner": {
     "criteria": {
       "has_black_wool": "2019-12-23 16:59:56 +0000"
@@ -1423,12 +1411,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/birch_planks": {
-    "criteria": {
-      "has_log": "2019-12-22 17:49:04 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/black_concrete_powder": {
     "criteria": {
       "has_gravel": "2019-12-22 18:48:03 +0000"
@@ -1438,12 +1420,6 @@
   "minecraft:story/iron_tools": {
     "criteria": {
       "iron_pickaxe": "2019-12-22 18:04:52 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/cartography_table": {
-    "criteria": {
-      "has_string": "2019-12-22 18:52:48 +0000"
     },
     "done": true
   },
@@ -2652,6 +2628,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_redstone": "2020-08-11 19:09:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/furnace": {
     "criteria": {
       "has_cobblestone": "2019-12-22 17:50:57 +0000"
@@ -3566,7 +3548,7 @@
   },
   "minecraft:recipes/building_blocks/acacia_planks": {
     "criteria": {
-      "has_logs": "2019-12-31 10:53:41 +0000"
+      "has_log": "2020-08-11 20:05:32 +0000"
     },
     "done": true
   },
@@ -3651,6 +3633,12 @@
   "minecraft:recipes/redstone/iron_door": {
     "criteria": {
       "has_iron_ingot": "2019-12-22 18:04:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2019-12-28 14:12:22 +0000"
     },
     "done": true
   },
@@ -3924,6 +3912,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_stick": "2020-08-11 19:09:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/smelt_iron": {
     "criteria": {
       "iron": "2019-12-22 18:04:41 +0000"
@@ -3972,5 +3966,5 @@
     },
     "done": true
   },
-  "DataVersion": 2230
+  "DataVersion": 2567
 }
