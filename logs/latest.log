@@ -1,66 +1,66 @@
-[17:08:48] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
-[17:08:49] [main/INFO]: Reloading ResourceManager: Default, bukkit
-[17:08:50] [Server-Worker-10/INFO]: Loaded 7 recipes
-[17:08:51] [Server thread/INFO]: Starting minecraft server version 1.16.1
-[17:08:51] [Server thread/INFO]: Loading properties
-[17:08:51] [Server thread/INFO]: This server is running Paper version git-Paper-134 (MC: 1.16.1) (Implementing API version 1.16.1-R0.1-SNAPSHOT)
-[17:08:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:08:51] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:08:51] [Server thread/INFO]: Debug logging is disabled
-[17:08:51] [Server thread/INFO]: Default game type: SURVIVAL
-[17:08:51] [Server thread/INFO]: Generating keypair
-[17:08:52] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:08:52] [Server thread/INFO]: Using epoll channel type
-[17:08:53] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[17:08:58] [Server thread/WARN]: Legacy plugin ChatColor2 v1.9.4 does not specify an api-version.
-[17:08:58] [Server thread/ERROR]: Could not load 'plugins/MoreArmors.jar' in folder 'plugins'
+[11:05:17] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[11:05:18] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[11:05:18] [Worker-Main-2/INFO]: Loaded 7 recipes
+[11:05:20] [Server thread/INFO]: Starting minecraft server version 1.16.3
+[11:05:20] [Server thread/INFO]: Loading properties
+[11:05:20] [Server thread/INFO]: This server is running Paper version git-Paper-240 (MC: 1.16.3) (Implementing API version 1.16.3-R0.1-SNAPSHOT)
+[11:05:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:05:20] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:05:20] [Server thread/INFO]: Debug logging is disabled
+[11:05:20] [Server thread/INFO]: Default game type: SURVIVAL
+[11:05:20] [Server thread/INFO]: Generating keypair
+[11:05:20] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:05:20] [Server thread/INFO]: Using epoll channel type
+[11:05:21] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[11:05:27] [Server thread/WARN]: Legacy plugin ChatColor2 v1.9.4 does not specify an api-version.
+[11:05:27] [Server thread/ERROR]: Could not load 'plugins/MoreArmors.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: net/minecraft/server/v1_14_R1/NBTBase
-	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:141) ~[patched_1.16.1.jar:git-Paper-134]
-	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:397) ~[patched_1.16.1.jar:git-Paper-134]
-	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:305) ~[patched_1.16.1.jar:git-Paper-134]
-	at org.bukkit.craftbukkit.v1_16_R1.CraftServer.loadPlugins(CraftServer.java:388) ~[patched_1.16.1.jar:git-Paper-134]
-	at net.minecraft.server.v1_16_R1.DedicatedServer.init(DedicatedServer.java:208) ~[patched_1.16.1.jar:git-Paper-134]
-	at net.minecraft.server.v1_16_R1.MinecraftServer.v(MinecraftServer.java:941) ~[patched_1.16.1.jar:git-Paper-134]
-	at net.minecraft.server.v1_16_R1.MinecraftServer.lambda$a$0(MinecraftServer.java:177) ~[patched_1.16.1.jar:git-Paper-134]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:141) ~[patched_1.16.3.jar:git-Paper-240]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:397) ~[patched_1.16.3.jar:git-Paper-240]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:305) ~[patched_1.16.3.jar:git-Paper-240]
+	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.loadPlugins(CraftServer.java:389) ~[patched_1.16.3.jar:git-Paper-240]
+	at net.minecraft.server.v1_16_R2.DedicatedServer.init(DedicatedServer.java:204) ~[patched_1.16.3.jar:git-Paper-240]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:939) ~[patched_1.16.3.jar:git-Paper-240]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$a$0(MinecraftServer.java:177) ~[patched_1.16.3.jar:git-Paper-240]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_265]
 Caused by: java.lang.NoClassDefFoundError: net/minecraft/server/v1_14_R1/NBTBase
 	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_265]
 	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_265]
-	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:68) ~[patched_1.16.1.jar:git-Paper-134]
-	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:137) ~[patched_1.16.1.jar:git-Paper-134]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:68) ~[patched_1.16.3.jar:git-Paper-240]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:137) ~[patched_1.16.3.jar:git-Paper-240]
 	... 7 more
 Caused by: java.lang.ClassNotFoundException: net.minecraft.server.v1_14_R1.NBTBase
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:105) ~[patched_1.16.1.jar:git-Paper-134]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:100) ~[patched_1.16.1.jar:git-Paper-134]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:105) ~[patched_1.16.3.jar:git-Paper-240]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:100) ~[patched_1.16.3.jar:git-Paper-240]
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_265]
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_265]
 	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_265]
 	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_265]
-	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:68) ~[patched_1.16.1.jar:git-Paper-134]
-	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:137) ~[patched_1.16.1.jar:git-Paper-134]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:68) ~[patched_1.16.3.jar:git-Paper-240]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:137) ~[patched_1.16.3.jar:git-Paper-240]
 	... 7 more
-[17:08:58] [Server thread/WARN]: Legacy plugin EnchantPlus v1.0 does not specify an api-version.
-[17:08:58] [Server thread/WARN]: Legacy plugin Lightning v1.4 does not specify an api-version.
-[17:08:58] [Server thread/WARN]: Legacy plugin WorldAnchor v1.1.3 does not specify an api-version.
-[17:08:58] [Server thread/WARN]: Legacy plugin EasyCarts v1.12.2 does not specify an api-version.
-[17:08:58] [Server thread/WARN]: Legacy plugin OnDeathCoord v1.3.3 does not specify an api-version.
-[17:08:58] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.1.0;8e55131
-[17:08:59] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@70fc6af7]
-[17:08:59] [Server thread/INFO]: [ChatColor2] Loading ChatColor2 v1.9.4
-[17:08:59] [Server thread/INFO]: [SpawnerSilk] Loading SpawnerSilk v3.1
-[17:08:59] [Server thread/INFO]: [EnchantPlus] Loading EnchantPlus v1.0
-[17:08:59] [Server thread/INFO]: [NoMobGriefing] Loading NoMobGriefing v0.2.4
-[17:08:59] [Server thread/INFO]: [Lightning] Loading Lightning v1.4
-[17:08:59] [Server thread/INFO]: [SinglePlayerSleep] Loading SinglePlayerSleep v1.13_2.13.36
-[17:08:59] [Server thread/INFO]: [WorldAnchor] Loading WorldAnchor v1.1.3
-[17:08:59] [Server thread/INFO]: [EasyCarts] Loading EasyCarts v1.12.2
-[17:08:59] [Server thread/INFO]: [OnDeathCoord] Loading OnDeathCoord v1.3.3
-[17:08:59] [Server thread/INFO]: [DeadChest] Loading DeadChest v3.2
-[17:08:59] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.2-SNAPSHOT;bf2593e
-[17:08:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:08:59] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.1.0;8e55131
-[17:08:59] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[17:09:00] [Server thread/WARN]: 
+[11:05:27] [Server thread/WARN]: Legacy plugin EnchantPlus v1.0 does not specify an api-version.
+[11:05:27] [Server thread/WARN]: Legacy plugin Lightning v1.4 does not specify an api-version.
+[11:05:27] [Server thread/WARN]: Legacy plugin WorldAnchor v1.1.3 does not specify an api-version.
+[11:05:27] [Server thread/WARN]: Legacy plugin EasyCarts v1.12.2 does not specify an api-version.
+[11:05:27] [Server thread/WARN]: Legacy plugin OnDeathCoord v1.3.3 does not specify an api-version.
+[11:05:27] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.1.0;8e55131
+[11:05:28] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@56b4dfcd]
+[11:05:28] [Server thread/INFO]: [ChatColor2] Loading ChatColor2 v1.9.4
+[11:05:28] [Server thread/INFO]: [SpawnerSilk] Loading SpawnerSilk v3.1
+[11:05:28] [Server thread/INFO]: [EnchantPlus] Loading EnchantPlus v1.0
+[11:05:28] [Server thread/INFO]: [NoMobGriefing] Loading NoMobGriefing v0.2.4
+[11:05:28] [Server thread/INFO]: [Lightning] Loading Lightning v1.4
+[11:05:28] [Server thread/INFO]: [SinglePlayerSleep] Loading SinglePlayerSleep v1.13_2.13.36
+[11:05:28] [Server thread/INFO]: [WorldAnchor] Loading WorldAnchor v1.1.3
+[11:05:28] [Server thread/INFO]: [EasyCarts] Loading EasyCarts v1.12.2
+[11:05:28] [Server thread/INFO]: [OnDeathCoord] Loading OnDeathCoord v1.3.3
+[11:05:28] [Server thread/INFO]: [DeadChest] Loading DeadChest v3.2
+[11:05:28] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.2-SNAPSHOT;bf2593e
+[11:05:28] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:05:28] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.1.0;8e55131
+[11:05:28] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[11:05:28] [Server thread/WARN]: 
 **********************************************
 ** This WorldEdit version does not fully support your version of Bukkit.
 **
@@ -71,933 +71,677 @@ Caused by: java.lang.ClassNotFoundException: net.minecraft.server.v1_14_R1.NBTBa
 ** Please see https://worldedit.enginehub.org/en/latest/faq/#bukkit-adapters
 **********************************************
 
-[17:09:00] [Server thread/INFO]: Preparing level "world"
-[17:09:00] [Server thread/INFO]: -------- World Settings For [world] --------
-[17:09:00] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:09:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:09:00] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:09:00] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:09:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:09:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:09:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:09:00] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[17:09:00] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[17:09:00] [Server thread/INFO]: Potato Growth Modifier: 100%
-[17:09:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:09:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:09:00] [Server thread/INFO]: Vine Growth Modifier: 100%
-[17:09:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[17:09:00] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[17:09:00] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[17:09:00] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[17:09:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[17:09:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[17:09:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[17:09:00] [Server thread/INFO]: Max TNT Explosions: 100
-[17:09:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:09:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:09:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:09:00] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:09:00] [Server thread/INFO]: View Distance: 10
-[17:09:00] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:09:00] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[17:09:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:09:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:09:00] [Server thread/INFO]: Mob Spawn Range: 6
-[17:09:00] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[17:09:01] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[17:09:01] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:09:01] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:09:01] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:09:01] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:09:01] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:09:01] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:09:01] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:09:01] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[17:09:01] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[17:09:01] [Server thread/INFO]: Potato Growth Modifier: 100%
-[17:09:01] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:09:01] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:09:01] [Server thread/INFO]: Vine Growth Modifier: 100%
-[17:09:01] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[17:09:01] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[17:09:01] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[17:09:01] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[17:09:01] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[17:09:01] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[17:09:01] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[17:09:01] [Server thread/INFO]: Max TNT Explosions: 100
-[17:09:01] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:09:01] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:09:01] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:09:01] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:09:01] [Server thread/INFO]: View Distance: 10
-[17:09:01] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:09:01] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[17:09:01] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:09:01] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:09:01] [Server thread/INFO]: Mob Spawn Range: 6
-[17:09:01] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[17:09:01] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:09:01] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:09:01] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:09:01] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:09:01] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:09:01] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:09:01] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:09:01] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[17:09:01] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[17:09:01] [Server thread/INFO]: Potato Growth Modifier: 100%
-[17:09:01] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:09:01] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:09:01] [Server thread/INFO]: Vine Growth Modifier: 100%
-[17:09:01] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[17:09:01] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[17:09:01] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[17:09:01] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[17:09:01] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[17:09:01] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[17:09:01] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[17:09:01] [Server thread/INFO]: Max TNT Explosions: 100
-[17:09:01] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:09:01] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:09:01] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:09:01] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:09:01] [Server thread/INFO]: View Distance: 10
-[17:09:01] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:09:01] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[17:09:01] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:09:01] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:09:01] [Server thread/INFO]: Mob Spawn Range: 6
-[17:09:01] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:09:01] [Server thread/INFO]: Loaded 0 spawn chunks for world world
-[17:09:01] [Server thread/INFO]: Preparing spawn area: 0%
-[17:09:01] [Server thread/INFO]: Preparing spawn area: 0%
-[17:09:02] [Server thread/INFO]: Preparing spawn area: 0%
-[17:09:02] [Server thread/INFO]: Preparing spawn area: 4%
-[17:09:03] [Server thread/INFO]: Time elapsed: 1880 ms
-[17:09:03] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[17:09:03] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
-[17:09:03] [Server thread/INFO]: Preparing spawn area: 0%
-[17:09:03] [Server thread/INFO]: Preparing spawn area: 0%
-[17:09:04] [Server thread/INFO]: Preparing spawn area: 0%
-[17:09:04] [Server thread/INFO]: Time elapsed: 1108 ms
-[17:09:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[17:09:04] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
-[17:09:04] [Server thread/INFO]: Preparing spawn area: 0%
-[17:09:04] [Server thread/INFO]: Preparing spawn area: 100%
-[17:09:04] [Server thread/INFO]: Time elapsed: 507 ms
-[17:09:04] [Server thread/INFO]: [ChatColor2] Enabling ChatColor2 v1.9.4*
-[17:09:04] [Server thread/INFO]: [ChatColor] ChatColor 2 Version 1.9.4 has been enabled.
-[17:09:04] [Server thread/INFO]: [ChatColor] Current update: Color-Text placeholders everywhere, bug fixes.
-[17:09:04] [Server thread/INFO]: [ChatColor] PlaceholderAPI not found, placeholders will not be available.
-[17:09:04] [Server thread/INFO]: [ChatColor] Metrics is enabled for this plugin. Stats sent to https://bstats.org/plugin/bukkit/ChatColor2
-[17:09:04] [Server thread/INFO]: [SpawnerSilk] Enabling SpawnerSilk v3.1
-[17:09:04] [Server thread/INFO]: [EnchantPlus] Enabling EnchantPlus v1.0*
-[17:09:04] [Server thread/INFO]: [NoMobGriefing] Enabling NoMobGriefing v0.2.4
-[17:09:04] [Server thread/INFO]: [NoMobGriefing] ***NoMobGriefing plugin by PinkNeonDino has been enabled.***
-[17:09:04] [Server thread/INFO]: [Lightning] Enabling Lightning v1.4*
-[17:09:04] [Server thread/INFO]: [SinglePlayerSleep] Enabling SinglePlayerSleep v1.13_2.13.36
-[17:09:04] [Server thread/INFO]: [1m[33m**************************************[0m
-[17:09:04] [Server thread/INFO]: [1m[32mSinglePlayerSleep v1.13_2.13.36[0m Loading...
-[17:09:04] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.36[0m Updating lang files! copied cs_CZ.yml, de_DE.yml, en_US.yml, es_MX.yml, fr_FR.yml, lol_US.yml, nl_NL.yml, pt_BR.yml, and zh_TW.yml to plugins/SinglePlayerSleep/lang[0m
-[17:09:04] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.36[0m plugins/SinglePlayerSleep/config.yml[0m
-[17:09:04] [Server thread/INFO]: Checking for updates...
-[17:09:05] [Server thread/INFO]: [1m[33mSinglePlayerSleep[1m[35m New version available![0m
-[17:09:05] [Server thread/INFO]: [1m[32mhttps://spigotmc.org/resources/68139[0m
-[17:09:05] [Server thread/INFO]: [1m[33m**************************************[0m
-[17:09:05] [Server thread/INFO]: [1m[32mSinglePlayerSleep v1.13_2.13.36[0m is [1mENABLED[0m
-[17:09:05] [Server thread/INFO]: [1m[33m**************************************[0m
-[17:09:05] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.36[0m MC vgit-Paper-134 (MC: 1.16.1) debug=false in plugins/SinglePlayerSleep/config.yml[0m
-[17:09:05] [Server thread/INFO]: [WorldAnchor] Enabling WorldAnchor v1.1.3*
-[17:09:05] [Server thread/INFO]: [WorldAnchor] Loading Chunks...
-[17:09:05] [Server thread/INFO]: [WorldAnchor] Chunks loaded !
-[17:09:05] [Server thread/INFO]: [EasyCarts] Enabling EasyCarts v1.12.2*
-[17:09:05] [Server thread/INFO]: [OnDeathCoord] Enabling OnDeathCoord v1.3.3*
-[17:09:05] [Server thread/INFO]: [OnDeathCoord] OnDeathCoord version 1.3.3 is enabled!
-[17:09:05] [Server thread/INFO]: [DeadChest] Enabling DeadChest v3.2
-[17:09:05] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.2-SNAPSHOT;bf2593e
-[17:09:06] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[17:09:06] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[17:09:06] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[17:09:06] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[17:09:06] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[17:09:06] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[17:09:06] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[17:09:06] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[17:09:06] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[17:09:06] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[17:09:06] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[17:09:06] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[17:09:06] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[17:09:06] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[17:09:06] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[17:09:06] [Server thread/INFO]: [WorldGuard] Loading region data...
-[17:09:06] [Server thread/INFO]: Running delayed init tasks
-[17:09:06] [Server thread/INFO]: Done (15.370s)! For help, type "help"
-[17:09:06] [Server thread/INFO]: Timings Reset
-[17:15:45] [User Authenticator #1/INFO]: UUID of player ambrose__ is cbe16830-5427-4c03-901d-b31832f34f8a
-[17:15:45] [Server thread/INFO]: ambrose__ joined the game
-[17:15:45] [Server thread/INFO]: ambrose__[/86.191.217.106:59195] logged in with entity id 366 at ([world]198.8012255229164, 63.0625, 216.43847582517483)
-[17:17:52] [Server thread/INFO]: com.mojang.authlib.GameProfile@7e89fc46[id=<null>,name=MrMarshmellow_XD,properties={},legacy=false] (/169.0.115.45:53654) lost connection: Disconnected
-[17:17:56] [Server thread/INFO]: com.mojang.authlib.GameProfile@3a892794[id=<null>,name=MrMarshmellow_XD,properties={},legacy=false] (/169.0.115.45:53656) lost connection: Disconnected
-[17:18:12] [User Authenticator #2/INFO]: UUID of player MrMarshmellow_XD is 04ce3277-71c5-4fc4-9535-7a5b2799c832
-[17:18:12] [Server thread/INFO]: MrMarshmellow_XD (formerly known as LavaBoy_007) joined the game
-[17:18:12] [Server thread/INFO]: MrMarshmellow_XD[/169.0.115.45:65404] logged in with entity id 693 at ([world]66.758882312489, 63.0, 230.60028760426374)
-[17:18:16] [Async Chat Thread - #0/INFO]: <ambrose__> hey
-[17:18:18] [Async Chat Thread - #0/INFO]: <ambrose__> sup
-[17:18:21] [Async Chat Thread - #0/INFO]: <ambrose__> where u at
-[17:18:48] [Server thread/INFO]: com.mojang.authlib.GameProfile@49b3de5f[id=<null>,name=MrMarshmellow_XD,properties={},legacy=false] (/169.0.115.45:53753) lost connection: Disconnected
-[17:19:02] [Server thread/INFO]: com.mojang.authlib.GameProfile@19635053[id=<null>,name=MrMarshmellow_XD,properties={},legacy=false] (/169.0.115.45:53757) lost connection: Disconnected
-[17:19:18] [Server thread/INFO]: com.mojang.authlib.GameProfile@73a6a809[id=<null>,name=MrMarshmellow_XD,properties={},legacy=false] (/169.0.115.45:53778) lost connection: Disconnected
-[17:19:39] [Server thread/INFO]: MrMarshmellow_XD lost connection: Disconnected
-[17:19:39] [Server thread/INFO]: MrMarshmellow_XD left the game
-[17:19:49] [Server thread/INFO]: com.mojang.authlib.GameProfile@666547e9[id=<null>,name=MrMarshmellow_XD,properties={},legacy=false] (/169.0.115.45:53785) lost connection: Disconnected
-[17:19:54] [Server thread/INFO]: com.mojang.authlib.GameProfile@4d1133ee[id=<null>,name=MrMarshmellow_XD,properties={},legacy=false] (/169.0.115.45:53787) lost connection: Disconnected
-[17:20:02] [Server thread/INFO]: com.mojang.authlib.GameProfile@55d4e793[id=<null>,name=MrMarshmellow_XD,properties={},legacy=false] (/169.0.115.45:53789) lost connection: Disconnected
-[17:20:18] [Server thread/INFO]: com.mojang.authlib.GameProfile@60cc51b8[id=<null>,name=Simba_the_Tiger,properties={},legacy=false] (/169.0.115.45:50352) lost connection: Disconnected
-[17:20:28] [User Authenticator #3/INFO]: UUID of player CapMe is 5469174f-a834-441c-84d3-2f04717385b3
-[17:20:28] [Server thread/INFO]: CapMe joined the game
-[17:20:28] [Server thread/INFO]: CapMe[/86.191.217.106:50256] logged in with entity id 1044 at ([world]-191.31569303239056, 63.5625, 307.6575202484619)
-[17:20:49] [User Authenticator #3/INFO]: UUID of player cicero_jr is ee09e6a5-35a8-4445-8345-acef5ced0a01
-[17:20:49] [Server thread/INFO]: cicero_jr joined the game
-[17:20:49] [Server thread/INFO]: cicero_jr[/86.191.217.106:49521] logged in with entity id 1345 at ([world]175.13038037340002, 63.0, 190.4485242823064)
-[17:20:53] [User Authenticator #3/INFO]: UUID of player MrMarshmellow_XD is 04ce3277-71c5-4fc4-9535-7a5b2799c832
-[17:20:53] [Server thread/INFO]: MrMarshmellow_XD joined the game
-[17:20:53] [Server thread/INFO]: MrMarshmellow_XD[/169.0.115.45:53887] logged in with entity id 1370 at ([world]75.44824408240392, 63.0, 220.24181948620696)
-[17:20:57] [User Authenticator #3/INFO]: UUID of player MrMarshmellow_XD is 04ce3277-71c5-4fc4-9535-7a5b2799c832
-[17:20:57] [Server thread/INFO]: MrMarshmellow_XD lost connection: You logged in from another location
-[17:20:57] [Server thread/INFO]: MrMarshmellow_XD left the game
-[17:20:57] [Server thread/INFO]: MrMarshmellow_XD joined the game
-[17:20:57] [Server thread/INFO]: MrMarshmellow_XD[/169.0.115.45:53891] logged in with entity id 1409 at ([world]75.44824408240392, 63.0, 220.24181948620696)
-[17:21:15] [Server thread/INFO]: com.mojang.authlib.GameProfile@13cb086a[id=<null>,name=MrMarshmellow_XD,properties={},legacy=false] (/169.0.115.45:65449) lost connection: Disconnected
-[17:21:22] [User Authenticator #3/INFO]: UUID of player Simba_the_Tiger is 1832595d-473c-4366-ada4-6cf375999c87
-[17:21:22] [Server thread/INFO]: Simba_the_Tiger joined the game
-[17:21:22] [Server thread/INFO]: Simba_the_Tiger[/169.0.115.45:50448] logged in with entity id 1604 at ([world]40.662546592396815, 72.0, 554.6372233614243)
-[17:21:25] [Async Chat Thread - #1/INFO]: <CapMe> my name is pascal.
-[17:21:39] [Async Chat Thread - #1/INFO]: <CapMe> sup gamerws
-[17:21:45] [Server thread/INFO]: cicero_jr issued server command: /kill @e[type=minecraft:creeper]
-[17:21:45] [Server thread/INFO]: [cicero_jr: Killed 72 entities]
-[17:22:22] [Server thread/INFO]: [OnDeathCoord] MrMarshmellow_XD got powned at 75, 63, 220
-[17:22:47] [Server thread/INFO]: MrMarshmellow_XD lost connection: Disconnected
-[17:22:47] [Server thread/INFO]: MrMarshmellow_XD left the game
-[17:23:24] [Server thread/INFO]: com.mojang.authlib.GameProfile@5d18a21b[id=<null>,name=MrMarshmellow_XD,properties={},legacy=false] (/169.0.115.45:65497) lost connection: Disconnected
-[17:24:20] [Server thread/INFO]: [OnDeathCoord] Simba_the_Tiger took an arrow in the eye at 65, 71, 552
-[17:25:46] [Server thread/INFO]: com.mojang.authlib.GameProfile@5f7b6ace[id=<null>,name=MrMarshmellow_XD,properties={},legacy=false] (/169.0.115.45:65518) lost connection: Disconnected
-[17:25:50] [User Authenticator #4/INFO]: UUID of player Agent_Chicken_06 is dee122a6-113e-4f11-9dff-9dd9320759d2
-[17:25:50] [Server thread/INFO]: Agent_Chicken_06 (formerly known as MarshmellowPlayz) joined the game
-[17:25:50] [Server thread/INFO]: Agent_Chicken_06[/169.0.115.45:54008] logged in with entity id 6265 at ([world]88.16524557688052, 15.0, 253.37502358327671)
-[17:25:53] [User Authenticator #4/INFO]: UUID of player Agent_Chicken_06 is dee122a6-113e-4f11-9dff-9dd9320759d2
-[17:25:53] [Server thread/INFO]: Agent_Chicken_06 lost connection: You logged in from another location
-[17:25:53] [Server thread/INFO]: Agent_Chicken_06 left the game
-[17:25:53] [Server thread/INFO]: Agent_Chicken_06 joined the game
-[17:25:53] [Server thread/INFO]: Agent_Chicken_06[/169.0.115.45:54012] logged in with entity id 6288 at ([world]88.16524557688052, 15.0, 253.37502358327671)
-[17:26:09] [Server thread/INFO]: Agent_Chicken_06 lost connection: Disconnected
-[17:26:09] [Server thread/INFO]: Agent_Chicken_06 left the game
-[17:26:19] [User Authenticator #4/INFO]: UUID of player Agent_Chicken_06 is dee122a6-113e-4f11-9dff-9dd9320759d2
-[17:26:19] [Server thread/INFO]: Agent_Chicken_06 joined the game
-[17:26:19] [Server thread/INFO]: Agent_Chicken_06[/169.0.115.45:54032] logged in with entity id 6338 at ([world]88.16524557688052, 15.0, 253.37502358327671)
-[17:26:30] [Server thread/INFO]: Agent_Chicken_06 lost connection: Disconnected
-[17:26:30] [Server thread/INFO]: Agent_Chicken_06 left the game
-[17:26:38] [User Authenticator #4/INFO]: UUID of player Agent_Chicken_06 is dee122a6-113e-4f11-9dff-9dd9320759d2
-[17:26:39] [Server thread/INFO]: Agent_Chicken_06 joined the game
-[17:26:39] [Server thread/INFO]: Agent_Chicken_06[/169.0.115.45:54043] logged in with entity id 6431 at ([world]87.79283948586776, 15.0, 253.30000001192093)
-[17:28:37] [User Authenticator #5/INFO]: UUID of player MrMarshmellow_XD is 04ce3277-71c5-4fc4-9535-7a5b2799c832
-[17:28:38] [Server thread/INFO]: MrMarshmellow_XD joined the game
-[17:28:38] [Server thread/INFO]: MrMarshmellow_XD[/169.0.115.45:49165] logged in with entity id 6787 at ([world]75.44824408240392, 63.0, 220.24181948620696)
-[17:29:01] [Async Chat Thread - #2/INFO]: <Simba_the_Tiger> thanks
-[17:29:03] [Async Chat Thread - #2/INFO]: <CapMe> there u gi
-[17:29:08] [Async Chat Thread - #2/INFO]: <CapMe> go
-[17:29:12] [Async Chat Thread - #2/INFO]: <CapMe> im pascal
-[17:29:14] [User Authenticator #5/INFO]: UUID of player Rafity is 98f49c24-5110-402f-b0e8-69d348bfa4d4
-[17:29:14] [Server thread/INFO]: Rafity joined the game
-[17:29:14] [Server thread/INFO]: Rafity[/86.191.217.106:50012] logged in with entity id 6912 at ([world]209.61740538432454, 51.03862812257475, 249.41674075562233)
-[17:29:42] [Async Chat Thread - #2/INFO]: <CapMe> who is simba?
-[17:29:51] [Async Chat Thread - #2/INFO]: <Simba_the_Tiger> i am
-[17:29:56] [Async Chat Thread - #2/INFO]: <CapMe> ?
-[17:29:59] [Async Chat Thread - #2/INFO]: <CapMe> who
-[17:30:05] [Async Chat Thread - #2/INFO]: <CapMe> ur name?
-[17:30:11] [Async Chat Thread - #2/INFO]: <Simba_the_Tiger> pascal i'm jesse
-[17:30:16] [Async Chat Thread - #2/INFO]: <CapMe> sup
-[17:31:06] [Server thread/WARN]: Simba_the_Tiger moved too quickly! -14.937606067949133,0.43489331246138363,-5.36791643257439
-[17:31:17] [Server thread/WARN]: Agent_Chicken_06 moved wrongly!
-[17:32:19] [Async Chat Thread - #3/INFO]: <Simba_the_Tiger> i literally cant go anywhere because of lag
-[17:32:31] [Async Chat Thread - #3/INFO]: <Rafity> guys
-[17:32:36] [Async Chat Thread - #3/INFO]: <MrMarshmellow_XD> yes
-[17:32:38] [Async Chat Thread - #3/INFO]: <Rafity> make the aurmor
-[17:32:43] [Async Chat Thread - #3/INFO]: <Rafity> i gave u diamonds
-[17:33:00] [Async Chat Thread - #3/INFO]: <MrMarshmellow_XD> thank you so much for the diamonds
-[17:33:11] [Async Chat Thread - #3/INFO]: <Rafity> its fine
-[17:33:13] [Server thread/INFO]: MrMarshmellow_XD has made the advancement [Cover Me With Diamonds]
-[17:33:16] [Async Chat Thread - #3/INFO]: <Rafity> u want a sword
-[17:33:19] [Async Chat Thread - #3/INFO]: <Agent_Chicken_06> can i have some foood
-[17:33:24] [Async Chat Thread - #3/INFO]: <Rafity> yep
-[17:33:28] [Async Chat Thread - #3/INFO]: <Rafity> follow me ok
-[17:33:30] [Async Chat Thread - #3/INFO]: <MrMarshmellow_XD> got one already i mined diamonds
-[17:33:38] [Async Chat Thread - #3/INFO]: <Rafity> follow me ok
-[17:33:39] [Async Chat Thread - #3/INFO]: <Agent_Chicken_06> i have acxe given
-[17:33:54] [Async Chat Thread - #3/INFO]: <Rafity> follow me
-[17:34:01] [Async Chat Thread - #3/INFO]: <Rafity> robot chicken
-[17:34:07] [Async Chat Thread - #3/INFO]: <Agent_Chicken_06> agent
-[17:34:10] [Async Chat Thread - #3/INFO]: <Rafity> follow me
-[17:34:38] [Server thread/INFO]: [OnDeathCoord] Simba_the_Tiger fall from too high at 143, 64, 176
-[17:34:41] [Async Chat Thread - #3/INFO]: <Rafity> awww
-[17:34:56] [Async Chat Thread - #3/INFO]: <MrMarshmellow_XD> hello
-[17:34:58] [Server thread/INFO]: Villager EntityVillager['Farmer'/7699, uuid='e493eeaf-bef1-4ca6-a6f9-04366a4ff180', l='ServerLevel[world_nether]', x=4.52, y=48.00, z=73.56, cx=0, cz=4, tl=40501740, v=true, d=false] died, message: 'Farmer was fireballed by Blaze'
-[17:35:02] [Server thread/INFO]: [OnDeathCoord] Agent_Chicken_06 fall from too high at 204, 6, 249
-[17:35:41] [Server thread/INFO]: [OnDeathCoord] Agent_Chicken_06 fall from too high at 204, 6, 249
-[17:36:12] [Server thread/INFO]: Simba_the_Tiger issued server command: /tell Rafity
-[17:36:15] [Async Chat Thread - #4/INFO]: <MrMarshmellow_XD> what you building
-[17:36:19] [Async Chat Thread - #4/INFO]: <MrMarshmellow_XD> gil
-[17:36:27] [Server thread/INFO]: [OnDeathCoord] Agent_Chicken_06 fall from too high at 204, 6, 249
-[17:37:00] [Async Chat Thread - #4/INFO]: <CapMe> im making a tree house could anyone cut some wood and then give it to capme pls
-[17:37:14] [Async Chat Thread - #4/INFO]: <MrMarshmellow_XD> i got a bit will bring it now
-[17:37:22] [Async Chat Thread - #4/INFO]: <CapMe> thx
-[17:37:22] [Server thread/INFO]: [OnDeathCoord] Agent_Chicken_06 fall from too high at 204, 6, 249
-[17:37:32] [Async Chat Thread - #4/INFO]: <Rafity> do u guys need help
-[17:38:47] [Async Chat Thread - #5/INFO]: <CapMe> i made it
-[17:39:38] [Async Chat Thread - #5/INFO]: <CapMe> thx
-[17:39:43] [Async Chat Thread - #5/INFO]: <MrMarshmellow_XD> pleasure
-[17:39:49] [Server thread/INFO]: cicero_jr issued server command: /kill @e[type=minecraft:creeper]
-[17:39:49] [Server thread/INFO]: [cicero_jr: Killed 46 entities]
-[17:40:19] [Server thread/INFO]: Rafity lost connection: Disconnected
-[17:40:19] [Server thread/INFO]: Rafity left the game
-[17:41:15] [Server thread/INFO]: cicero_jr issued server command: /kill @e[type=minecraft:creeper]
-[17:41:15] [Server thread/INFO]: [cicero_jr: Killed 43 entities]
-[17:42:14] [User Authenticator #6/INFO]: UUID of player Rafity is 98f49c24-5110-402f-b0e8-69d348bfa4d4
-[17:42:14] [Server thread/INFO]: Rafity joined the game
-[17:42:14] [Server thread/INFO]: Rafity[/86.191.217.106:50141] logged in with entity id 10905 at ([world]298.6346114639449, 66.0, 267.44107796882065)
-[17:43:12] [Async Chat Thread - #6/INFO]: <CapMe> ?
-[17:43:47] [Async Chat Thread - #6/INFO]: <Rafity> if u want enchants
-[17:43:52] [Async Chat Thread - #6/INFO]: <Rafity> follow me
-[17:43:56] [Async Chat Thread - #6/INFO]: <Rafity> i know a place
-[17:44:02] [Async Chat Thread - #6/INFO]: <Rafity> lapiz on me
-[17:44:05] [Async Chat Thread - #6/INFO]: <Agent_Chicken_06> where re the chickkens
-[17:44:10] [Async Chat Thread - #6/INFO]: <cicero_jr> Hmm
-[17:44:10] [Server thread/INFO]: [OnDeathCoord] Simba_the_Tiger fall from too high at 90, 139, 229
-[17:44:17] [Async Chat Thread - #6/INFO]: <cicero_jr> We haven't really got any chickens!
-[17:44:30] [Async Chat Thread - #6/INFO]: <Agent_Chicken_06> boohoo
-[17:44:46] [Server thread/INFO]: Simba_the_Tiger issued server command: /tell cicero_jr
-[17:45:55] [Server thread/WARN]: Simba_the_Tiger was kicked due to keepalive timeout!
-[17:45:55] [Server thread/INFO]: Simba_the_Tiger lost connection: Timed out
-[17:45:55] [Server thread/INFO]: Simba_the_Tiger left the game
-[17:46:07] [Server thread/WARN]: Agent_Chicken_06 was kicked due to keepalive timeout!
-[17:46:07] [Server thread/INFO]: Agent_Chicken_06 lost connection: Timed out
-[17:46:07] [Server thread/INFO]: Agent_Chicken_06 left the game
-[17:46:10] [User Authenticator #7/INFO]: UUID of player Simba_the_Tiger is 1832595d-473c-4366-ada4-6cf375999c87
-[17:46:10] [Server thread/INFO]: Simba_the_Tiger joined the game
-[17:46:10] [Server thread/INFO]: Simba_the_Tiger[/169.0.115.45:50465] logged in with entity id 12471 at ([world]83.32969236661398, 74.0, 529.0523239624993)
-[17:46:30] [User Authenticator #7/INFO]: UUID of player Agent_Chicken_06 is dee122a6-113e-4f11-9dff-9dd9320759d2
-[17:46:30] [Server thread/INFO]: Agent_Chicken_06 joined the game
-[17:46:30] [Server thread/INFO]: Agent_Chicken_06[/169.0.115.45:54154] logged in with entity id 12840 at ([world]203.4406028310318, 63.93883597911215, 345.70688015008443)
-[17:46:35] [Server thread/WARN]: Agent_Chicken_06 was kicked for floating too long!
-[17:46:35] [Server thread/INFO]: Agent_Chicken_06 lost connection: Flying is not enabled on this server
-[17:46:35] [Server thread/INFO]: Agent_Chicken_06 left the game
-[17:46:53] [User Authenticator #7/INFO]: UUID of player Agent_Chicken_06 is dee122a6-113e-4f11-9dff-9dd9320759d2
-[17:46:54] [Server thread/INFO]: Agent_Chicken_06 joined the game
-[17:46:54] [Server thread/INFO]: Agent_Chicken_06[/169.0.115.45:54164] logged in with entity id 12957 at ([world]203.4406028310318, 62.9375, 345.70688015008443)
-[17:46:55] [Server thread/WARN]: Simba_the_Tiger was kicked due to keepalive timeout!
-[17:46:55] [Server thread/INFO]: Simba_the_Tiger lost connection: Timed out
-[17:46:55] [Server thread/INFO]: Simba_the_Tiger left the game
-[17:47:02] [Async Chat Thread - #7/INFO]: <Agent_Chicken_06> hey
-[17:47:24] [Server thread/INFO]: Agent_Chicken_06 lost connection: Disconnected
-[17:47:24] [Server thread/INFO]: Agent_Chicken_06 left the game
-[17:48:13] [User Authenticator #8/INFO]: UUID of player Simba_the_Tiger is 1832595d-473c-4366-ada4-6cf375999c87
-[17:48:13] [Server thread/INFO]: Simba_the_Tiger joined the game
-[17:48:13] [Server thread/INFO]: Simba_the_Tiger[/169.0.115.45:50480] logged in with entity id 13340 at ([world]83.32969236661398, 74.0, 529.0523239624993)
-[17:48:19] [Async Chat Thread - #8/INFO]: <Rafity> simba!!!
-[17:48:26] [Async Chat Thread - #8/INFO]: <Rafity> follow pascal!
-[17:48:32] [Async Chat Thread - #8/INFO]: <CapMe> simba ur stufs at my place
-[17:48:50] [Async Chat Thread - #8/INFO]: <Simba_the_Tiger> i don't know where anyone is
-[17:48:54] [Async Chat Thread - #8/INFO]: <Rafity> ok
-[17:48:56] [Async Chat Thread - #8/INFO]: <Rafity> w
-[17:49:03] [Async Chat Thread - #8/INFO]: <CapMe> im at home
-[17:49:05] [Async Chat Thread - #8/INFO]: <Rafity> hwere r u roughly
-[17:49:09] [Async Chat Thread - #8/INFO]: <Rafity> simba
-[17:49:19] [Async Chat Thread - #8/INFO]: <Rafity> r u near any land marks
-[17:49:25] [Async Chat Thread - #8/INFO]: <Rafity> can u see the beacon
-[17:49:29] [Async Chat Thread - #8/INFO]: <Simba_the_Tiger> i'm just going to hide in my spawnplace near the big bridge
-[17:49:35] [Async Chat Thread - #8/INFO]: <Rafity> ok
-[17:49:42] [Async Chat Thread - #8/INFO]: <Rafity> im on the bridge now
-[17:49:59] [Async Chat Thread - #8/INFO]: <Rafity> do u see me
-[17:50:11] [Async Chat Thread - #8/INFO]: <Simba_the_Tiger> no not yet
-[17:50:40] [User Authenticator #9/INFO]: UUID of player Agent_Chicken_06 is dee122a6-113e-4f11-9dff-9dd9320759d2
-[17:50:40] [Server thread/INFO]: Agent_Chicken_06 joined the game
-[17:50:40] [Server thread/INFO]: Agent_Chicken_06[/169.0.115.45:54306] logged in with entity id 14342 at ([world]203.4406028310318, 62.9375, 345.70688015008443)
-[17:50:47] [Async Chat Thread - #8/INFO]: <Rafity> agent
-[17:50:59] [Async Chat Thread - #8/INFO]: <Rafity> u wanna go to the nether with me
-[17:51:09] [Async Chat Thread - #8/INFO]: <Rafity> simba
-[17:51:12] [Async Chat Thread - #8/INFO]: <Rafity> where r u
-[17:51:24] [Async Chat Thread - #8/INFO]: <Simba_the_Tiger> im on the brigde
-[17:51:30] [Async Chat Thread - #8/INFO]: <Rafity> oh
-[17:51:35] [Async Chat Thread - #8/INFO]: <Rafity> which one
-[17:51:42] [Async Chat Thread - #8/INFO]: <Rafity> the biiiiig one?
-[17:51:51] [Async Chat Thread - #8/INFO]: <Simba_the_Tiger> the very big one with rails
-[17:52:20] [Async Chat Thread - #8/INFO]: <Simba_the_Tiger> ok you found me now where to go
-[17:52:36] [Async Chat Thread - #8/INFO]: <Rafity> there u go
-[17:52:37] [Async Chat Thread - #8/INFO]: <Simba_the_Tiger> thanks
-[17:52:39] [Async Chat Thread - #8/INFO]: <CapMe> sry its to late now
-[17:52:48] [Async Chat Thread - #8/INFO]: <Simba_the_Tiger> its fine
-[17:52:50] [Async Chat Thread - #8/INFO]: <Rafity> now you can get aurmor and a sword!
-[17:53:02] [Async Chat Thread - #8/INFO]: <Rafity> follow me
-[17:54:08] [Async Chat Thread - #9/INFO]: <Rafity> now
-[17:54:16] [Async Chat Thread - #9/INFO]: <Rafity> make the aurmor and sword
-[17:54:20] [Async Chat Thread - #9/INFO]: <Simba_the_Tiger> yes
-[17:54:27] [Async Chat Thread - #9/INFO]: <Rafity> and ill enchant it for you!
-[17:54:34] [Async Chat Thread - #9/INFO]: <Simba_the_Tiger> first i need to look for a house to settle in
-[17:54:54] [Async Chat Thread - #9/INFO]: <Rafity> simba?
-[17:55:16] [Async Chat Thread - #9/INFO]: <Rafity> where r u
-[17:55:35] [Async Chat Thread - #9/INFO]: <Simba_the_Tiger> im looking for a crafting chest
-[17:55:44] [Async Chat Thread - #9/INFO]: <Rafity> you can make one
-[17:55:52] [Async Chat Thread - #9/INFO]: <Rafity> i gave you wood right?
-[17:55:58] [Async Chat Thread - #9/INFO]: <Rafity> btw
-[17:56:10] [Async Chat Thread - #9/INFO]: <Rafity> i have a lot of levels so ill enchant it for you
-[17:56:18] [Server thread/INFO]: Simba_the_Tiger has made the advancement [Cover Me With Diamonds]
-[17:56:19] [Async Chat Thread - #9/INFO]: <Rafity> i have a lot of levels so ill enchant it for you
-[17:56:31] [Async Chat Thread - #9/INFO]: <Simba_the_Tiger> now i need sticks for a sword
-[17:56:47] [Async Chat Thread - #9/INFO]: <Rafity> i gave you wood right?
-[17:57:03] [Async Chat Thread - #9/INFO]: <Rafity> i have a lot of levels so ill enchant it for you
-[17:57:13] [Async Chat Thread - #9/INFO]: <Rafity> i have a lot of levels so ill enchant it for you
-[17:57:18] [Async Chat Thread - #9/INFO]: <Rafity> oh wait
-[17:57:24] [Async Chat Thread - #9/INFO]: <Rafity> i need to enchant it
-[17:57:27] [Async Chat Thread - #9/INFO]: <Rafity> pass
-[17:57:35] [Async Chat Thread - #9/INFO]: <Simba_the_Tiger> let me take it off
-[17:57:39] [Async Chat Thread - #9/INFO]: <Rafity> ok
-[17:57:43] [Async Chat Thread - #9/INFO]: <Rafity> :)
-[17:58:20] [Async Chat Thread - #9/INFO]: <Simba_the_Tiger> thanks
-[17:58:27] [Async Chat Thread - #9/INFO]: <Rafity> pass ur sword
-[17:58:29] [Async Chat Thread - #9/INFO]: <Rafity> pls
-[17:58:33] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.36[0m ambrose__ is sleeping.[0m
-[17:58:33] [Server thread/WARN]: java.lang.NoSuchMethodException: net.minecraft.server.v1_16_R1.PacketPlayOutChat.<init>(net.minecraft.server.v1_16_R1.IChatBaseComponent)
-[17:58:33] [Server thread/WARN]: 	at java.lang.Class.getConstructor0(Class.java:3082)
-[17:58:33] [Server thread/WARN]: 	at java.lang.Class.getConstructor(Class.java:1825)
-[17:58:33] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendJsonMessage(SendJsonMessages.java:14)
-[17:58:33] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendAllJsonMessage(SendJsonMessages.java:29)
-[17:58:33] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.PluginBase.PlayerIsSleeping(PluginBase.java:537)
-[17:58:33] [Server thread/WARN]: 	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor29.execute(Unknown Source)
-[17:58:33] [Server thread/WARN]: 	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:69)
-[17:58:33] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
-[17:58:33] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
-[17:58:33] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607)
-[17:58:33] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R1.event.CraftEventFactory.callPlayerBedEnterEvent(CraftEventFactory.java:274)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.EntityPlayer.sleep(EntityPlayer.java:1146)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.EntityHuman.sleep(EntityHuman.java:1285)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.BlockBed.interact(BlockBed.java:64)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.BlockBase$BlockData.interact(BlockBase.java:572)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerInteractManager.a(PlayerInteractManager.java:507)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerConnection.a(PlayerConnection.java:1451)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PacketPlayInUseItem.a(PacketPlayInUseItem.java:27)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PacketPlayInUseItem.a(PacketPlayInUseItem.java:5)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:23)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.TickTask.run(SourceFile:18)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.aZ(MinecraftServer.java:1137)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.executeNext(MinecraftServer.java:1130)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:119)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.sleepForTick(MinecraftServer.java:1091)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.v(MinecraftServer.java:1005)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.lambda$a$0(MinecraftServer.java:177)
-[17:58:33] [Server thread/WARN]: 	at java.lang.Thread.run(Thread.java:748)
-[17:58:33] [Server thread/WARN]: java.lang.NoSuchMethodException: net.minecraft.server.v1_16_R1.PacketPlayOutChat.<init>(net.minecraft.server.v1_16_R1.IChatBaseComponent)
-[17:58:33] [Server thread/WARN]: 	at java.lang.Class.getConstructor0(Class.java:3082)
-[17:58:33] [Server thread/WARN]: 	at java.lang.Class.getConstructor(Class.java:1825)
-[17:58:33] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendJsonMessage(SendJsonMessages.java:14)
-[17:58:33] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendAllJsonMessage(SendJsonMessages.java:29)
-[17:58:33] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.PluginBase.PlayerIsSleeping(PluginBase.java:537)
-[17:58:33] [Server thread/WARN]: 	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor29.execute(Unknown Source)
-[17:58:33] [Server thread/WARN]: 	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:69)
-[17:58:33] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
-[17:58:33] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
-[17:58:33] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607)
-[17:58:33] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R1.event.CraftEventFactory.callPlayerBedEnterEvent(CraftEventFactory.java:274)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.EntityPlayer.sleep(EntityPlayer.java:1146)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.EntityHuman.sleep(EntityHuman.java:1285)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.BlockBed.interact(BlockBed.java:64)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.BlockBase$BlockData.interact(BlockBase.java:572)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerInteractManager.a(PlayerInteractManager.java:507)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerConnection.a(PlayerConnection.java:1451)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PacketPlayInUseItem.a(PacketPlayInUseItem.java:27)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PacketPlayInUseItem.a(PacketPlayInUseItem.java:5)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:23)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.TickTask.run(SourceFile:18)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.aZ(MinecraftServer.java:1137)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.executeNext(MinecraftServer.java:1130)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:119)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.sleepForTick(MinecraftServer.java:1091)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.v(MinecraftServer.java:1005)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.lambda$a$0(MinecraftServer.java:177)
-[17:58:33] [Server thread/WARN]: 	at java.lang.Thread.run(Thread.java:748)
-[17:58:33] [Server thread/WARN]: java.lang.NoSuchMethodException: net.minecraft.server.v1_16_R1.PacketPlayOutChat.<init>(net.minecraft.server.v1_16_R1.IChatBaseComponent)
-[17:58:33] [Server thread/WARN]: 	at java.lang.Class.getConstructor0(Class.java:3082)
-[17:58:33] [Server thread/WARN]: 	at java.lang.Class.getConstructor(Class.java:1825)
-[17:58:33] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendJsonMessage(SendJsonMessages.java:14)
-[17:58:33] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendAllJsonMessage(SendJsonMessages.java:29)
-[17:58:33] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.PluginBase.PlayerIsSleeping(PluginBase.java:537)
-[17:58:33] [Server thread/WARN]: 	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor29.execute(Unknown Source)
-[17:58:33] [Server thread/WARN]: 	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:69)
-[17:58:33] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
-[17:58:33] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
-[17:58:33] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607)
-[17:58:33] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R1.event.CraftEventFactory.callPlayerBedEnterEvent(CraftEventFactory.java:274)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.EntityPlayer.sleep(EntityPlayer.java:1146)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.EntityHuman.sleep(EntityHuman.java:1285)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.BlockBed.interact(BlockBed.java:64)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.BlockBase$BlockData.interact(BlockBase.java:572)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerInteractManager.a(PlayerInteractManager.java:507)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerConnection.a(PlayerConnection.java:1451)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PacketPlayInUseItem.a(PacketPlayInUseItem.java:27)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PacketPlayInUseItem.a(PacketPlayInUseItem.java:5)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:23)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.TickTask.run(SourceFile:18)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.aZ(MinecraftServer.java:1137)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.executeNext(MinecraftServer.java:1130)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:119)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.sleepForTick(MinecraftServer.java:1091)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.v(MinecraftServer.java:1005)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.lambda$a$0(MinecraftServer.java:177)
-[17:58:33] [Server thread/WARN]: 	at java.lang.Thread.run(Thread.java:748)
-[17:58:33] [Server thread/WARN]: java.lang.NoSuchMethodException: net.minecraft.server.v1_16_R1.PacketPlayOutChat.<init>(net.minecraft.server.v1_16_R1.IChatBaseComponent)
-[17:58:33] [Server thread/WARN]: 	at java.lang.Class.getConstructor0(Class.java:3082)
-[17:58:33] [Server thread/WARN]: 	at java.lang.Class.getConstructor(Class.java:1825)
-[17:58:33] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendJsonMessage(SendJsonMessages.java:14)
-[17:58:33] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendAllJsonMessage(SendJsonMessages.java:29)
-[17:58:33] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.PluginBase.PlayerIsSleeping(PluginBase.java:537)
-[17:58:33] [Server thread/WARN]: 	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor29.execute(Unknown Source)
-[17:58:33] [Server thread/WARN]: 	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:69)
-[17:58:33] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
-[17:58:33] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
-[17:58:33] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607)
-[17:58:33] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R1.event.CraftEventFactory.callPlayerBedEnterEvent(CraftEventFactory.java:274)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.EntityPlayer.sleep(EntityPlayer.java:1146)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.EntityHuman.sleep(EntityHuman.java:1285)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.BlockBed.interact(BlockBed.java:64)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.BlockBase$BlockData.interact(BlockBase.java:572)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerInteractManager.a(PlayerInteractManager.java:507)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerConnection.a(PlayerConnection.java:1451)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PacketPlayInUseItem.a(PacketPlayInUseItem.java:27)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PacketPlayInUseItem.a(PacketPlayInUseItem.java:5)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:23)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.TickTask.run(SourceFile:18)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.aZ(MinecraftServer.java:1137)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.executeNext(MinecraftServer.java:1130)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:119)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.sleepForTick(MinecraftServer.java:1091)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.v(MinecraftServer.java:1005)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.lambda$a$0(MinecraftServer.java:177)
-[17:58:33] [Server thread/WARN]: 	at java.lang.Thread.run(Thread.java:748)
-[17:58:33] [Server thread/WARN]: java.lang.NoSuchMethodException: net.minecraft.server.v1_16_R1.PacketPlayOutChat.<init>(net.minecraft.server.v1_16_R1.IChatBaseComponent)
-[17:58:33] [Server thread/WARN]: 	at java.lang.Class.getConstructor0(Class.java:3082)
-[17:58:33] [Server thread/WARN]: 	at java.lang.Class.getConstructor(Class.java:1825)
-[17:58:33] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendJsonMessage(SendJsonMessages.java:14)
-[17:58:33] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendAllJsonMessage(SendJsonMessages.java:29)
-[17:58:33] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.PluginBase.PlayerIsSleeping(PluginBase.java:537)
-[17:58:33] [Server thread/WARN]: 	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor29.execute(Unknown Source)
-[17:58:33] [Server thread/WARN]: 	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:69)
-[17:58:33] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
-[17:58:33] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
-[17:58:33] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607)
-[17:58:33] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R1.event.CraftEventFactory.callPlayerBedEnterEvent(CraftEventFactory.java:274)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.EntityPlayer.sleep(EntityPlayer.java:1146)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.EntityHuman.sleep(EntityHuman.java:1285)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.BlockBed.interact(BlockBed.java:64)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.BlockBase$BlockData.interact(BlockBase.java:572)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerInteractManager.a(PlayerInteractManager.java:507)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerConnection.a(PlayerConnection.java:1451)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PacketPlayInUseItem.a(PacketPlayInUseItem.java:27)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PacketPlayInUseItem.a(PacketPlayInUseItem.java:5)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:23)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.TickTask.run(SourceFile:18)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.aZ(MinecraftServer.java:1137)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.executeNext(MinecraftServer.java:1130)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:119)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.sleepForTick(MinecraftServer.java:1091)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.v(MinecraftServer.java:1005)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.lambda$a$0(MinecraftServer.java:177)
-[17:58:33] [Server thread/WARN]: 	at java.lang.Thread.run(Thread.java:748)
-[17:58:33] [Server thread/WARN]: java.lang.NoSuchMethodException: net.minecraft.server.v1_16_R1.PacketPlayOutChat.<init>(net.minecraft.server.v1_16_R1.IChatBaseComponent)
-[17:58:33] [Server thread/WARN]: 	at java.lang.Class.getConstructor0(Class.java:3082)
-[17:58:33] [Server thread/WARN]: 	at java.lang.Class.getConstructor(Class.java:1825)
-[17:58:33] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendJsonMessage(SendJsonMessages.java:14)
-[17:58:33] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendAllJsonMessage(SendJsonMessages.java:29)
-[17:58:33] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.PluginBase.PlayerIsSleeping(PluginBase.java:537)
-[17:58:33] [Server thread/WARN]: 	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor29.execute(Unknown Source)
-[17:58:33] [Server thread/WARN]: 	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:69)
-[17:58:33] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
-[17:58:33] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
-[17:58:33] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607)
-[17:58:33] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R1.event.CraftEventFactory.callPlayerBedEnterEvent(CraftEventFactory.java:274)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.EntityPlayer.sleep(EntityPlayer.java:1146)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.EntityHuman.sleep(EntityHuman.java:1285)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.BlockBed.interact(BlockBed.java:64)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.BlockBase$BlockData.interact(BlockBase.java:572)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerInteractManager.a(PlayerInteractManager.java:507)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerConnection.a(PlayerConnection.java:1451)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PacketPlayInUseItem.a(PacketPlayInUseItem.java:27)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PacketPlayInUseItem.a(PacketPlayInUseItem.java:5)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:23)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.TickTask.run(SourceFile:18)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.aZ(MinecraftServer.java:1137)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.executeNext(MinecraftServer.java:1130)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:119)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.sleepForTick(MinecraftServer.java:1091)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.v(MinecraftServer.java:1005)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.lambda$a$0(MinecraftServer.java:177)
-[17:58:33] [Server thread/WARN]: 	at java.lang.Thread.run(Thread.java:748)
-[17:58:33] [Server thread/WARN]: java.lang.NoSuchMethodException: net.minecraft.server.v1_16_R1.PacketPlayOutChat.<init>(net.minecraft.server.v1_16_R1.IChatBaseComponent)
-[17:58:33] [Server thread/WARN]: 	at java.lang.Class.getConstructor0(Class.java:3082)
-[17:58:33] [Server thread/WARN]: 	at java.lang.Class.getConstructor(Class.java:1825)
-[17:58:33] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendJsonMessage(SendJsonMessages.java:14)
-[17:58:33] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendAllJsonMessage(SendJsonMessages.java:29)
-[17:58:33] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.PluginBase.PlayerIsSleeping(PluginBase.java:537)
-[17:58:33] [Server thread/WARN]: 	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor29.execute(Unknown Source)
-[17:58:33] [Server thread/WARN]: 	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:69)
-[17:58:33] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
-[17:58:33] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
-[17:58:33] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607)
-[17:58:33] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R1.event.CraftEventFactory.callPlayerBedEnterEvent(CraftEventFactory.java:274)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.EntityPlayer.sleep(EntityPlayer.java:1146)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.EntityHuman.sleep(EntityHuman.java:1285)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.BlockBed.interact(BlockBed.java:64)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.BlockBase$BlockData.interact(BlockBase.java:572)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerInteractManager.a(PlayerInteractManager.java:507)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerConnection.a(PlayerConnection.java:1451)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PacketPlayInUseItem.a(PacketPlayInUseItem.java:27)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PacketPlayInUseItem.a(PacketPlayInUseItem.java:5)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:23)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.TickTask.run(SourceFile:18)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.aZ(MinecraftServer.java:1137)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.executeNext(MinecraftServer.java:1130)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:119)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.sleepForTick(MinecraftServer.java:1091)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.v(MinecraftServer.java:1005)
-[17:58:33] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.lambda$a$0(MinecraftServer.java:177)
-[17:58:33] [Server thread/WARN]: 	at java.lang.Thread.run(Thread.java:748)
-[17:58:33] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.36[0m ambrose__ is sleeping.[0m
-[17:58:33] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.36[0m Agent_Chicken_06 is sleeping.[0m
-[17:58:34] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.36[0m ambrose__ is sleeping.[0m
-[17:58:35] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.36[0m ambrose__ is sleeping.[0m
-[17:58:35] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.36[0m ambrose__ is sleeping.[0m
-[17:58:36] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.36[0m ambrose__ is sleeping.[0m
-[17:58:36] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.36[0m ambrose__ is sleeping.[0m
-[17:58:41] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.36[0m ambrose__ is sleeping.[0m
-[17:58:42] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.36[0m ambrose__ is sleeping.[0m
-[17:58:42] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.36[0m ambrose__ is sleeping.[0m
-[17:58:43] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.36[0m ambrose__ is sleeping.[0m
-[17:58:46] [Async Chat Thread - #9/INFO]: <Simba_the_Tiger> thanks
-[17:58:50] [Async Chat Thread - #9/INFO]: <Rafity> np
-[17:58:54] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.36[0m ambrose__ is sleeping.[0m
-[17:59:04] [Async Chat Thread - #9/INFO]: <Rafity> if u need anything just ask
-[17:59:38] [Async Chat Thread - #9/INFO]: <Rafity> marshmellow
-[17:59:41] [Async Chat Thread - #9/INFO]: <MrMarshmellow_XD> yes
-[17:59:47] [Async Chat Thread - #9/INFO]: <Rafity> do uwant apic
-[17:59:53] [Async Chat Thread - #9/INFO]: <Rafity> picaxe
-[18:00:01] [Async Chat Thread - #9/INFO]: <MrMarshmellow_XD> yes thank you so much
-[18:00:08] [Async Chat Thread - #9/INFO]: <Rafity> also do u want enchants?
-[18:00:46] [Server thread/INFO]: MrMarshmellow_XD lost connection: Disconnected
-[18:00:46] [Server thread/INFO]: MrMarshmellow_XD left the game
-[18:00:55] [Server thread/INFO]: Simba_the_Tiger lost connection: Disconnected
-[18:00:55] [Server thread/INFO]: Simba_the_Tiger left the game
-[18:01:23] [Server thread/INFO]: Agent_Chicken_06 lost connection: Disconnected
-[18:01:23] [Server thread/INFO]: Agent_Chicken_06 left the game
-[18:03:59] [Server thread/INFO]: cicero_jr issued server command: /give Rafity minecraft:enchanted_golden_apple
-[18:03:59] [Server thread/INFO]: [cicero_jr: Gave 1 [Enchanted Golden Apple] to Rafity]
-[18:10:48] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.36[0m ambrose__ is sleeping.[0m
-[18:10:48] [Server thread/WARN]: java.lang.NoSuchMethodException: net.minecraft.server.v1_16_R1.PacketPlayOutChat.<init>(net.minecraft.server.v1_16_R1.IChatBaseComponent)
-[18:10:48] [Server thread/WARN]: 	at java.lang.Class.getConstructor0(Class.java:3082)
-[18:10:48] [Server thread/WARN]: 	at java.lang.Class.getConstructor(Class.java:1825)
-[18:10:48] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendJsonMessage(SendJsonMessages.java:14)
-[18:10:48] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendAllJsonMessage(SendJsonMessages.java:29)
-[18:10:48] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.PluginBase.PlayerIsSleeping(PluginBase.java:537)
-[18:10:48] [Server thread/WARN]: 	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor29.execute(Unknown Source)
-[18:10:48] [Server thread/WARN]: 	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:69)
-[18:10:48] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
-[18:10:48] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
-[18:10:48] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607)
-[18:10:48] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R1.event.CraftEventFactory.callPlayerBedEnterEvent(CraftEventFactory.java:274)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.EntityPlayer.sleep(EntityPlayer.java:1146)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.EntityHuman.sleep(EntityHuman.java:1285)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.BlockBed.interact(BlockBed.java:64)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.BlockBase$BlockData.interact(BlockBase.java:572)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerInteractManager.a(PlayerInteractManager.java:507)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerConnection.a(PlayerConnection.java:1451)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PacketPlayInUseItem.a(PacketPlayInUseItem.java:27)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PacketPlayInUseItem.a(PacketPlayInUseItem.java:5)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:23)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.TickTask.run(SourceFile:18)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.aZ(MinecraftServer.java:1137)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.executeNext(MinecraftServer.java:1130)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.executeAll(IAsyncTaskHandler.java:95)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.a(MinecraftServer.java:1260)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.v(MinecraftServer.java:1001)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.lambda$a$0(MinecraftServer.java:177)
-[18:10:48] [Server thread/WARN]: 	at java.lang.Thread.run(Thread.java:748)
-[18:10:48] [Server thread/WARN]: java.lang.NoSuchMethodException: net.minecraft.server.v1_16_R1.PacketPlayOutChat.<init>(net.minecraft.server.v1_16_R1.IChatBaseComponent)
-[18:10:48] [Server thread/WARN]: 	at java.lang.Class.getConstructor0(Class.java:3082)
-[18:10:48] [Server thread/WARN]: 	at java.lang.Class.getConstructor(Class.java:1825)
-[18:10:48] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendJsonMessage(SendJsonMessages.java:14)
-[18:10:48] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendAllJsonMessage(SendJsonMessages.java:29)
-[18:10:48] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.PluginBase.PlayerIsSleeping(PluginBase.java:537)
-[18:10:48] [Server thread/WARN]: 	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor29.execute(Unknown Source)
-[18:10:48] [Server thread/WARN]: 	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:69)
-[18:10:48] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
-[18:10:48] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
-[18:10:48] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607)
-[18:10:48] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R1.event.CraftEventFactory.callPlayerBedEnterEvent(CraftEventFactory.java:274)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.EntityPlayer.sleep(EntityPlayer.java:1146)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.EntityHuman.sleep(EntityHuman.java:1285)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.BlockBed.interact(BlockBed.java:64)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.BlockBase$BlockData.interact(BlockBase.java:572)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerInteractManager.a(PlayerInteractManager.java:507)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerConnection.a(PlayerConnection.java:1451)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PacketPlayInUseItem.a(PacketPlayInUseItem.java:27)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PacketPlayInUseItem.a(PacketPlayInUseItem.java:5)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:23)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.TickTask.run(SourceFile:18)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.aZ(MinecraftServer.java:1137)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.executeNext(MinecraftServer.java:1130)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.executeAll(IAsyncTaskHandler.java:95)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.a(MinecraftServer.java:1260)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.v(MinecraftServer.java:1001)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.lambda$a$0(MinecraftServer.java:177)
-[18:10:48] [Server thread/WARN]: 	at java.lang.Thread.run(Thread.java:748)
-[18:10:48] [Server thread/WARN]: java.lang.NoSuchMethodException: net.minecraft.server.v1_16_R1.PacketPlayOutChat.<init>(net.minecraft.server.v1_16_R1.IChatBaseComponent)
-[18:10:48] [Server thread/WARN]: 	at java.lang.Class.getConstructor0(Class.java:3082)
-[18:10:48] [Server thread/WARN]: 	at java.lang.Class.getConstructor(Class.java:1825)
-[18:10:48] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendJsonMessage(SendJsonMessages.java:14)
-[18:10:48] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendAllJsonMessage(SendJsonMessages.java:29)
-[18:10:48] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.PluginBase.PlayerIsSleeping(PluginBase.java:537)
-[18:10:48] [Server thread/WARN]: 	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor29.execute(Unknown Source)
-[18:10:48] [Server thread/WARN]: 	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:69)
-[18:10:48] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
-[18:10:48] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
-[18:10:48] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607)
-[18:10:48] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R1.event.CraftEventFactory.callPlayerBedEnterEvent(CraftEventFactory.java:274)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.EntityPlayer.sleep(EntityPlayer.java:1146)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.EntityHuman.sleep(EntityHuman.java:1285)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.BlockBed.interact(BlockBed.java:64)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.BlockBase$BlockData.interact(BlockBase.java:572)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerInteractManager.a(PlayerInteractManager.java:507)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerConnection.a(PlayerConnection.java:1451)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PacketPlayInUseItem.a(PacketPlayInUseItem.java:27)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PacketPlayInUseItem.a(PacketPlayInUseItem.java:5)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:23)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.TickTask.run(SourceFile:18)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.aZ(MinecraftServer.java:1137)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.executeNext(MinecraftServer.java:1130)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.executeAll(IAsyncTaskHandler.java:95)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.a(MinecraftServer.java:1260)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.v(MinecraftServer.java:1001)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.lambda$a$0(MinecraftServer.java:177)
-[18:10:48] [Server thread/WARN]: 	at java.lang.Thread.run(Thread.java:748)
-[18:10:48] [Server thread/WARN]: java.lang.NoSuchMethodException: net.minecraft.server.v1_16_R1.PacketPlayOutChat.<init>(net.minecraft.server.v1_16_R1.IChatBaseComponent)
-[18:10:48] [Server thread/WARN]: 	at java.lang.Class.getConstructor0(Class.java:3082)
-[18:10:48] [Server thread/WARN]: 	at java.lang.Class.getConstructor(Class.java:1825)
-[18:10:48] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendJsonMessage(SendJsonMessages.java:14)
-[18:10:48] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendAllJsonMessage(SendJsonMessages.java:29)
-[18:10:48] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.PluginBase.PlayerIsSleeping(PluginBase.java:537)
-[18:10:48] [Server thread/WARN]: 	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor29.execute(Unknown Source)
-[18:10:48] [Server thread/WARN]: 	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:69)
-[18:10:48] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
-[18:10:48] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
-[18:10:48] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607)
-[18:10:48] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R1.event.CraftEventFactory.callPlayerBedEnterEvent(CraftEventFactory.java:274)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.EntityPlayer.sleep(EntityPlayer.java:1146)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.EntityHuman.sleep(EntityHuman.java:1285)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.BlockBed.interact(BlockBed.java:64)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.BlockBase$BlockData.interact(BlockBase.java:572)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerInteractManager.a(PlayerInteractManager.java:507)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerConnection.a(PlayerConnection.java:1451)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PacketPlayInUseItem.a(PacketPlayInUseItem.java:27)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PacketPlayInUseItem.a(PacketPlayInUseItem.java:5)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:23)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.TickTask.run(SourceFile:18)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.aZ(MinecraftServer.java:1137)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.executeNext(MinecraftServer.java:1130)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.executeAll(IAsyncTaskHandler.java:95)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.a(MinecraftServer.java:1260)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.v(MinecraftServer.java:1001)
-[18:10:48] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.lambda$a$0(MinecraftServer.java:177)
-[18:10:48] [Server thread/WARN]: 	at java.lang.Thread.run(Thread.java:748)
-[18:10:56] [Server thread/INFO]: cicero_jr issued server command: /time set day
-[18:10:56] [Server thread/INFO]: [cicero_jr: Set the time to 1000]
-[18:14:01] [Server thread/INFO]: Rafity has completed the challenge [Hot Tourist Destinations]
-[18:17:34] [Server thread/INFO]: cicero_jr lost connection: Disconnected
-[18:17:34] [Server thread/INFO]: cicero_jr left the game
-[18:22:57] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.36[0m ambrose__ is sleeping.[0m
-[18:22:57] [Server thread/WARN]: java.lang.NoSuchMethodException: net.minecraft.server.v1_16_R1.PacketPlayOutChat.<init>(net.minecraft.server.v1_16_R1.IChatBaseComponent)
-[18:22:57] [Server thread/WARN]: 	at java.lang.Class.getConstructor0(Class.java:3082)
-[18:22:57] [Server thread/WARN]: 	at java.lang.Class.getConstructor(Class.java:1825)
-[18:22:57] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendJsonMessage(SendJsonMessages.java:14)
-[18:22:57] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendAllJsonMessage(SendJsonMessages.java:29)
-[18:22:57] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.PluginBase.PlayerIsSleeping(PluginBase.java:537)
-[18:22:57] [Server thread/WARN]: 	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor29.execute(Unknown Source)
-[18:22:57] [Server thread/WARN]: 	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:69)
-[18:22:57] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
-[18:22:57] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
-[18:22:57] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607)
-[18:22:57] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R1.event.CraftEventFactory.callPlayerBedEnterEvent(CraftEventFactory.java:274)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.EntityPlayer.sleep(EntityPlayer.java:1146)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.EntityHuman.sleep(EntityHuman.java:1285)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.BlockBed.interact(BlockBed.java:64)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.BlockBase$BlockData.interact(BlockBase.java:572)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerInteractManager.a(PlayerInteractManager.java:507)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerConnection.a(PlayerConnection.java:1451)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PacketPlayInUseItem.a(PacketPlayInUseItem.java:27)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PacketPlayInUseItem.a(PacketPlayInUseItem.java:5)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:23)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.TickTask.run(SourceFile:18)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.aZ(MinecraftServer.java:1137)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.executeNext(MinecraftServer.java:1130)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:119)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.sleepForTick(MinecraftServer.java:1091)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.v(MinecraftServer.java:1005)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.lambda$a$0(MinecraftServer.java:177)
-[18:22:57] [Server thread/WARN]: 	at java.lang.Thread.run(Thread.java:748)
-[18:22:57] [Server thread/WARN]: java.lang.NoSuchMethodException: net.minecraft.server.v1_16_R1.PacketPlayOutChat.<init>(net.minecraft.server.v1_16_R1.IChatBaseComponent)
-[18:22:57] [Server thread/WARN]: 	at java.lang.Class.getConstructor0(Class.java:3082)
-[18:22:57] [Server thread/WARN]: 	at java.lang.Class.getConstructor(Class.java:1825)
-[18:22:57] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendJsonMessage(SendJsonMessages.java:14)
-[18:22:57] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendAllJsonMessage(SendJsonMessages.java:29)
-[18:22:57] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.PluginBase.PlayerIsSleeping(PluginBase.java:537)
-[18:22:57] [Server thread/WARN]: 	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor29.execute(Unknown Source)
-[18:22:57] [Server thread/WARN]: 	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:69)
-[18:22:57] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
-[18:22:57] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
-[18:22:57] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607)
-[18:22:57] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R1.event.CraftEventFactory.callPlayerBedEnterEvent(CraftEventFactory.java:274)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.EntityPlayer.sleep(EntityPlayer.java:1146)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.EntityHuman.sleep(EntityHuman.java:1285)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.BlockBed.interact(BlockBed.java:64)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.BlockBase$BlockData.interact(BlockBase.java:572)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerInteractManager.a(PlayerInteractManager.java:507)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerConnection.a(PlayerConnection.java:1451)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PacketPlayInUseItem.a(PacketPlayInUseItem.java:27)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PacketPlayInUseItem.a(PacketPlayInUseItem.java:5)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:23)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.TickTask.run(SourceFile:18)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.aZ(MinecraftServer.java:1137)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.executeNext(MinecraftServer.java:1130)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:119)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.sleepForTick(MinecraftServer.java:1091)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.v(MinecraftServer.java:1005)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.lambda$a$0(MinecraftServer.java:177)
-[18:22:57] [Server thread/WARN]: 	at java.lang.Thread.run(Thread.java:748)
-[18:22:57] [Server thread/WARN]: java.lang.NoSuchMethodException: net.minecraft.server.v1_16_R1.PacketPlayOutChat.<init>(net.minecraft.server.v1_16_R1.IChatBaseComponent)
-[18:22:57] [Server thread/WARN]: 	at java.lang.Class.getConstructor0(Class.java:3082)
-[18:22:57] [Server thread/WARN]: 	at java.lang.Class.getConstructor(Class.java:1825)
-[18:22:57] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendJsonMessage(SendJsonMessages.java:14)
-[18:22:57] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendAllJsonMessage(SendJsonMessages.java:29)
-[18:22:57] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.PluginBase.PlayerIsSleeping(PluginBase.java:537)
-[18:22:57] [Server thread/WARN]: 	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor29.execute(Unknown Source)
-[18:22:57] [Server thread/WARN]: 	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:69)
-[18:22:57] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
-[18:22:57] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
-[18:22:57] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607)
-[18:22:57] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R1.event.CraftEventFactory.callPlayerBedEnterEvent(CraftEventFactory.java:274)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.EntityPlayer.sleep(EntityPlayer.java:1146)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.EntityHuman.sleep(EntityHuman.java:1285)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.BlockBed.interact(BlockBed.java:64)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.BlockBase$BlockData.interact(BlockBase.java:572)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerInteractManager.a(PlayerInteractManager.java:507)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerConnection.a(PlayerConnection.java:1451)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PacketPlayInUseItem.a(PacketPlayInUseItem.java:27)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PacketPlayInUseItem.a(PacketPlayInUseItem.java:5)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:23)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.TickTask.run(SourceFile:18)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.aZ(MinecraftServer.java:1137)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.executeNext(MinecraftServer.java:1130)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:119)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.sleepForTick(MinecraftServer.java:1091)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.v(MinecraftServer.java:1005)
-[18:22:57] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.lambda$a$0(MinecraftServer.java:177)
-[18:22:57] [Server thread/WARN]: 	at java.lang.Thread.run(Thread.java:748)
-[18:29:29] [Server thread/INFO]: Rafity lost connection: Disconnected
-[18:29:29] [Server thread/INFO]: Rafity left the game
-[18:29:45] [User Authenticator #10/INFO]: UUID of player Rafity is 98f49c24-5110-402f-b0e8-69d348bfa4d4
-[18:29:45] [Server thread/INFO]: Rafity joined the game
-[18:29:45] [Server thread/INFO]: Rafity[/86.191.217.106:50429] logged in with entity id 33456 at ([world_nether]683.6038990548187, 59.0, 2225.2324906483964)
-[18:31:58] [Server thread/INFO]: Rafity lost connection: Disconnected
-[18:31:58] [Server thread/INFO]: Rafity left the game
-[18:32:20] [Server thread/INFO]: CapMe lost connection: Disconnected
-[18:32:20] [Server thread/INFO]: CapMe left the game
-[18:32:33] [Server thread/INFO]: Stopping the server
-[18:32:33] [Server thread/INFO]: Stopping server
-[18:32:33] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.2-SNAPSHOT;bf2593e
-[18:32:33] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[18:32:33] [Server thread/INFO]: [DeadChest] Disabling DeadChest v3.2
-[18:32:33] [Server thread/INFO]: [OnDeathCoord] Disabling OnDeathCoord v1.3.3
-[18:32:33] [Server thread/INFO]: [OnDeathCoord] OnDeathCoord want you to have a nice day ;-)
-[18:32:33] [Server thread/INFO]: [EasyCarts] Disabling EasyCarts v1.12.2
-[18:32:33] [Server thread/INFO]: EasyCarts has been disabled.
-[18:32:33] [Server thread/INFO]: [WorldAnchor] Disabling WorldAnchor v1.1.3
-[18:32:33] [Server thread/INFO]: [SinglePlayerSleep] Disabling SinglePlayerSleep v1.13_2.13.36
-[18:32:33] [Server thread/INFO]: [1m[33m**************************************[0m
-[18:32:33] [Server thread/INFO]: [1m[32mSinglePlayerSleep v1.13_2.13.36[0m is [1mDISABLED[0m
-[18:32:33] [Server thread/INFO]: [1m[33m**************************************[0m
-[18:32:33] [Server thread/INFO]: [Lightning] Disabling Lightning v1.4
-[18:32:33] [Server thread/INFO]: [Giocatore] The plugin Lightning1.4 has been disabled
-[18:32:33] [Server thread/INFO]: [NoMobGriefing] Disabling NoMobGriefing v0.2.4
-[18:32:33] [Server thread/INFO]: [NoMobGriefing] ***NoMobGriefing plugin by PinkNeonDino has been disabled.***
-[18:32:33] [Server thread/INFO]: [EnchantPlus] Disabling EnchantPlus v1.0
-[18:32:33] [Server thread/INFO]: [SpawnerSilk] Disabling SpawnerSilk v3.1
-[18:32:33] [Server thread/INFO]: [ChatColor2] Disabling ChatColor2 v1.9.4
-[18:32:33] [Server thread/INFO]: [ChatColor] ChatColor 2 Version 1.9.4 has been disabled.
-[18:32:33] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.1.0;8e55131
-[18:32:33] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[18:32:33] [Server thread/INFO]: Saving players
-[18:32:33] [Server thread/INFO]: ambrose__ lost connection: Server closed
-[18:32:33] [Server thread/INFO]: ambrose__ left the game
-[18:32:33] [Server thread/INFO]: Saving worlds
-[18:32:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18:32:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:32:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[18:32:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:32:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[18:32:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:32:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:32:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:32:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:32:34] [Server thread/INFO]: Flushing Chunk IO
-[18:32:34] [Server thread/INFO]: Closing Thread Pool
-[18:32:34] [Server thread/INFO]: Closing Server
+[11:05:29] [Server thread/INFO]: Preparing level "world"
+[11:05:29] [Server thread/INFO]: -------- World Settings For [world] --------
+[11:05:29] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:05:29] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[11:05:29] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:05:29] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[11:05:29] [Server thread/INFO]: Max TNT Explosions: 100
+[11:05:29] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:05:29] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:05:29] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:05:29] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:05:29] [Server thread/INFO]: View Distance: 10
+[11:05:29] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:05:29] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:05:29] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:05:29] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:05:29] [Server thread/INFO]: Mob Spawn Range: 6
+[11:05:29] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[11:05:29] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[11:05:29] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:05:29] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[11:05:29] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:05:29] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[11:05:29] [Server thread/INFO]: Max TNT Explosions: 100
+[11:05:29] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:05:29] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:05:29] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:05:29] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:05:29] [Server thread/INFO]: View Distance: 10
+[11:05:29] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:05:29] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:05:29] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:05:29] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:05:29] [Server thread/INFO]: Mob Spawn Range: 6
+[11:05:29] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[11:05:29] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:05:29] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:05:29] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[11:05:29] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:05:29] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[11:05:29] [Server thread/INFO]: Max TNT Explosions: 100
+[11:05:29] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:05:29] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:05:29] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:05:29] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:05:29] [Server thread/INFO]: View Distance: 10
+[11:05:29] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:05:29] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:05:29] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:05:29] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:05:29] [Server thread/INFO]: Mob Spawn Range: 6
+[11:05:29] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:05:30] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[11:05:30] [Server thread/INFO]: Preparing spawn area: 0%
+[11:05:30] [Server thread/INFO]: Preparing spawn area: 0%
+[11:05:30] [Server thread/INFO]: Preparing spawn area: 0%
+[11:05:31] [Paper Async Chunk Task Thread #2/WARN]: Unable to resolve BlockEntity for ItemStack: minecraft:air
+[11:05:31] [Paper Async Chunk Task Thread #2/WARN]: Unable to resolve BlockEntity for ItemStack: minecraft:air
+[11:05:31] [Paper Async Chunk Task Thread #2/WARN]: Unable to resolve BlockEntity for ItemStack: minecraft:air
+[11:05:31] [Server thread/INFO]: Preparing spawn area: 3%
+[11:05:31] [Server thread/INFO]: Preparing spawn area: 3%
+[11:05:31] [Server thread/INFO]: Time elapsed: 2182 ms
+[11:05:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[11:05:32] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[11:05:32] [Server thread/INFO]: Preparing spawn area: 0%
+[11:05:32] [Server thread/INFO]: Preparing spawn area: 0%
+[11:05:33] [Server thread/INFO]: Preparing spawn area: 0%
+[11:05:33] [Server thread/INFO]: Preparing spawn area: 87%
+[11:05:33] [Server thread/INFO]: Time elapsed: 1641 ms
+[11:05:33] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[11:05:34] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[11:05:34] [Server thread/INFO]: Preparing spawn area: 0%
+[11:05:34] [Server thread/INFO]: Preparing spawn area: 0%
+[11:05:34] [Server thread/INFO]: Preparing spawn area: 0%
+[11:05:34] [Server thread/INFO]: Time elapsed: 1194 ms
+[11:05:34] [Server thread/INFO]: [ChatColor2] Enabling ChatColor2 v1.9.4*
+[11:05:34] [Server thread/INFO]: [ChatColor] ChatColor 2 Version 1.9.4 has been enabled.
+[11:05:34] [Server thread/INFO]: [ChatColor] Current update: Color-Text placeholders everywhere, bug fixes.
+[11:05:34] [Server thread/INFO]: [ChatColor] PlaceholderAPI not found, placeholders will not be available.
+[11:05:34] [Server thread/INFO]: [ChatColor] Metrics is enabled for this plugin. Stats sent to https://bstats.org/plugin/bukkit/ChatColor2
+[11:05:34] [Server thread/INFO]: [SpawnerSilk] Enabling SpawnerSilk v3.1
+[11:05:34] [Server thread/INFO]: [EnchantPlus] Enabling EnchantPlus v1.0*
+[11:05:34] [Server thread/INFO]: [NoMobGriefing] Enabling NoMobGriefing v0.2.4
+[11:05:34] [Server thread/INFO]: [NoMobGriefing] ***NoMobGriefing plugin by PinkNeonDino has been enabled.***
+[11:05:34] [Server thread/INFO]: [Lightning] Enabling Lightning v1.4*
+[11:05:34] [Server thread/INFO]: [SinglePlayerSleep] Enabling SinglePlayerSleep v1.13_2.13.36
+[11:05:34] [Server thread/INFO]: [1m[33m**************************************[0m
+[11:05:34] [Server thread/INFO]: [1m[32mSinglePlayerSleep v1.13_2.13.36[0m Loading...
+[11:05:34] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.36[0m Updating lang files! copied cs_CZ.yml, de_DE.yml, en_US.yml, es_MX.yml, fr_FR.yml, lol_US.yml, nl_NL.yml, pt_BR.yml, and zh_TW.yml to plugins/SinglePlayerSleep/lang[0m
+[11:05:34] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.36[0m plugins/SinglePlayerSleep/config.yml[0m
+[11:05:34] [Server thread/INFO]: Checking for updates...
+[11:05:35] [Server thread/INFO]: [1m[33mSinglePlayerSleep[1m[35m New version available![0m
+[11:05:35] [Server thread/INFO]: [1m[32mhttps://spigotmc.org/resources/68139[0m
+[11:05:35] [Server thread/INFO]: [1m[33m**************************************[0m
+[11:05:35] [Server thread/INFO]: [1m[32mSinglePlayerSleep v1.13_2.13.36[0m is [1mENABLED[0m
+[11:05:35] [Server thread/INFO]: [1m[33m**************************************[0m
+[11:05:35] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.36[0m MC vgit-Paper-240 (MC: 1.16.3) debug=false in plugins/SinglePlayerSleep/config.yml[0m
+[11:05:35] [Server thread/INFO]: [WorldAnchor] Enabling WorldAnchor v1.1.3*
+[11:05:35] [Server thread/INFO]: [WorldAnchor] Loading Chunks...
+[11:05:35] [Server thread/INFO]: [WorldAnchor] Chunks loaded !
+[11:05:35] [Server thread/INFO]: [EasyCarts] Enabling EasyCarts v1.12.2*
+[11:05:35] [Server thread/INFO]: [OnDeathCoord] Enabling OnDeathCoord v1.3.3*
+[11:05:35] [Server thread/INFO]: [OnDeathCoord] OnDeathCoord version 1.3.3 is enabled!
+[11:05:35] [Server thread/INFO]: [DeadChest] Enabling DeadChest v3.2
+[11:05:35] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.2-SNAPSHOT;bf2593e
+[11:05:35] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[11:05:35] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[11:05:35] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[11:05:35] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[11:05:35] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[11:05:35] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[11:05:35] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[11:05:35] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[11:05:35] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[11:05:35] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[11:05:35] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[11:05:35] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[11:05:35] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[11:05:35] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[11:05:35] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[11:05:35] [Server thread/INFO]: [WorldGuard] Loading region data...
+[11:05:36] [Server thread/INFO]: Running delayed init tasks
+[11:05:36] [Server thread/INFO]: Done (15.590s)! For help, type "help"
+[11:05:36] [Server thread/INFO]: Timings Reset
+[11:05:38] [User Authenticator #1/INFO]: UUID of player Lilgoat01 is 0a4ae3d1-f483-4947-be12-58d7d60d480b
+[11:05:39] [Server thread/INFO]: Lilgoat01 joined the game
+[11:05:39] [Server thread/INFO]: Lilgoat01[/86.186.153.51:52108] logged in with entity id 440 at ([world]29.602080342198388, 11.0, 141.50527413952483)
+[11:05:44] [Paper Async Chunk Task Thread #0/WARN]: Unable to resolve BlockEntity for ItemStack: minecraft:air
+[11:05:44] [Paper Async Chunk Task Thread #0/WARN]: Unable to resolve BlockEntity for ItemStack: minecraft:air
+[11:06:35] [User Authenticator #1/INFO]: UUID of player Rafity is 98f49c24-5110-402f-b0e8-69d348bfa4d4
+[11:06:36] [Server thread/INFO]: Rafity joined the game
+[11:06:36] [Server thread/INFO]: Rafity[/86.186.153.51:50374] logged in with entity id 634 at ([world_nether]728.0936717097567, 49.0, 2153.4726201558647)
+[11:06:55] [User Authenticator #1/INFO]: UUID of player ambrose__ is cbe16830-5427-4c03-901d-b31832f34f8a
+[11:06:55] [Server thread/INFO]: ambrose__ joined the game
+[11:06:55] [Server thread/INFO]: ambrose__[/86.186.153.51:56102] logged in with entity id 841 at ([world]161.38682727377335, 71.0, 252.29683855714092)
+[11:07:02] [User Authenticator #1/INFO]: UUID of player cicero_jr is ee09e6a5-35a8-4445-8345-acef5ced0a01
+[11:07:02] [Server thread/INFO]: cicero_jr joined the game
+[11:07:03] [Server thread/INFO]: cicero_jr[/109.145.118.243:58874] logged in with entity id 969 at ([world]180.5973529386317, 62.9375, 219.7438725694666)
+[11:07:09] [Server thread/INFO]: cicero_jr issued server command: /tp Rafity ~ ~ ~
+[11:07:09] [Server thread/INFO]: [cicero_jr: Teleported Rafity to 180.5973529386317, 62.9375, 219.7438725694666]
+[11:07:19] [Async Chat Thread - #0/INFO]: <Rafity> thanks!!!
+[11:07:34] [Async Chat Thread - #0/INFO]: <Rafity> over yonder i spy a villager prison
+[11:07:49] [Async Chat Thread - #0/INFO]: <Rafity> who wants to join this valliant quest?
+[11:07:57] [Async Chat Thread - #0/INFO]: <cicero_jr> Rafitoggle
+[11:08:02] [Async Chat Thread - #0/INFO]: <Rafity> yoggle
+[11:08:58] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.36[0m ambrose__ is sleeping.[0m
+[11:08:58] [Server thread/WARN]: java.lang.NoSuchMethodException: net.minecraft.server.v1_16_R2.PacketPlayOutChat.<init>(net.minecraft.server.v1_16_R2.IChatBaseComponent)
+[11:08:58] [Server thread/WARN]: 	at java.lang.Class.getConstructor0(Class.java:3082)
+[11:08:58] [Server thread/WARN]: 	at java.lang.Class.getConstructor(Class.java:1825)
+[11:08:58] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendJsonMessage(SendJsonMessages.java:14)
+[11:08:58] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendAllJsonMessage(SendJsonMessages.java:29)
+[11:08:58] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.PluginBase.PlayerIsSleeping(PluginBase.java:537)
+[11:08:58] [Server thread/WARN]: 	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor29.execute(Unknown Source)
+[11:08:58] [Server thread/WARN]: 	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:69)
+[11:08:58] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
+[11:08:58] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[11:08:58] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607)
+[11:08:58] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.event.CraftEventFactory.callPlayerBedEnterEvent(CraftEventFactory.java:279)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.EntityPlayer.sleep(EntityPlayer.java:1123)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.EntityHuman.sleep(EntityHuman.java:1280)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.BlockBed.interact(BlockBed.java:64)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.BlockBase$BlockData.interact(BlockBase.java:585)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.PlayerInteractManager.a(PlayerInteractManager.java:515)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.PlayerConnection.a(PlayerConnection.java:1459)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.PacketPlayInUseItem.a(PacketPlayInUseItem.java:27)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.PacketPlayInUseItem.a(PacketPlayInUseItem.java:5)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:23)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.TickTask.run(SourceFile:18)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.ba(MinecraftServer.java:1135)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.executeNext(MinecraftServer.java:1128)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:119)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.sleepForTick(MinecraftServer.java:1089)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:1003)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$a$0(MinecraftServer.java:177)
+[11:08:58] [Server thread/WARN]: 	at java.lang.Thread.run(Thread.java:748)
+[11:08:58] [Server thread/WARN]: java.lang.NoSuchMethodException: net.minecraft.server.v1_16_R2.PacketPlayOutChat.<init>(net.minecraft.server.v1_16_R2.IChatBaseComponent)
+[11:08:58] [Server thread/WARN]: 	at java.lang.Class.getConstructor0(Class.java:3082)
+[11:08:58] [Server thread/WARN]: 	at java.lang.Class.getConstructor(Class.java:1825)
+[11:08:58] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendJsonMessage(SendJsonMessages.java:14)
+[11:08:58] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendAllJsonMessage(SendJsonMessages.java:29)
+[11:08:58] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.PluginBase.PlayerIsSleeping(PluginBase.java:537)
+[11:08:58] [Server thread/WARN]: 	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor29.execute(Unknown Source)
+[11:08:58] [Server thread/WARN]: 	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:69)
+[11:08:58] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
+[11:08:58] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[11:08:58] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607)
+[11:08:58] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.event.CraftEventFactory.callPlayerBedEnterEvent(CraftEventFactory.java:279)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.EntityPlayer.sleep(EntityPlayer.java:1123)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.EntityHuman.sleep(EntityHuman.java:1280)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.BlockBed.interact(BlockBed.java:64)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.BlockBase$BlockData.interact(BlockBase.java:585)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.PlayerInteractManager.a(PlayerInteractManager.java:515)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.PlayerConnection.a(PlayerConnection.java:1459)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.PacketPlayInUseItem.a(PacketPlayInUseItem.java:27)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.PacketPlayInUseItem.a(PacketPlayInUseItem.java:5)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:23)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.TickTask.run(SourceFile:18)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.ba(MinecraftServer.java:1135)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.executeNext(MinecraftServer.java:1128)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:119)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.sleepForTick(MinecraftServer.java:1089)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:1003)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$a$0(MinecraftServer.java:177)
+[11:08:58] [Server thread/WARN]: 	at java.lang.Thread.run(Thread.java:748)
+[11:08:58] [Server thread/WARN]: java.lang.NoSuchMethodException: net.minecraft.server.v1_16_R2.PacketPlayOutChat.<init>(net.minecraft.server.v1_16_R2.IChatBaseComponent)
+[11:08:58] [Server thread/WARN]: 	at java.lang.Class.getConstructor0(Class.java:3082)
+[11:08:58] [Server thread/WARN]: 	at java.lang.Class.getConstructor(Class.java:1825)
+[11:08:58] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendJsonMessage(SendJsonMessages.java:14)
+[11:08:58] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendAllJsonMessage(SendJsonMessages.java:29)
+[11:08:58] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.PluginBase.PlayerIsSleeping(PluginBase.java:537)
+[11:08:58] [Server thread/WARN]: 	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor29.execute(Unknown Source)
+[11:08:58] [Server thread/WARN]: 	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:69)
+[11:08:58] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
+[11:08:58] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[11:08:58] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607)
+[11:08:58] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.event.CraftEventFactory.callPlayerBedEnterEvent(CraftEventFactory.java:279)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.EntityPlayer.sleep(EntityPlayer.java:1123)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.EntityHuman.sleep(EntityHuman.java:1280)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.BlockBed.interact(BlockBed.java:64)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.BlockBase$BlockData.interact(BlockBase.java:585)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.PlayerInteractManager.a(PlayerInteractManager.java:515)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.PlayerConnection.a(PlayerConnection.java:1459)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.PacketPlayInUseItem.a(PacketPlayInUseItem.java:27)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.PacketPlayInUseItem.a(PacketPlayInUseItem.java:5)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:23)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.TickTask.run(SourceFile:18)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.ba(MinecraftServer.java:1135)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.executeNext(MinecraftServer.java:1128)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:119)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.sleepForTick(MinecraftServer.java:1089)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:1003)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$a$0(MinecraftServer.java:177)
+[11:08:58] [Server thread/WARN]: 	at java.lang.Thread.run(Thread.java:748)
+[11:08:58] [Server thread/WARN]: java.lang.NoSuchMethodException: net.minecraft.server.v1_16_R2.PacketPlayOutChat.<init>(net.minecraft.server.v1_16_R2.IChatBaseComponent)
+[11:08:58] [Server thread/WARN]: 	at java.lang.Class.getConstructor0(Class.java:3082)
+[11:08:58] [Server thread/WARN]: 	at java.lang.Class.getConstructor(Class.java:1825)
+[11:08:58] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendJsonMessage(SendJsonMessages.java:14)
+[11:08:58] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendAllJsonMessage(SendJsonMessages.java:29)
+[11:08:58] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.PluginBase.PlayerIsSleeping(PluginBase.java:537)
+[11:08:58] [Server thread/WARN]: 	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor29.execute(Unknown Source)
+[11:08:58] [Server thread/WARN]: 	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:69)
+[11:08:58] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
+[11:08:58] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[11:08:58] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607)
+[11:08:58] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.event.CraftEventFactory.callPlayerBedEnterEvent(CraftEventFactory.java:279)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.EntityPlayer.sleep(EntityPlayer.java:1123)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.EntityHuman.sleep(EntityHuman.java:1280)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.BlockBed.interact(BlockBed.java:64)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.BlockBase$BlockData.interact(BlockBase.java:585)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.PlayerInteractManager.a(PlayerInteractManager.java:515)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.PlayerConnection.a(PlayerConnection.java:1459)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.PacketPlayInUseItem.a(PacketPlayInUseItem.java:27)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.PacketPlayInUseItem.a(PacketPlayInUseItem.java:5)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:23)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.TickTask.run(SourceFile:18)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.ba(MinecraftServer.java:1135)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.executeNext(MinecraftServer.java:1128)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:119)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.sleepForTick(MinecraftServer.java:1089)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:1003)
+[11:08:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$a$0(MinecraftServer.java:177)
+[11:08:58] [Server thread/WARN]: 	at java.lang.Thread.run(Thread.java:748)
+[11:09:29] [Async Chat Thread - #1/INFO]: <Rafity> guys
+[11:09:32] [Async Chat Thread - #1/INFO]: <cicero_jr> L,ah
+[11:09:37] [Async Chat Thread - #1/INFO]: <Rafity> ;ets make this think
+[11:09:41] [Async Chat Thread - #1/INFO]: <Rafity> thing*
+[11:09:48] [Async Chat Thread - #1/INFO]: <cicero_jr> Nice
+[11:09:53] [Async Chat Thread - #1/INFO]: <Rafity> im making a foundation now
+[11:10:02] [Async Chat Thread - #1/INFO]: <Rafity> or is there alread one?
+[11:10:08] [Async Chat Thread - #1/INFO]: <cicero_jr> Wow!
+[11:10:11] [Async Chat Thread - #1/INFO]: <cicero_jr> OK!
+[11:10:17] [Async Chat Thread - #1/INFO]: <cicero_jr> Right?
+[11:10:19] [Async Chat Thread - #1/INFO]: <cicero_jr> I have no space!
+[11:10:33] [Async Chat Thread - #1/INFO]: <cicero_jr> Okay!
+[11:10:35] [Async Chat Thread - #1/INFO]: <cicero_jr> Hardy har!
+[11:12:38] [Server thread/INFO]: ambrose__ lost connection: Disconnected
+[11:12:38] [Server thread/INFO]: ambrose__ left the game
+[11:15:41] [Async Chat Thread - #2/INFO]: <Rafity> gill i made some foundations
+[11:15:52] [Async Chat Thread - #2/INFO]: <Rafity> have you got any building blocks
+[11:15:56] [Async Chat Thread - #2/INFO]: <cicero_jr> yeah a few
+[11:15:59] [Async Chat Thread - #2/INFO]: <cicero_jr> What do you need?
+[11:16:07] [Async Chat Thread - #2/INFO]: <Rafity> like some smooth diorite or something
+[11:16:23] [User Authenticator #2/INFO]: UUID of player ambrose__ is cbe16830-5427-4c03-901d-b31832f34f8a
+[11:16:23] [Server thread/INFO]: ambrose__ joined the game
+[11:16:23] [Server thread/INFO]: ambrose__[/86.186.153.51:56130] logged in with entity id 3488 at ([world]199.19536539259582, 71.0625, 209.10456399077253)
+[11:16:26] [Async Chat Thread - #2/INFO]: <cicero_jr> I have *loads* of andesite
+[11:16:31] [Async Chat Thread - #2/INFO]: <cicero_jr> We should just use that
+[11:16:39] [Paper Async Chunk Task Thread #0/WARN]: Unable to resolve BlockEntity for ItemStack: minecraft:air
+[11:16:39] [Paper Async Chunk Task Thread #0/WARN]: Unable to resolve BlockEntity for ItemStack: minecraft:air
+[11:16:39] [Paper Async Chunk Task Thread #0/WARN]: Unable to resolve BlockEntity for ItemStack: minecraft:air
+[11:16:39] [Paper Async Chunk Task Thread #0/WARN]: Unable to resolve BlockEntity for ItemStack: minecraft:air
+[11:16:39] [Paper Async Chunk Task Thread #0/WARN]: Unable to resolve BlockEntity for ItemStack: minecraft:air
+[11:16:39] [Paper Async Chunk Task Thread #0/WARN]: Unable to resolve BlockEntity for ItemStack: minecraft:air
+[11:16:39] [Paper Async Chunk Task Thread #0/WARN]: Unable to resolve BlockEntity for ItemStack: minecraft:air
+[11:16:39] [Paper Async Chunk Task Thread #0/WARN]: Unable to resolve BlockEntity for ItemStack: minecraft:air
+[11:16:39] [Paper Async Chunk Task Thread #0/WARN]: Unable to resolve BlockEntity for ItemStack: minecraft:air
+[11:16:39] [Paper Async Chunk Task Thread #0/WARN]: Unable to resolve BlockEntity for ItemStack: minecraft:air
+[11:16:39] [Paper Async Chunk Task Thread #0/WARN]: Unable to resolve BlockEntity for ItemStack: minecraft:air
+[11:16:45] [Server thread/INFO]: cicero_jr issued server command: /chatcolor cicero_jr yellow
+[11:16:50] [Async Chat Thread - #2/INFO]: <cicero_jr> Wahey!
+[11:20:42] [Server thread/INFO]: cicero_jr issued server command: /kick Rafity
+[11:20:42] [Server thread/INFO]: Rafity lost connection: Kicked by an operator
+[11:20:42] [Server thread/INFO]: Rafity left the game
+[11:20:42] [Server thread/INFO]: [cicero_jr: Kicked Rafity: Kicked by an operator]
+[11:21:00] [User Authenticator #3/INFO]: UUID of player Rafity is 98f49c24-5110-402f-b0e8-69d348bfa4d4
+[11:21:00] [Server thread/INFO]: Rafity joined the game
+[11:21:00] [Server thread/INFO]: Rafity[/86.186.153.51:50396] logged in with entity id 5341 at ([world]78.27414067888789, 67.0, 324.9111205230223)
+[11:21:59] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.36[0m ambrose__ is sleeping.[0m
+[11:21:59] [Server thread/WARN]: java.lang.NoSuchMethodException: net.minecraft.server.v1_16_R2.PacketPlayOutChat.<init>(net.minecraft.server.v1_16_R2.IChatBaseComponent)
+[11:21:59] [Server thread/WARN]: 	at java.lang.Class.getConstructor0(Class.java:3082)
+[11:21:59] [Server thread/WARN]: 	at java.lang.Class.getConstructor(Class.java:1825)
+[11:21:59] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendJsonMessage(SendJsonMessages.java:14)
+[11:21:59] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendAllJsonMessage(SendJsonMessages.java:29)
+[11:21:59] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.PluginBase.PlayerIsSleeping(PluginBase.java:537)
+[11:21:59] [Server thread/WARN]: 	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor29.execute(Unknown Source)
+[11:21:59] [Server thread/WARN]: 	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:69)
+[11:21:59] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
+[11:21:59] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[11:21:59] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607)
+[11:21:59] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.event.CraftEventFactory.callPlayerBedEnterEvent(CraftEventFactory.java:279)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.EntityPlayer.sleep(EntityPlayer.java:1123)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.EntityHuman.sleep(EntityHuman.java:1280)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.BlockBed.interact(BlockBed.java:64)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.BlockBase$BlockData.interact(BlockBase.java:585)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.PlayerInteractManager.a(PlayerInteractManager.java:515)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.PlayerConnection.a(PlayerConnection.java:1459)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.PacketPlayInUseItem.a(PacketPlayInUseItem.java:27)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.PacketPlayInUseItem.a(PacketPlayInUseItem.java:5)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:23)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.TickTask.run(SourceFile:18)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.ba(MinecraftServer.java:1135)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.executeNext(MinecraftServer.java:1128)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeAll(IAsyncTaskHandler.java:95)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.a(MinecraftServer.java:1264)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:999)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$a$0(MinecraftServer.java:177)
+[11:21:59] [Server thread/WARN]: 	at java.lang.Thread.run(Thread.java:748)
+[11:21:59] [Server thread/WARN]: java.lang.NoSuchMethodException: net.minecraft.server.v1_16_R2.PacketPlayOutChat.<init>(net.minecraft.server.v1_16_R2.IChatBaseComponent)
+[11:21:59] [Server thread/WARN]: 	at java.lang.Class.getConstructor0(Class.java:3082)
+[11:21:59] [Server thread/WARN]: 	at java.lang.Class.getConstructor(Class.java:1825)
+[11:21:59] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendJsonMessage(SendJsonMessages.java:14)
+[11:21:59] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendAllJsonMessage(SendJsonMessages.java:29)
+[11:21:59] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.PluginBase.PlayerIsSleeping(PluginBase.java:537)
+[11:21:59] [Server thread/WARN]: 	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor29.execute(Unknown Source)
+[11:21:59] [Server thread/WARN]: 	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:69)
+[11:21:59] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
+[11:21:59] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[11:21:59] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607)
+[11:21:59] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.event.CraftEventFactory.callPlayerBedEnterEvent(CraftEventFactory.java:279)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.EntityPlayer.sleep(EntityPlayer.java:1123)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.EntityHuman.sleep(EntityHuman.java:1280)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.BlockBed.interact(BlockBed.java:64)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.BlockBase$BlockData.interact(BlockBase.java:585)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.PlayerInteractManager.a(PlayerInteractManager.java:515)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.PlayerConnection.a(PlayerConnection.java:1459)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.PacketPlayInUseItem.a(PacketPlayInUseItem.java:27)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.PacketPlayInUseItem.a(PacketPlayInUseItem.java:5)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:23)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.TickTask.run(SourceFile:18)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.ba(MinecraftServer.java:1135)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.executeNext(MinecraftServer.java:1128)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeAll(IAsyncTaskHandler.java:95)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.a(MinecraftServer.java:1264)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:999)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$a$0(MinecraftServer.java:177)
+[11:21:59] [Server thread/WARN]: 	at java.lang.Thread.run(Thread.java:748)
+[11:21:59] [Server thread/WARN]: java.lang.NoSuchMethodException: net.minecraft.server.v1_16_R2.PacketPlayOutChat.<init>(net.minecraft.server.v1_16_R2.IChatBaseComponent)
+[11:21:59] [Server thread/WARN]: 	at java.lang.Class.getConstructor0(Class.java:3082)
+[11:21:59] [Server thread/WARN]: 	at java.lang.Class.getConstructor(Class.java:1825)
+[11:21:59] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendJsonMessage(SendJsonMessages.java:14)
+[11:21:59] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendAllJsonMessage(SendJsonMessages.java:29)
+[11:21:59] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.PluginBase.PlayerIsSleeping(PluginBase.java:537)
+[11:21:59] [Server thread/WARN]: 	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor29.execute(Unknown Source)
+[11:21:59] [Server thread/WARN]: 	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:69)
+[11:21:59] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
+[11:21:59] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[11:21:59] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607)
+[11:21:59] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.event.CraftEventFactory.callPlayerBedEnterEvent(CraftEventFactory.java:279)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.EntityPlayer.sleep(EntityPlayer.java:1123)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.EntityHuman.sleep(EntityHuman.java:1280)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.BlockBed.interact(BlockBed.java:64)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.BlockBase$BlockData.interact(BlockBase.java:585)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.PlayerInteractManager.a(PlayerInteractManager.java:515)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.PlayerConnection.a(PlayerConnection.java:1459)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.PacketPlayInUseItem.a(PacketPlayInUseItem.java:27)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.PacketPlayInUseItem.a(PacketPlayInUseItem.java:5)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:23)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.TickTask.run(SourceFile:18)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.ba(MinecraftServer.java:1135)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.executeNext(MinecraftServer.java:1128)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeAll(IAsyncTaskHandler.java:95)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.a(MinecraftServer.java:1264)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:999)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$a$0(MinecraftServer.java:177)
+[11:21:59] [Server thread/WARN]: 	at java.lang.Thread.run(Thread.java:748)
+[11:21:59] [Server thread/WARN]: java.lang.NoSuchMethodException: net.minecraft.server.v1_16_R2.PacketPlayOutChat.<init>(net.minecraft.server.v1_16_R2.IChatBaseComponent)
+[11:21:59] [Server thread/WARN]: 	at java.lang.Class.getConstructor0(Class.java:3082)
+[11:21:59] [Server thread/WARN]: 	at java.lang.Class.getConstructor(Class.java:1825)
+[11:21:59] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendJsonMessage(SendJsonMessages.java:14)
+[11:21:59] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.api.SendJsonMessages.SendAllJsonMessage(SendJsonMessages.java:29)
+[11:21:59] [Server thread/WARN]: 	at com.github.joelgodofwar.sps.PluginBase.PlayerIsSleeping(PluginBase.java:537)
+[11:21:59] [Server thread/WARN]: 	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor29.execute(Unknown Source)
+[11:21:59] [Server thread/WARN]: 	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:69)
+[11:21:59] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
+[11:21:59] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[11:21:59] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607)
+[11:21:59] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.event.CraftEventFactory.callPlayerBedEnterEvent(CraftEventFactory.java:279)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.EntityPlayer.sleep(EntityPlayer.java:1123)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.EntityHuman.sleep(EntityHuman.java:1280)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.BlockBed.interact(BlockBed.java:64)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.BlockBase$BlockData.interact(BlockBase.java:585)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.PlayerInteractManager.a(PlayerInteractManager.java:515)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.PlayerConnection.a(PlayerConnection.java:1459)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.PacketPlayInUseItem.a(PacketPlayInUseItem.java:27)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.PacketPlayInUseItem.a(PacketPlayInUseItem.java:5)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:23)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.TickTask.run(SourceFile:18)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.ba(MinecraftServer.java:1135)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.executeNext(MinecraftServer.java:1128)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeAll(IAsyncTaskHandler.java:95)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.a(MinecraftServer.java:1264)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:999)
+[11:21:59] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$a$0(MinecraftServer.java:177)
+[11:21:59] [Server thread/WARN]: 	at java.lang.Thread.run(Thread.java:748)
+[11:33:35] [Server thread/INFO]: ambrose__ lost connection: Disconnected
+[11:33:35] [Server thread/INFO]: ambrose__ left the game
+[11:34:57] [Async Chat Thread - #3/INFO]: <Rafity> hey gill
+[11:35:05] [Async Chat Thread - #3/INFO]: <Rafity> this is the foundations
+[11:35:14] [Async Chat Thread - #3/INFO]: <Rafity> have you got any blocks?
+[11:35:19] [Async Chat Thread - #3/INFO]: <Rafity> ill place a chest
+[11:35:27] [User Authenticator #4/INFO]: UUID of player ambrose__ is cbe16830-5427-4c03-901d-b31832f34f8a
+[11:35:27] [Server thread/INFO]: ambrose__ joined the game
+[11:35:27] [Server thread/INFO]: ambrose__[/86.186.153.51:56164] logged in with entity id 10147 at ([world]161.50542452684223, 63.0, 297.03376782309806)
+[11:35:27] [Async Chat Thread - #3/INFO]: <cicero_jr> here dude
+[11:35:50] [Async Chat Thread - #3/INFO]: <Rafity> t
+[11:38:06] [Async Chat Thread - #4/INFO]: <cicero_jr> Why isn't Pascal playing?
+[11:40:13] [Async Chat Thread - #5/INFO]: <cicero_jr> Rufus
+[11:40:15] [Async Chat Thread - #5/INFO]: <Rafity> yep
+[11:40:20] [Async Chat Thread - #5/INFO]: <Rafity> do u need help
+[11:40:24] [Async Chat Thread - #5/INFO]: <cicero_jr> Where are you
+[11:40:27] [Async Chat Thread - #5/INFO]: <Rafity> im helping ambam and ted
+[11:40:38] [Async Chat Thread - #5/INFO]: <Rafity> ill come back
+[11:40:40] [Async Chat Thread - #5/INFO]: <Rafity> comin
+[11:40:44] [Async Chat Thread - #5/INFO]: <cicero_jr> i need the andesites
+[11:40:52] [Async Chat Thread - #5/INFO]: <Rafity> coming
+[11:42:09] [Async Chat Thread - #6/INFO]: <Rafity> is this the width?
+[11:42:23] [Async Chat Thread - #6/INFO]: <Rafity> or is this just prot from the phantoms?
+[11:43:15] [Server thread/INFO]: Rafity lost connection: Disconnected
+[11:43:15] [Server thread/INFO]: Rafity left the game
+[11:43:40] [User Authenticator #5/INFO]: UUID of player Rafity is 98f49c24-5110-402f-b0e8-69d348bfa4d4
+[11:43:40] [Server thread/INFO]: Rafity joined the game
+[11:43:40] [Server thread/INFO]: Rafity[/86.186.153.51:50424] logged in with entity id 13094 at ([world]50.76564633071323, 65.0, 386.51009562415487)
+[11:44:24] [User Authenticator #5/INFO]: UUID of player CapMe is 5469174f-a834-441c-84d3-2f04717385b3
+[11:44:24] [Server thread/INFO]: CapMe joined the game
+[11:44:24] [Server thread/INFO]: CapMe[/86.186.153.51:57643] logged in with entity id 13326 at ([world]430.2200831599378, 65.0, 241.30000001192093)
+[11:44:31] [Async Chat Thread - #7/INFO]: <Rafity> nice gil!
+[11:44:47] [Async Chat Thread - #7/INFO]: <Rafity> do u need wood?
+[11:45:06] [Async Chat Thread - #7/INFO]: <cicero_jr> We need glass blocks
+[11:45:13] [Async Chat Thread - #7/INFO]: <cicero_jr> Boggle
+[11:45:13] [Async Chat Thread - #7/INFO]: <Rafity> ok im on it
+[11:45:16] [Async Chat Thread - #7/INFO]: <Rafity> byee
+[11:47:34] [Async Chat Thread - #8/INFO]: <Rafity> im burning the sand in the fiery forge
+[11:47:39] [Async Chat Thread - #8/INFO]: <Rafity> as you do
+[11:48:56] [Server thread/INFO]: Rafity lost connection: Timed out
+[11:48:56] [Server thread/INFO]: Rafity left the game
+[11:53:06] [Async Chat Thread - #9/INFO]: <cicero_jr> do we have any more andesite?
+[11:53:17] [Async Chat Thread - #9/INFO]: <CapMe> idk
+[11:53:28] [Async Chat Thread - #9/INFO]: <ambrose__> rufus has some in his inventory
+[11:53:28] [Async Chat Thread - #9/INFO]: <CapMe> where r u?
+[11:53:37] [Async Chat Thread - #9/INFO]: <ambrose__> at the temple
+[11:53:44] [Async Chat Thread - #9/INFO]: <CapMe> wich
+[11:55:38] [Async Chat Thread - #10/INFO]: <Lilgoat01> oi gil
+[11:55:43] [Async Chat Thread - #10/INFO]: <Lilgoat01> come hunting
+[11:56:47] [User Authenticator #6/INFO]: UUID of player Rafity is 98f49c24-5110-402f-b0e8-69d348bfa4d4
+[11:56:47] [Server thread/INFO]: Rafity joined the game
+[11:56:47] [Server thread/INFO]: Rafity[/86.186.153.51:49373] logged in with entity id 18132 at ([world]166.576110382621, 64.0, 206.56658731392412)
+[11:57:03] [Async Chat Thread - #11/INFO]: <Lilgoat01> bois
+[11:57:08] [Async Chat Thread - #11/INFO]: <Rafity> gill im making glass stuff
+[11:57:11] [Async Chat Thread - #11/INFO]: <Rafity> u know
+[11:57:11] [Async Chat Thread - #11/INFO]: <CapMe> ye
+[11:59:04] [Async Chat Thread - #12/INFO]: <Rafity> gil i got 2 stacks of glass
+[11:59:07] [Async Chat Thread - #12/INFO]: <cicero_jr> Nice man
+[11:59:11] [Async Chat Thread - #12/INFO]: <Rafity> their cookin in the forge
+[11:59:19] [Async Chat Thread - #12/INFO]: <Rafity> u know next to the town hall
+[12:00:07] [Async Chat Thread - #12/INFO]: <Rafity> PASCAL
+[12:00:10] [Async Chat Thread - #12/INFO]: <CapMe> ye
+[12:00:17] [Async Chat Thread - #12/INFO]: <Rafity> YOU SWICHED OUT AXES
+[12:00:23] [Async Chat Thread - #12/INFO]: <CapMe> no!!
+[12:00:25] [Async Chat Thread - #12/INFO]: <Rafity> yep
+[12:00:31] [Async Chat Thread - #12/INFO]: <Rafity> i had 2 and 2
+[12:00:34] [Async Chat Thread - #12/INFO]: <CapMe> any way
+[12:00:44] [Async Chat Thread - #12/INFO]: <CapMe> i can get u 2 more
+[12:00:56] [Async Chat Thread - #12/INFO]: <Rafity> give me my axe back
+[12:00:58] [Async Chat Thread - #12/INFO]: <Rafity> or die
+[12:01:19] [Async Chat Thread - #12/INFO]: <CapMe> ok
+[12:01:34] [Async Chat Thread - #12/INFO]: <Rafity> put it in the villager prison pls
+[12:01:52] [Async Chat Thread - #12/INFO]: <Rafity> gil!
+[12:01:58] [Async Chat Thread - #12/INFO]: <Rafity> loook at my name tag!
+[12:02:05] [Async Chat Thread - #12/INFO]: <CapMe> ru
+[12:02:10] [Async Chat Thread - #12/INFO]: <Rafity> come down this ravine and see
+[12:02:11] [Async Chat Thread - #12/INFO]: <CapMe> where r u?
+[12:02:16] [Async Chat Thread - #12/INFO]: <Rafity> at the prison
+[12:02:31] [Async Chat Thread - #12/INFO]: <cicero_jr> Do we have any more andesite?
+[12:02:33] [Async Chat Thread - #12/INFO]: <Rafity> gilll!!!
+[12:02:35] [Async Chat Thread - #12/INFO]: <Rafity> look lol
+[12:02:41] [Async Chat Thread - #12/INFO]: <Rafity> look
+[12:02:42] [Async Chat Thread - #12/INFO]: <cicero_jr> Where
+[12:02:43] [Async Chat Thread - #12/INFO]: <Rafity> gil!
+[12:02:53] [Async Chat Thread - #12/INFO]: <cicero_jr> Where are you?
+[12:02:58] [Async Chat Thread - #12/INFO]: <Rafity> thx
+[12:03:11] [Async Chat Thread - #12/INFO]: <cicero_jr> What why are you saying my name?
+[12:03:21] [Async Chat Thread - #12/INFO]: <Rafity> ask CapMe
+[12:03:30] [Async Chat Thread - #12/INFO]: <cicero_jr> We need more cobble too
+[12:04:08] [Async Chat Thread - #12/INFO]: <CapMe> phone out of charge
+[12:04:11] [Async Chat Thread - #12/INFO]: <cicero_jr> Oh right
+[12:04:35] [Async Chat Thread - #12/INFO]: <cicero_jr> Guys how are we getting the villagers here?
+[12:04:43] [Async Chat Thread - #12/INFO]: <CapMe> boats
+[12:05:40] [Async Chat Thread - #12/INFO]: <Rafity> hey guys
+[12:05:51] [Async Chat Thread - #12/INFO]: <Rafity> should i switch the speed to hase?
+[12:05:58] [Async Chat Thread - #12/INFO]: <Rafity> it might help more
+[12:05:59] [Async Chat Thread - #12/INFO]: <CapMe> Lunch
+[12:06:05] [Async Chat Thread - #12/INFO]: <Rafity> or jump boost?
+[12:06:10] [Async Chat Thread - #12/INFO]: <Rafity> gil
+[12:06:15] [Async Chat Thread - #12/INFO]: <Rafity> waht do u want?
+[12:06:23] [Async Chat Thread - #12/INFO]: <Rafity> gil?
+[12:06:26] [Async Chat Thread - #12/INFO]: <CapMe> Lunch
+[12:06:27] [Async Chat Thread - #12/INFO]: <CapMe> Lunch
+[12:06:28] [Async Chat Thread - #12/INFO]: <CapMe> boats
+[12:06:31] [Async Chat Thread - #12/INFO]: <CapMe> Lunch
+[12:06:32] [Async Chat Thread - #12/INFO]: <CapMe> Lunch
+[12:06:33] [Async Chat Thread - #12/INFO]: <Rafity> gil!
+[12:06:33] [Async Chat Thread - #12/INFO]: <CapMe> Lunch
+[12:06:34] [Async Chat Thread - #12/INFO]: <CapMe> Lunch
+[12:06:36] [Async Chat Thread - #12/INFO]: <CapMe> Lunch
+[12:06:37] [Async Chat Thread - #12/INFO]: <CapMe> Lunch
+[12:06:38] [Async Chat Thread - #12/INFO]: <CapMe> Lunch
+[12:06:39] [Async Chat Thread - #12/INFO]: <CapMe> Lunch
+[12:06:40] [Async Chat Thread - #12/INFO]: <CapMe> Lunch
+[12:06:42] [Async Chat Thread - #12/INFO]: <CapMe> Lunch
+[12:06:43] [Async Chat Thread - #12/INFO]: <CapMe> Lunch
+[12:06:44] [Async Chat Thread - #12/INFO]: <CapMe> Lunch
+[12:06:44] [Async Chat Thread - #12/INFO]: <Rafity> cicero_jr
+[12:06:45] [Async Chat Thread - #12/INFO]: <CapMe> Lunch
+[12:06:46] [Async Chat Thread - #12/INFO]: <CapMe> Lunch
+[12:06:47] [Async Chat Thread - #12/INFO]: <CapMe> Lunch
+[12:06:49] [Async Chat Thread - #12/INFO]: <CapMe> Lunch
+[12:06:50] [Async Chat Thread - #12/INFO]: <CapMe> Lunch
+[12:06:51] [Async Chat Thread - #12/INFO]: <CapMe> Lunch
+[12:06:53] [Async Chat Thread - #12/INFO]: <CapMe> Lunch
+[12:06:54] [Async Chat Thread - #12/INFO]: <CapMe> Lunch
+[12:06:55] [Async Chat Thread - #12/INFO]: <CapMe> Lunch
+[12:06:56] [Async Chat Thread - #12/INFO]: <CapMe> Lunch
+[12:06:58] [Async Chat Thread - #12/INFO]: <CapMe> Lunch
+[12:07:00] [Server thread/INFO]: ambrose__ lost connection: Disconnected
+[12:07:00] [Server thread/INFO]: ambrose__ left the game
+[12:07:22] [Server thread/INFO]: Rafity lost connection: Disconnected
+[12:07:22] [Server thread/INFO]: Rafity left the game
+[12:10:52] [Server thread/INFO]: CapMe lost connection: Disconnected
+[12:10:52] [Server thread/INFO]: CapMe left the game
+[12:13:09] [Server thread/INFO]: Villager EntityVillager['Fisherman'/27, uuid='25601bf2-0455-4f48-bf84-1dc459903368', l='ServerLevel[world]', x=66.55, y=49.50, z=224.81, cx=4, cz=14, tl=664292, v=true, d=false] died, message: 'Fisherman hit the ground too hard'
+[12:13:12] [Server thread/INFO]: Villager EntityVillager['Weaponsmith'/21, uuid='4754f0ab-8891-4495-a5aa-57c74d1d2279', l='ServerLevel[world]', x=66.47, y=49.50, z=224.30, cx=4, cz=14, tl=429079, v=true, d=false] died, message: 'Weaponsmith hit the ground too hard'
+[12:14:53] [Server thread/INFO]: cicero_jr lost connection: Disconnected
+[12:14:53] [Server thread/INFO]: cicero_jr left the game
+[12:55:55] [Server thread/INFO]: Lilgoat01 lost connection: Disconnected
+[12:55:55] [Server thread/INFO]: Lilgoat01 left the game
+[13:11:39] [Server console handler/ERROR]: Caught previously unhandled exception :
+java.io.IOError: java.io.IOException: Input/output error
+	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:143) ~[patched_1.16.3.jar:git-Paper-240]
+	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:110) ~[patched_1.16.3.jar:git-Paper-240]
+	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:61) ~[patched_1.16.3.jar:git-Paper-240]
+	at org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:848) ~[patched_1.16.3.jar:git-Paper-240]
+	at org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:868) ~[patched_1.16.3.jar:git-Paper-240]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:575) ~[patched_1.16.3.jar:git-Paper-240]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:418) ~[patched_1.16.3.jar:git-Paper-240]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158) ~[patched_1.16.3.jar:git-Paper-240]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141) ~[patched_1.16.3.jar:git-Paper-240]
+	at net.minecraft.server.v1_16_R2.DedicatedServer$1.run(DedicatedServer.java:64) ~[patched_1.16.3.jar:git-Paper-240]
+Caused by: java.io.IOException: Input/output error
+	at java.io.FileInputStream.read0(Native Method) ~[?:1.8.0_265]
+	at java.io.FileInputStream.read(FileInputStream.java:207) ~[?:1.8.0_265]
+	at org.jline.terminal.impl.AbstractPty$PtyInputStream.read(AbstractPty.java:73) ~[patched_1.16.3.jar:git-Paper-240]
+	at org.jline.utils.NonBlockingInputStream.read(NonBlockingInputStream.java:62) ~[patched_1.16.3.jar:git-Paper-240]
+	at org.jline.utils.NonBlocking$NonBlockingInputStreamReader.read(NonBlocking.java:168) ~[patched_1.16.3.jar:git-Paper-240]
+	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:57) ~[patched_1.16.3.jar:git-Paper-240]
+	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:133) ~[patched_1.16.3.jar:git-Paper-240]
+	... 9 more
+[13:11:39] [Server thread/INFO]: Stopping server
+[13:11:39] [Server thread/INFO]: [ChatColor] ChatColor 2 Version 1.9.4 has been disabled.
+[13:11:39] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[13:11:39] [Server thread/INFO]: Saving players
+[13:11:39] [Server thread/INFO]: Saving worlds
+[13:11:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:11:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:11:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[13:11:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:11:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[13:11:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:11:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:11:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:11:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:11:39] [Server thread/INFO]: Flushing Chunk IO
+[13:11:39] [Server thread/INFO]: Closing Thread Pool
+[13:11:39] [Server thread/INFO]: Closing Server

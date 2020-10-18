@@ -5,7 +5,7 @@
 # If you need help with the configuration or have any questions related to Paper,
 # join us in our Discord or IRC channel.
 # 
-# Discord: https://paperdiscord.emc.gs
+# Discord: https://discord.gg/papermc
 # IRC: #paper @ irc.spi.gt ( http://irc.spi.gt/iris/?channels=paper )
 # Website: https://papermc.io/ 
 # Docs: https://paper.readthedocs.org/ 
@@ -13,6 +13,10 @@
 verbose: false
 config-version: 20
 settings:
+  max-joins-per-tick: 3
+  track-plugin-scoreboards: false
+  player-auto-save-rate: -1
+  max-player-auto-save-per-tick: -1
   load-permissions-yml-before-plugins: true
   bungee-online-mode: true
   console-has-all-permissions: false
@@ -38,6 +42,7 @@ settings:
     page-max: 2560
     total-multiplier: 0.98
   unsupported-settings:
+    allow-headless-pistons: false
     allow-permanent-block-break-exploits: false
     allow-piston-duplication: false
     allow-permanent-block-break-exploits-readme: This setting controls if players
@@ -46,6 +51,8 @@ settings:
     allow-piston-duplication-readme: This setting controls if player should be able
       to use TNT duplication, but this also allows duplicating carpet, rails and potentially
       other items
+    allow-headless-pistons-readme: This setting controls if players should be able
+      to create headless pistons.
   async-chunks:
     threads: -1
 messages:
@@ -68,6 +75,8 @@ timings:
   server-name: Unknown Server
 world-settings:
   default:
+    use-faster-eigencraft-redstone: false
+    zombies-target-turtle-eggs: true
     baby-zombie-movement-modifier: 0.5
     optimize-explosions: false
     disable-teleportation-suffocation-check: false
@@ -171,6 +180,7 @@ world-settings:
       impact-sound: -1
       flash: -1
     anti-xray:
+      lava-obscures: false
       enabled: false
       engine-mode: 1
       max-chunk-section-index: 3
