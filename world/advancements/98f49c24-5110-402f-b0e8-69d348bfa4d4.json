@@ -708,6 +708,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2020-11-01 11:11:47 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/lime_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2020-03-28 16:16:03 +0000"
@@ -2744,6 +2750,7 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
+      "minecraft:pig": "2020-11-01 10:47:19 +0000",
       "minecraft:sheep": "2019-12-22 19:08:06 +0000",
       "minecraft:cow": "2019-12-22 19:39:59 +0000",
       "minecraft:chicken": "2019-12-23 18:19:50 +0000",
@@ -3667,6 +3674,12 @@
   "minecraft:recipes/redstone/dropper": {
     "criteria": {
       "has_redstone": "2019-12-29 14:26:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2020-11-01 11:25:10 +0000"
     },
     "done": true
   },
