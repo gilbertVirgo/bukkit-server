@@ -1,0 +1,23 @@
+{
+  "name": "bukkit-server",
+  "version": "1.0.0",
+  "description": "Minecraft server running on my Raspberry Pi",
+  "main": "update-jar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gilbertVirgo/bukkit-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gilbertVirgo/bukkit-server/issues"
+  },
+  "homepage": "https://github.com/gilbertVirgo/bukkit-server#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}

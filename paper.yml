@@ -6,7 +6,7 @@
 # join us in our Discord or IRC channel.
 # 
 # Discord: https://discord.gg/papermc
-# IRC: #paper @ irc.spi.gt ( http://irc.spi.gt/iris/?channels=paper )
+# IRC: #paper @ irc.esper.net ( https://webchat.esper.net/?channels=paper ) 
 # Website: https://papermc.io/ 
 # Docs: https://paper.readthedocs.org/ 
 
@@ -75,6 +75,8 @@ timings:
   server-name: Unknown Server
 world-settings:
   default:
+    should-remove-dragon: false
+    seed-based-feature-search: true
     use-faster-eigencraft-redstone: false
     zombies-target-turtle-eggs: true
     baby-zombie-movement-modifier: 0.5
@@ -207,3 +209,9 @@ world-settings:
       maximum: 0.0
     generator-settings:
       flat-bedrock: false
+    wandering-trader:
+      spawn-minute-length: 1200
+      spawn-day-length: 24000
+      spawn-chance-failure-increment: 25
+      spawn-chance-min: 25
+      spawn-chance-max: 75
